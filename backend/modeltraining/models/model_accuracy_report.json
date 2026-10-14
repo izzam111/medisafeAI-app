@@ -1,0 +1,148 @@
+{
+  "supplement_model": {
+    "algorithm": "Random Forest Classifier",
+    "dataset_size": 990,
+    "test_accuracy": 0.9747,
+    "test_f1_weighted": 0.974,
+    "cv_accuracy_mean": 0.9586,
+    "cv_accuracy_std": 0.0141,
+    "best_hyperparams": {
+      "class_weight": "balanced",
+      "max_depth": null,
+      "min_samples_split": 5,
+      "n_estimators": 200
+    },
+    "top_features": [
+      {
+        "feature": "fat_soluble_pair",
+        "importance": 0.1431
+      },
+      {
+        "feature": "calcium_iron_compete",
+        "importance": 0.0905
+      },
+      {
+        "feature": "zinc_iron_compete",
+        "importance": 0.0726
+      },
+      {
+        "feature": "both_minerals",
+        "importance": 0.0612
+      },
+      {
+        "feature": "s2_iron",
+        "importance": 0.0433
+      },
+      {
+        "feature": "s1_category",
+        "importance": 0.0431
+      },
+      {
+        "feature": "s2_category",
+        "importance": 0.0405
+      },
+      {
+        "feature": "s1_vitamin_e",
+        "importance": 0.0397
+      },
+      {
+        "feature": "s2_calcium",
+        "importance": 0.0374
+      },
+      {
+        "feature": "vit_d_k_synergy",
+        "importance": 0.0368
+      }
+    ],
+    "confusion_matrix": [
+      [
+        159,
+        1,
+        0
+      ],
+      [
+        1,
+        24,
+        0
+      ],
+      [
+        2,
+        1,
+        10
+      ]
+    ]
+  },
+  "food_model": {
+    "algorithm": "Random Forest Classifier",
+    "dataset_size": 1350,
+    "test_accuracy": 0.9815,
+    "test_f1_weighted": 0.9805,
+    "cv_accuracy_mean": 0.9874,
+    "cv_accuracy_std": 0.0069,
+    "best_hyperparams": {
+      "class_weight": "balanced",
+      "max_depth": null,
+      "min_samples_split": 5,
+      "n_estimators": 100
+    },
+    "top_features": [
+      {
+        "feature": "supp_iron",
+        "importance": 0.1173
+      },
+      {
+        "feature": "food_vitamin_c",
+        "importance": 0.0872
+      },
+      {
+        "feature": "calcium_interference",
+        "importance": 0.0782
+      },
+      {
+        "feature": "supp_category",
+        "importance": 0.0718
+      },
+      {
+        "feature": "oxalate_block",
+        "importance": 0.064
+      },
+      {
+        "feature": "supp_zinc",
+        "importance": 0.0535
+      },
+      {
+        "feature": "tannin_iron_block",
+        "importance": 0.0477
+      },
+      {
+        "feature": "food_oxalate",
+        "importance": 0.0419
+      },
+      {
+        "feature": "supp_calcium",
+        "importance": 0.0369
+      },
+      {
+        "feature": "supp_vitamin_k",
+        "importance": 0.0369
+      }
+    ],
+    "confusion_matrix": [
+      [
+        254,
+        1
+      ],
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  "data_sources": [
+    "Australian Therapeutic Goods Administration (TGA) supplement database",
+    "DrugBank open drug interaction database",
+    "USDA FoodData Central nutritional profiles",
+    "FooDB food composition database",
+    "Clinical literature (IEEE, MDPI, NIH)"
+  ]
+}

@@ -1,0 +1,1290 @@
+{
+  "femibion": {
+    "valid": [
+      "pregnancy",
+      "prenatal",
+      "fetal",
+      "neural tube",
+      "conception",
+      "methylfolate",
+      "dha brain development",
+      "morning sickness"
+    ],
+    "not_valid": [
+      "muscle",
+      "exercise",
+      "gym",
+      "workout",
+      "bodybuilding",
+      "heart",
+      "cardiovascular",
+      "joint",
+      "pain",
+      "inflammation",
+      "arthritis",
+      "sleep",
+      "insomnia",
+      "hair",
+      "skin",
+      "nails",
+      "weight",
+      "immunity",
+      "cold",
+      "flu",
+      "stress",
+      "anxiety",
+      "memory",
+      "brain",
+      "cognitive",
+      "testosterone",
+      "energy boost",
+      "stamina",
+      "cholesterol",
+      "blood pressure",
+      "diabetes",
+      "constipation",
+      "digestion"
+    ],
+    "label": "Prenatal Vitamin",
+    "valid_msg": "Femibion is specifically designed for pregnancy and preconception. This is an appropriate use.",
+    "invalid_msg": "Femibion is a PRENATAL VITAMIN \u2014 it is designed specifically for pregnancy and fetal development only. It is NOT designed for heart health, muscle recovery, joint pain, or any other general use. Please see your doctor for the right supplement for your purpose."
+  },
+  "prenatal": {
+    "valid": [
+      "pregnancy",
+      "prenatal",
+      "fetal",
+      "neural tube",
+      "conception"
+    ],
+    "not_valid": [
+      "muscle",
+      "exercise",
+      "heart",
+      "cardiovascular",
+      "joint",
+      "pain",
+      "inflammation",
+      "sleep",
+      "hair",
+      "skin",
+      "weight",
+      "immunity",
+      "memory",
+      "brain",
+      "testosterone",
+      "energy",
+      "cholesterol"
+    ],
+    "label": "Prenatal Vitamin",
+    "valid_msg": "Prenatal vitamins are designed for pregnancy. This is an appropriate use.",
+    "invalid_msg": "Prenatal vitamins are ONLY for pregnancy and fetal development. They are not designed for this purpose. Please consult your doctor for the right supplement."
+  },
+  "materna": {
+    "valid": [
+      "pregnancy",
+      "prenatal",
+      "fetal",
+      "conception"
+    ],
+    "not_valid": [
+      "muscle",
+      "exercise",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "immunity",
+      "memory",
+      "testosterone"
+    ],
+    "label": "Prenatal Supplement",
+    "valid_msg": "Materna is designed for pregnancy nutrition. Appropriate use.",
+    "invalid_msg": "Materna is a PRENATAL supplement for pregnancy only. Not suitable for this purpose."
+  },
+  "elevit": {
+    "valid": [
+      "pregnancy",
+      "prenatal",
+      "fetal",
+      "conception"
+    ],
+    "not_valid": [
+      "muscle",
+      "exercise",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "immunity",
+      "memory",
+      "testosterone"
+    ],
+    "label": "Prenatal Supplement",
+    "valid_msg": "Elevit is designed for pregnancy nutrition. Appropriate use.",
+    "invalid_msg": "Elevit is a PRENATAL supplement for pregnancy only. Not suitable for this purpose."
+  },
+  "pregnacare": {
+    "valid": [
+      "pregnancy",
+      "prenatal",
+      "fetal",
+      "conception"
+    ],
+    "not_valid": [
+      "muscle",
+      "exercise",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "immunity",
+      "memory",
+      "testosterone"
+    ],
+    "label": "Prenatal Supplement",
+    "valid_msg": "Pregnacare is designed for pregnancy. Appropriate use.",
+    "invalid_msg": "Pregnacare is for pregnancy only. Not suitable for this purpose."
+  },
+  "iron": {
+    "valid": [
+      "anaemia",
+      "anemia",
+      "haemoglobin",
+      "hemoglobin",
+      "iron deficiency",
+      "fatigue",
+      "weakness",
+      "tiredness",
+      "low blood",
+      "pregnancy iron",
+      "blood count"
+    ],
+    "not_valid": [
+      "muscle recovery",
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "sleep",
+      "hair growth",
+      "weight loss",
+      "memory",
+      "brain",
+      "testosterone",
+      "cholesterol",
+      "diabetes",
+      "constipation"
+    ],
+    "label": "Iron Supplement",
+    "valid_msg": "Iron supplements are used for anaemia and iron deficiency. This is an appropriate use.",
+    "invalid_msg": "Iron supplements treat iron deficiency and anaemia. They are NOT used for this purpose. Please see your doctor for the right supplement."
+  },
+  "fefol": {
+    "valid": [
+      "anaemia",
+      "anemia",
+      "haemoglobin",
+      "iron deficiency",
+      "pregnancy",
+      "fatigue",
+      "weakness"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "cardiovascular",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "memory",
+      "testosterone",
+      "cholesterol"
+    ],
+    "label": "Iron + Folate Supplement",
+    "valid_msg": "Fefol Vit is used for iron deficiency and pregnancy anaemia. This is an appropriate use.",
+    "invalid_msg": "Fefol Vit treats iron deficiency anaemia, especially in pregnancy. It is NOT designed for this purpose."
+  },
+  "ferosoft": {
+    "valid": [
+      "anaemia",
+      "anemia",
+      "haemoglobin",
+      "iron deficiency",
+      "pregnancy",
+      "fatigue"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "memory",
+      "testosterone"
+    ],
+    "label": "Iron Supplement",
+    "valid_msg": "Ferosoft is for iron deficiency anaemia. Appropriate use.",
+    "invalid_msg": "Ferosoft is for iron deficiency anaemia only. Not for this purpose."
+  },
+  "sangobion": {
+    "valid": [
+      "anaemia",
+      "anemia",
+      "haemoglobin",
+      "iron deficiency",
+      "fatigue",
+      "weakness"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "memory"
+    ],
+    "label": "Iron Supplement",
+    "valid_msg": "Sangobion is for anaemia and iron deficiency. Appropriate use.",
+    "invalid_msg": "Sangobion treats anaemia. Not designed for this purpose."
+  },
+  "livogen": {
+    "valid": [
+      "anaemia",
+      "anemia",
+      "haemoglobin",
+      "iron deficiency",
+      "pregnancy"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight"
+    ],
+    "label": "Iron Supplement",
+    "valid_msg": "Livogen is for iron deficiency and anaemia. Appropriate use.",
+    "invalid_msg": "Livogen treats iron deficiency anaemia. Not for this purpose."
+  },
+  "calcium": {
+    "valid": [
+      "bone",
+      "osteoporosis",
+      "fracture",
+      "teeth",
+      "dental",
+      "bone density",
+      "bone health",
+      "growing children"
+    ],
+    "not_valid": [
+      "muscle recovery",
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "sleep",
+      "hair",
+      "weight loss",
+      "memory",
+      "anaemia",
+      "iron",
+      "testosterone"
+    ],
+    "label": "Calcium Supplement",
+    "valid_msg": "Calcium supplements support bone health. This is an appropriate use.",
+    "invalid_msg": "Calcium supplements are for bone health. They are not designed for this purpose."
+  },
+  "calcimax": {
+    "valid": [
+      "bone",
+      "osteoporosis",
+      "calcium deficiency",
+      "vitamin d",
+      "bone density"
+    ],
+    "not_valid": [
+      "muscle recovery",
+      "heart",
+      "joint pain",
+      "inflammation",
+      "sleep",
+      "hair",
+      "weight",
+      "memory",
+      "anaemia"
+    ],
+    "label": "Calcium + Vitamin D3",
+    "valid_msg": "Calcimax is for bone health and calcium/Vitamin D deficiency. Appropriate use.",
+    "invalid_msg": "Calcimax is for bone health only. Not designed for this purpose."
+  },
+  "calvit": {
+    "valid": [
+      "bone",
+      "osteoporosis",
+      "vitamin d deficiency",
+      "calcium"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "joint pain",
+      "inflammation",
+      "sleep",
+      "hair",
+      "weight",
+      "memory",
+      "anaemia"
+    ],
+    "label": "Calcium + Vitamin D3",
+    "valid_msg": "Calvit D3 is for Vitamin D deficiency and bone health. Appropriate use.",
+    "invalid_msg": "Calvit D3 is for Vitamin D deficiency and bone health. Not designed for this purpose."
+  },
+  "osteofos": {
+    "valid": [
+      "bone",
+      "osteoporosis",
+      "bone density",
+      "calcium",
+      "fracture"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "joint pain",
+      "inflammation",
+      "sleep",
+      "hair",
+      "weight",
+      "memory"
+    ],
+    "label": "Bone Health Supplement",
+    "valid_msg": "Osteofos is for bone health and osteoporosis. Appropriate use.",
+    "invalid_msg": "Osteofos is specifically for bone health. Not for this purpose."
+  },
+  "vitamin d": {
+    "valid": [
+      "bone",
+      "vitamin d deficiency",
+      "immunity",
+      "immune",
+      "mood",
+      "depression",
+      "calcium absorption",
+      "bone density",
+      "muscle weakness"
+    ],
+    "not_valid": [
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "heart",
+      "cardiovascular",
+      "muscle recovery",
+      "hair",
+      "weight loss",
+      "anaemia",
+      "testosterone",
+      "cholesterol"
+    ],
+    "label": "Vitamin D Supplement",
+    "valid_msg": "Vitamin D3 supports bone health and immunity. This is an appropriate use.",
+    "invalid_msg": "Vitamin D is for bone health, immunity, and Vitamin D deficiency. It is not specifically used for this purpose."
+  },
+  "roletra": {
+    "valid": [
+      "vitamin d deficiency",
+      "bone",
+      "immunity",
+      "mood"
+    ],
+    "not_valid": [
+      "joint pain",
+      "inflammation",
+      "heart",
+      "muscle recovery",
+      "hair",
+      "weight",
+      "anaemia"
+    ],
+    "label": "Vitamin D Supplement",
+    "valid_msg": "Roletra is for Vitamin D deficiency. Appropriate use.",
+    "invalid_msg": "Roletra is for Vitamin D deficiency. Not for this purpose."
+  },
+  "zinc": {
+    "valid": [
+      "immunity",
+      "immune",
+      "cold",
+      "flu",
+      "wound healing",
+      "skin",
+      "acne",
+      "testosterone",
+      "male fertility",
+      "taste",
+      "smell"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "bone",
+      "osteoporosis",
+      "anaemia",
+      "iron",
+      "sleep",
+      "weight loss",
+      "pregnancy",
+      "prenatal"
+    ],
+    "label": "Zinc Supplement",
+    "valid_msg": "Zinc supports immunity and wound healing. This is an appropriate use.",
+    "invalid_msg": "Zinc is for immunity, wound healing, and zinc deficiency. It is not used for this purpose."
+  },
+  "surbex z": {
+    "valid": [
+      "immunity",
+      "immune",
+      "cold",
+      "flu",
+      "recovery",
+      "zinc deficiency",
+      "energy",
+      "vitamin c"
+    ],
+    "not_valid": [
+      "heart",
+      "joint pain",
+      "inflammation",
+      "bone",
+      "anaemia",
+      "sleep",
+      "weight",
+      "pregnancy"
+    ],
+    "label": "Zinc + Vitamin C",
+    "valid_msg": "Surbex Z supports immunity and recovery. Appropriate use.",
+    "invalid_msg": "Surbex Z is for immune support and zinc deficiency. Not for this purpose."
+  },
+  "zincovit": {
+    "valid": [
+      "immunity",
+      "immune",
+      "cold",
+      "flu",
+      "recovery",
+      "zinc"
+    ],
+    "not_valid": [
+      "heart",
+      "joint pain",
+      "bone",
+      "anaemia",
+      "sleep",
+      "weight",
+      "pregnancy"
+    ],
+    "label": "Zinc + Vitamin C",
+    "valid_msg": "Zincovit supports immunity. Appropriate use.",
+    "invalid_msg": "Zincovit is for immunity and zinc supplementation. Not for this purpose."
+  },
+  "magnesium": {
+    "valid": [
+      "sleep",
+      "insomnia",
+      "muscle cramps",
+      "anxiety",
+      "stress",
+      "relaxation",
+      "muscle recovery",
+      "exercise",
+      "bone"
+    ],
+    "not_valid": [
+      "heart disease",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "hair",
+      "weight loss",
+      "anaemia",
+      "testosterone",
+      "cholesterol",
+      "immunity"
+    ],
+    "label": "Magnesium Supplement",
+    "valid_msg": "Magnesium helps with sleep, muscle function, and stress. This is an appropriate use.",
+    "invalid_msg": "Magnesium is for sleep, muscle cramps, and stress relief. It is not typically used for this purpose."
+  },
+  "vitamin c": {
+    "valid": [
+      "immunity",
+      "immune",
+      "cold",
+      "flu",
+      "iron absorption",
+      "skin",
+      "collagen",
+      "antioxidant",
+      "wound healing"
+    ],
+    "not_valid": [
+      "bone",
+      "osteoporosis",
+      "heart",
+      "joint pain",
+      "inflammation",
+      "anaemia",
+      "sleep",
+      "weight",
+      "testosterone",
+      "muscle recovery"
+    ],
+    "label": "Vitamin C",
+    "valid_msg": "Vitamin C supports immunity and skin health. This is an appropriate use.",
+    "invalid_msg": "Vitamin C is for immunity and antioxidant support. It is not primarily used for this purpose."
+  },
+  "redoxon": {
+    "valid": [
+      "immunity",
+      "immune",
+      "cold",
+      "vitamin c deficiency",
+      "antioxidant"
+    ],
+    "not_valid": [
+      "bone",
+      "joint pain",
+      "anaemia",
+      "sleep",
+      "weight",
+      "testosterone"
+    ],
+    "label": "Vitamin C",
+    "valid_msg": "Redoxon provides Vitamin C for immunity. Appropriate use.",
+    "invalid_msg": "Redoxon is Vitamin C for immunity. Not for this purpose."
+  },
+  "omega": {
+    "valid": [
+      "heart",
+      "cardiovascular",
+      "cholesterol",
+      "triglycerides",
+      "brain",
+      "memory",
+      "cognitive",
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "depression",
+      "mood",
+      "fish oil"
+    ],
+    "not_valid": [
+      "bone",
+      "osteoporosis",
+      "anaemia",
+      "iron",
+      "sleep",
+      "hair",
+      "testosterone",
+      "pregnancy iron",
+      "immunity"
+    ],
+    "label": "Omega-3 Fish Oil",
+    "valid_msg": "Omega-3 supports heart health, brain function, and joint pain. This is an appropriate use.",
+    "invalid_msg": "Omega-3 is for heart health, brain function, and inflammation. It is not typically used for this purpose."
+  },
+  "fish oil": {
+    "valid": [
+      "heart",
+      "cardiovascular",
+      "cholesterol",
+      "brain",
+      "memory",
+      "joint pain",
+      "inflammation"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "testosterone"
+    ],
+    "label": "Fish Oil",
+    "valid_msg": "Fish oil supports heart health and joints. Appropriate use.",
+    "invalid_msg": "Fish oil is for heart health and brain function. Not for this purpose."
+  },
+  "b12": {
+    "valid": [
+      "nerve",
+      "neuropathy",
+      "energy",
+      "fatigue",
+      "anaemia",
+      "vegetarian",
+      "vegan",
+      "brain",
+      "memory",
+      "cognitive"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "bone",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "immunity"
+    ],
+    "label": "Vitamin B12",
+    "valid_msg": "Vitamin B12 supports nerve health and energy. This is an appropriate use.",
+    "invalid_msg": "Vitamin B12 is for nerve health, energy, and B12 deficiency. Not designed for this purpose."
+  },
+  "neurobion": {
+    "valid": [
+      "nerve",
+      "neuropathy",
+      "diabetic nerve",
+      "energy",
+      "weakness",
+      "b vitamin",
+      "brain"
+    ],
+    "not_valid": [
+      "heart",
+      "joint pain",
+      "bone",
+      "sleep",
+      "hair",
+      "weight",
+      "immunity",
+      "testosterone"
+    ],
+    "label": "B Vitamin Complex",
+    "valid_msg": "Neurobion supports nerve health and B vitamin deficiency. Appropriate use.",
+    "invalid_msg": "Neurobion is for nerve health and B vitamin deficiency. Not for this purpose."
+  },
+  "folic": {
+    "valid": [
+      "pregnancy",
+      "neural tube",
+      "conception",
+      "anaemia",
+      "megaloblastic",
+      "folate deficiency"
+    ],
+    "not_valid": [
+      "muscle",
+      "heart",
+      "cardiovascular",
+      "joint",
+      "pain",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "immunity"
+    ],
+    "label": "Folic Acid",
+    "valid_msg": "Folic acid is for pregnancy and folate deficiency. This is an appropriate use.",
+    "invalid_msg": "Folic acid is for pregnancy and folate deficiency. It is not used for this purpose."
+  },
+  "biotin": {
+    "valid": [
+      "hair growth",
+      "hair loss",
+      "nails",
+      "brittle nails",
+      "skin",
+      "beauty",
+      "hair thickness"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "muscle recovery",
+      "bone",
+      "anaemia",
+      "immunity",
+      "sleep",
+      "weight",
+      "testosterone",
+      "pregnancy",
+      "brain",
+      "memory"
+    ],
+    "label": "Biotin",
+    "valid_msg": "Biotin supports hair and nail health. This is an appropriate use.",
+    "invalid_msg": "Biotin is specifically for hair, nails, and skin. It is not used for this purpose."
+  },
+  "ashwagandha": {
+    "valid": [
+      "stress",
+      "anxiety",
+      "cortisol",
+      "sleep",
+      "insomnia",
+      "testosterone",
+      "male fertility",
+      "muscle recovery",
+      "exercise",
+      "energy",
+      "adaptogen",
+      "brain",
+      "cognitive",
+      "memory"
+    ],
+    "not_valid": [
+      "heart disease",
+      "cardiovascular",
+      "joint pain",
+      "arthritis",
+      "bone",
+      "anaemia",
+      "iron",
+      "hair",
+      "weight loss",
+      "immunity",
+      "cold",
+      "flu"
+    ],
+    "label": "Ashwagandha",
+    "valid_msg": "Ashwagandha helps with stress, sleep, and energy. This is an appropriate use.",
+    "invalid_msg": "Ashwagandha is for stress, sleep, and energy. It is not typically used for this purpose."
+  },
+  "melatonin": {
+    "valid": [
+      "sleep",
+      "insomnia",
+      "jet lag",
+      "shift work",
+      "falling asleep",
+      "sleep quality",
+      "rest"
+    ],
+    "not_valid": [
+      "muscle recovery",
+      "heart",
+      "joint pain",
+      "inflammation",
+      "bone",
+      "anaemia",
+      "hair",
+      "weight",
+      "testosterone",
+      "immunity",
+      "stress relief",
+      "anxiety",
+      "brain",
+      "memory",
+      "pregnancy"
+    ],
+    "label": "Melatonin",
+    "valid_msg": "Melatonin helps with sleep and insomnia. This is an appropriate use.",
+    "invalid_msg": "Melatonin is ONLY for sleep and sleep disorders. It is not used for this purpose."
+  },
+  "turmeric": {
+    "valid": [
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "anti-inflammatory",
+      "pain",
+      "muscle recovery",
+      "exercise",
+      "digestive",
+      "gut"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "immunity",
+      "pregnancy",
+      "brain memory"
+    ],
+    "label": "Turmeric/Curcumin",
+    "valid_msg": "Turmeric is excellent for joint pain and inflammation. This is an appropriate use.",
+    "invalid_msg": "Turmeric is for joint pain and inflammation. It is not typically used for this purpose."
+  },
+  "curcumin": {
+    "valid": [
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "anti-inflammatory",
+      "pain",
+      "muscle recovery"
+    ],
+    "not_valid": [
+      "heart",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "immunity",
+      "pregnancy"
+    ],
+    "label": "Curcumin",
+    "valid_msg": "Curcumin helps with inflammation and joint pain. Appropriate use.",
+    "invalid_msg": "Curcumin is for inflammation. Not for this purpose."
+  },
+  "centrum": {
+    "valid": [
+      "general health",
+      "energy",
+      "immunity",
+      "metabolism",
+      "muscle function",
+      "nutritional gaps",
+      "deficiency",
+      "wellness",
+      "daily vitamin"
+    ],
+    "not_valid": [
+      "pregnancy",
+      "prenatal",
+      "joint pain",
+      "arthritis",
+      "anaemia severe",
+      "sleep",
+      "weight loss",
+      "testosterone",
+      "cholesterol treatment"
+    ],
+    "label": "Multivitamin",
+    "valid_msg": "Centrum is designed for general health, energy, and immunity. This is an appropriate use.",
+    "invalid_msg": "Centrum is a general daily multivitamin. It is not specifically designed for this purpose."
+  },
+  "multivitamin": {
+    "valid": [
+      "general health",
+      "energy",
+      "immunity",
+      "nutritional gaps",
+      "deficiency",
+      "wellness",
+      "daily"
+    ],
+    "not_valid": [
+      "pregnancy",
+      "joint pain",
+      "anaemia severe",
+      "sleep",
+      "weight loss",
+      "testosterone",
+      "cholesterol"
+    ],
+    "label": "Multivitamin",
+    "valid_msg": "Multivitamins support general health and nutrition. Appropriate use.",
+    "invalid_msg": "Multivitamins are for general nutritional support. Not specifically designed for this purpose."
+  },
+  "shilajit": {
+    "valid": [
+      "energy",
+      "testosterone",
+      "male vitality",
+      "stamina",
+      "fatigue",
+      "adaptogen",
+      "muscle",
+      "exercise"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "inflammation",
+      "arthritis",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight loss",
+      "immunity",
+      "pregnancy",
+      "brain memory"
+    ],
+    "label": "Shilajit",
+    "valid_msg": "Shilajit is used for energy and male vitality. This is an appropriate use.",
+    "invalid_msg": "Shilajit is for energy and testosterone support. Not for this purpose."
+  },
+  "moringa": {
+    "valid": [
+      "nutritional deficiency",
+      "iron",
+      "energy",
+      "immunity",
+      "antioxidant",
+      "anaemia"
+    ],
+    "not_valid": [
+      "heart",
+      "cardiovascular",
+      "joint pain",
+      "arthritis",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "cholesterol"
+    ],
+    "label": "Moringa",
+    "valid_msg": "Moringa provides nutritional support and iron. Appropriate use.",
+    "invalid_msg": "Moringa is for nutritional supplementation and immunity. Not for this purpose."
+  },
+  "kalonji": {
+    "valid": [
+      "immunity",
+      "immune",
+      "respiratory",
+      "blood sugar",
+      "diabetes",
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
+    "not_valid": [
+      "heart",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "pregnancy",
+      "brain memory"
+    ],
+    "label": "Nigella Sativa (Kalonji)",
+    "valid_msg": "Kalonji supports immunity and respiratory health. Appropriate use.",
+    "invalid_msg": "Kalonji is for immunity and respiratory health. Not for this purpose."
+  },
+  "ispaghol": {
+    "valid": [
+      "constipation",
+      "digestion",
+      "cholesterol",
+      "blood sugar",
+      "fibre",
+      "gut health"
+    ],
+    "not_valid": [
+      "heart disease",
+      "joint pain",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight loss",
+      "testosterone",
+      "immunity",
+      "pregnancy",
+      "muscle"
+    ],
+    "label": "Ispaghol (Psyllium Husk)",
+    "valid_msg": "Ispaghol is for constipation and digestive health. Appropriate use.",
+    "invalid_msg": "Ispaghol is a fibre supplement for digestion. Not for this purpose."
+  },
+  "vitamin e": {
+    "valid": [
+      "skin",
+      "antioxidant",
+      "wound healing",
+      "immunity",
+      "anti-aging",
+      "fertility"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "weight",
+      "joint pain",
+      "memory",
+      "testosterone",
+      "pregnancy",
+      "muscle recovery"
+    ],
+    "label": "Vitamin E",
+    "valid_msg": "Vitamin E supports skin health and antioxidant protection. Appropriate use.",
+    "invalid_msg": "Vitamin E is for skin and antioxidant protection. Not for this purpose."
+  },
+  "vitamin a": {
+    "valid": [
+      "vision",
+      "night vision",
+      "eye health",
+      "immunity",
+      "skin"
+    ],
+    "not_valid": [
+      "heart",
+      "joint pain",
+      "bone",
+      "anaemia",
+      "sleep",
+      "weight",
+      "testosterone",
+      "muscle",
+      "memory"
+    ],
+    "label": "Vitamin A",
+    "valid_msg": "Vitamin A supports vision and immunity. Appropriate use.",
+    "invalid_msg": "Vitamin A is for vision and immunity. Not for this purpose."
+  },
+  "garlic": {
+    "valid": [
+      "blood pressure",
+      "heart",
+      "cardiovascular",
+      "cholesterol",
+      "antimicrobial",
+      "immunity"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "pregnancy"
+    ],
+    "label": "Garlic Extract",
+    "valid_msg": "Garlic supports heart health and blood pressure. Appropriate use.",
+    "invalid_msg": "Garlic is for heart health and blood pressure. Not for this purpose."
+  },
+  "ginger": {
+    "valid": [
+      "nausea",
+      "digestion",
+      "joint pain",
+      "inflammation",
+      "anti-inflammatory",
+      "morning sickness"
+    ],
+    "not_valid": [
+      "heart",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "memory",
+      "immunity"
+    ],
+    "label": "Ginger Extract",
+    "valid_msg": "Ginger helps with nausea and inflammation. Appropriate use.",
+    "invalid_msg": "Ginger is for nausea and digestive health. Not for this purpose."
+  },
+  "coq10": {
+    "valid": [
+      "heart",
+      "energy",
+      "statin",
+      "cardiovascular",
+      "fatigue",
+      "exercise",
+      "antioxidant"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "immunity",
+      "pregnancy"
+    ],
+    "label": "CoQ10",
+    "valid_msg": "CoQ10 supports heart health and energy. Appropriate use.",
+    "invalid_msg": "CoQ10 is for heart health and energy production. Not for this purpose."
+  },
+  "coenzyme": {
+    "valid": [
+      "heart",
+      "energy",
+      "statin",
+      "cardiovascular",
+      "fatigue"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "joint pain"
+    ],
+    "label": "CoQ10",
+    "valid_msg": "CoQ10 supports heart health and energy. Appropriate use.",
+    "invalid_msg": "CoQ10 is for heart health and energy. Not for this purpose."
+  },
+  "amla": {
+    "valid": [
+      "immunity",
+      "hair",
+      "vitamin c",
+      "antioxidant",
+      "liver",
+      "skin"
+    ],
+    "not_valid": [
+      "heart",
+      "bone",
+      "anaemia",
+      "sleep",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "pregnancy",
+      "muscle"
+    ],
+    "label": "Amla",
+    "valid_msg": "Amla provides Vitamin C and supports immunity and hair health. Appropriate use.",
+    "invalid_msg": "Amla is for immunity and Vitamin C support. Not for this purpose."
+  },
+  "spirulina": {
+    "valid": [
+      "protein",
+      "iron",
+      "vegetarian",
+      "vegan",
+      "energy",
+      "antioxidant",
+      "cholesterol",
+      "anaemia"
+    ],
+    "not_valid": [
+      "heart disease",
+      "joint pain",
+      "bone",
+      "sleep",
+      "hair",
+      "weight loss",
+      "testosterone",
+      "pregnancy",
+      "memory"
+    ],
+    "label": "Spirulina",
+    "valid_msg": "Spirulina provides protein, iron, and antioxidants. Appropriate use.",
+    "invalid_msg": "Spirulina is a nutritional supplement. Not for this purpose."
+  },
+  "safi": {
+    "valid": [
+      "skin",
+      "acne",
+      "blood purification",
+      "digestion",
+      "detox"
+    ],
+    "not_valid": [
+      "heart",
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair growth",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "immunity",
+      "pregnancy",
+      "muscle",
+      "memory"
+    ],
+    "label": "Hamdard Safi",
+    "valid_msg": "Hamdard Safi is for skin health and blood purification. Appropriate use.",
+    "invalid_msg": "Hamdard Safi is for skin and blood purification. Not for this purpose."
+  },
+  "vitamin k": {
+    "valid": [
+      "bone",
+      "calcium",
+      "arterial",
+      "cardiovascular",
+      "blood clotting",
+      "vitamin d3"
+    ],
+    "not_valid": [
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "immunity",
+      "muscle recovery"
+    ],
+    "label": "Vitamin K2",
+    "valid_msg": "Vitamin K2 directs calcium to bones and supports cardiovascular health. Appropriate use.",
+    "invalid_msg": "Vitamin K2 is for bone health and calcium management. Not for this purpose."
+  },
+  "potassium": {
+    "valid": [
+      "blood pressure",
+      "heart",
+      "muscle cramps",
+      "cardiovascular",
+      "stroke prevention"
+    ],
+    "not_valid": [
+      "bone",
+      "anaemia",
+      "sleep",
+      "hair",
+      "weight",
+      "testosterone",
+      "joint pain",
+      "immunity",
+      "pregnancy"
+    ],
+    "label": "Potassium",
+    "valid_msg": "Potassium helps regulate blood pressure and heart health. Appropriate use.",
+    "invalid_msg": "Potassium is for blood pressure and heart health. Not for this purpose."
+  },
+  "default": {
+    "valid": [],
+    "not_valid": [],
+    "label": "Supplement",
+    "valid_msg": "This appears to be an appropriate use based on general supplementation guidelines.",
+    "invalid_msg": "This purpose does not appear to match the typical use of this supplement. Please consult your doctor."
+  }
+}

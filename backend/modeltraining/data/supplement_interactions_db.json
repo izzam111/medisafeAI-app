@@ -1,0 +1,247 @@
+[
+  {
+    "s1": "Iron Supplement",
+    "s2": "Calcium Supplement",
+    "severity": 2,
+    "mechanism": "Compete for same absorption transporter (DMT1). Calcium blocks iron uptake by 60%.",
+    "recommendation": "Take 2 hours apart. Take iron on empty stomach with Vitamin C."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Zinc Supplement",
+    "severity": 2,
+    "mechanism": "Both compete for divalent metal transporter. High zinc reduces iron absorption.",
+    "recommendation": "Separate by 2 hours. Avoid taking simultaneously."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Vitamin C",
+    "severity": 0,
+    "mechanism": "Vitamin C converts Fe3+ to Fe2+ form, increasing absorption by 3x. Beneficial interaction.",
+    "recommendation": "Take together \u2014 Vitamin C enhances iron absorption significantly."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Magnesium",
+    "severity": 1,
+    "mechanism": "Magnesium may slightly reduce iron absorption at high doses.",
+    "recommendation": "Mild concern. Separate by 1 hour if possible."
+  },
+  {
+    "s1": "Calcium Supplement",
+    "s2": "Vitamin D3",
+    "severity": 0,
+    "mechanism": "Vitamin D3 promotes calcium absorption in the intestine. Synergistic.",
+    "recommendation": "Take together \u2014 ideal combination for bone health."
+  },
+  {
+    "s1": "Calcium Supplement",
+    "s2": "Magnesium",
+    "severity": 1,
+    "mechanism": "High calcium can reduce magnesium absorption and vice versa at high doses.",
+    "recommendation": "Take with meals. Maintain 2:1 calcium to magnesium ratio."
+  },
+  {
+    "s1": "Calcium Supplement",
+    "s2": "Zinc Supplement",
+    "severity": 2,
+    "mechanism": "Calcium inhibits zinc transporter ZIP4, reducing zinc bioavailability.",
+    "recommendation": "Separate by 2 hours. Take zinc on empty stomach."
+  },
+  {
+    "s1": "Vitamin D3",
+    "s2": "Vitamin K2",
+    "severity": 0,
+    "mechanism": "K2 directs calcium (mobilized by D3) to bones instead of arteries. Synergistic and protective.",
+    "recommendation": "Take together \u2014 essential combination, especially at high D3 doses."
+  },
+  {
+    "s1": "Vitamin D3",
+    "s2": "Magnesium",
+    "severity": 0,
+    "mechanism": "Magnesium is required to convert Vitamin D to its active form. Deficiency blocks D3 activation.",
+    "recommendation": "Take together \u2014 magnesium activates Vitamin D3."
+  },
+  {
+    "s1": "Vitamin E",
+    "s2": "Vitamin K2",
+    "severity": 2,
+    "mechanism": "High-dose Vitamin E antagonizes Vitamin K-dependent clotting factors, increasing bleeding risk.",
+    "recommendation": "Do not take high-dose Vitamin E with Vitamin K2. Consult doctor."
+  },
+  {
+    "s1": "Omega-3 Fish Oil",
+    "s2": "Vitamin E",
+    "severity": 0,
+    "mechanism": "Vitamin E protects omega-3 fatty acids from oxidation, preserving potency.",
+    "recommendation": "Take together \u2014 Vitamin E stabilizes fish oil."
+  },
+  {
+    "s1": "Zinc Supplement",
+    "s2": "Copper Supplement",
+    "severity": 2,
+    "mechanism": "High zinc blocks copper absorption via metallothionein. Can cause copper deficiency.",
+    "recommendation": "If taking zinc >40mg, supplement copper. Take 8-12 hours apart."
+  },
+  {
+    "s1": "Folic Acid",
+    "s2": "Vitamin B12",
+    "severity": 0,
+    "mechanism": "Work together in methylation cycle. B12 deficiency can mask folate status.",
+    "recommendation": "Take together \u2014 synergistic for DNA synthesis and homocysteine control."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Vitamin D3",
+    "severity": 1,
+    "mechanism": "No direct interaction but iron deficiency impairs Vitamin D receptor function.",
+    "recommendation": "Take separately to optimize individual absorption."
+  },
+  {
+    "s1": "Magnesium",
+    "s2": "Vitamin D3",
+    "severity": 0,
+    "mechanism": "Magnesium required as cofactor for Vitamin D activation enzymes.",
+    "recommendation": "Take together for optimal D3 activation."
+  },
+  {
+    "s1": "Vitamin C",
+    "s2": "Vitamin B12",
+    "severity": 2,
+    "mechanism": "High-dose Vitamin C (1000mg+) can destroy B12 in the gut before absorption.",
+    "recommendation": "Separate by at least 2 hours. Take B12 first, then Vitamin C later."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Multivitamin",
+    "severity": 2,
+    "mechanism": "Multivitamins contain calcium/zinc that block iron absorption.",
+    "recommendation": "Take iron separately 2 hours before or after multivitamin."
+  },
+  {
+    "s1": "Calcium Supplement",
+    "s2": "Multivitamin",
+    "severity": 1,
+    "mechanism": "Multivitamin already contains calcium \u2014 risk of exceeding upper limit (2500mg/day).",
+    "recommendation": "Check total calcium intake. May not need extra calcium supplement."
+  },
+  {
+    "s1": "Vitamin D3",
+    "s2": "Multivitamin",
+    "severity": 1,
+    "mechanism": "Multivitamins contain Vitamin D \u2014 risk of exceeding upper limit (4000 IU/day).",
+    "recommendation": "Check total Vitamin D. Avoid doubling up without doctor guidance."
+  },
+  {
+    "s1": "Omega-3 Fish Oil",
+    "s2": "Vitamin D3",
+    "severity": 0,
+    "mechanism": "Omega-3 may enhance Vitamin D absorption as both are fat-soluble.",
+    "recommendation": "Take together with a meal for best absorption of both."
+  },
+  {
+    "s1": "Melatonin",
+    "s2": "Vitamin B12",
+    "severity": 1,
+    "mechanism": "B12 may affect melatonin synthesis through methylation pathways.",
+    "recommendation": "Take melatonin at bedtime, B12 in the morning."
+  },
+  {
+    "s1": "Ashwagandha",
+    "s2": "Iron Supplement",
+    "severity": 0,
+    "mechanism": "Ashwagandha has some iron content and may support iron levels.",
+    "recommendation": "Generally safe together."
+  },
+  {
+    "s1": "Turmeric/Curcumin",
+    "s2": "Iron Supplement",
+    "severity": 2,
+    "mechanism": "Curcumin chelates iron and can significantly reduce iron absorption.",
+    "recommendation": "Separate by at least 2 hours. Take iron first."
+  },
+  {
+    "s1": "Turmeric/Curcumin",
+    "s2": "Vitamin D3",
+    "severity": 0,
+    "mechanism": "Curcumin may enhance Vitamin D receptor expression.",
+    "recommendation": "Safe and potentially beneficial together."
+  },
+  {
+    "s1": "CoQ10",
+    "s2": "Vitamin E",
+    "severity": 0,
+    "mechanism": "Both fat-soluble antioxidants that work synergistically.",
+    "recommendation": "Take together with a fat-containing meal."
+  },
+  {
+    "s1": "Iron Supplement",
+    "s2": "Calcium Supplement",
+    "severity": 2,
+    "mechanism": "Compete for same absorption transporter (DMT1).",
+    "recommendation": "Take 2 hours apart."
+  },
+  {
+    "s1": "Zinc Supplement",
+    "s2": "Vitamin C",
+    "severity": 0,
+    "mechanism": "Vitamin C may enhance zinc absorption slightly.",
+    "recommendation": "Safe to take together."
+  },
+  {
+    "s1": "Magnesium",
+    "s2": "Calcium Supplement",
+    "severity": 1,
+    "mechanism": "Compete for absorption at high doses.",
+    "recommendation": "Maintain 2:1 ratio; take with meals."
+  },
+  {
+    "s1": "Folic Acid",
+    "s2": "Zinc Supplement",
+    "severity": 2,
+    "mechanism": "Zinc may impair folate absorption at high doses.",
+    "recommendation": "Separate by 1-2 hours if using high-dose zinc."
+  },
+  {
+    "s1": "Biotin",
+    "s2": "Vitamin B12",
+    "severity": 0,
+    "mechanism": "Both B-vitamins, work synergistically in energy metabolism.",
+    "recommendation": "Safe and beneficial to take together."
+  },
+  {
+    "s1": "Prenatal Vitamin",
+    "s2": "Iron Supplement",
+    "severity": 2,
+    "mechanism": "Prenatal vitamins already contain iron \u2014 excessive iron intake risk.",
+    "recommendation": "Do not add separate iron without doctor supervision."
+  },
+  {
+    "s1": "Prenatal Vitamin",
+    "s2": "Calcium Supplement",
+    "severity": 2,
+    "mechanism": "Prenatal vitamins contain calcium \u2014 risk of excess.",
+    "recommendation": "Check total calcium before adding extra supplement."
+  },
+  {
+    "s1": "Vitamin A",
+    "s2": "Vitamin D3",
+    "severity": 1,
+    "mechanism": "High Vitamin A can antagonize Vitamin D activity at receptor level.",
+    "recommendation": "Keep Vitamin A at recommended doses. Don't megadose with D3."
+  },
+  {
+    "s1": "Vitamin A",
+    "s2": "Vitamin E",
+    "severity": 1,
+    "mechanism": "Both fat-soluble, compete for absorption at very high doses.",
+    "recommendation": "Take at different meal times if using high doses."
+  },
+  {
+    "s1": "Omega-3 Fish Oil",
+    "s2": "Magnesium",
+    "severity": 0,
+    "mechanism": "Omega-3 and magnesium together support cardiovascular and muscle health.",
+    "recommendation": "Take together \u2014 complementary benefits."
+  }
+]

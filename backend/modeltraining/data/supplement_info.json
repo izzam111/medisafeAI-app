@@ -1,0 +1,1388 @@
+{
+  "Iron Supplement": {
+    "full_name": "Iron (Ferrous Sulphate / Ferrous Gluconate)",
+    "used_for": "Treatment and prevention of iron deficiency anaemia. Essential for haemoglobin and oxygen transport in the blood.",
+    "best_known_for": "Corrects anaemia, fatigue, and weakness caused by low iron. Critical during pregnancy and for menstruating women.",
+    "pros": [
+      "Effectively corrects iron deficiency anaemia",
+      "Boosts energy levels and reduces fatigue",
+      "Essential during pregnancy for fetal development",
+      "Supports immune system function",
+      "Improves cognitive performance in deficient individuals"
+    ],
+    "cons": [
+      "Causes constipation - very common complaint",
+      "Darkens stools (harmless but alarming)",
+      "Risk of iron overload if taken without deficiency",
+      "Must be kept 2 hours away from calcium, tea, and coffee",
+      "Can cause nausea - take after food if sensitive"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Mineral Supplement"
+  },
+  "Calcium Supplement": {
+    "full_name": "Calcium Carbonate / Calcium Citrate",
+    "used_for": "Building and maintaining bone density. Prevents osteoporosis. Supports muscle contraction, nerve signalling, and blood clotting.",
+    "best_known_for": "Bone health supplement - most important for women after 40, elderly, and growing children.",
+    "pros": [
+      "Prevents osteoporosis and bone fractures",
+      "Supports muscle and nerve function",
+      "Reduces PMS symptoms in women",
+      "Essential for growing children and teenagers",
+      "Citrate form works without stomach acid (better for elderly)"
+    ],
+    "cons": [
+      "High doses linked to kidney stones",
+      "Blocks iron absorption - must be taken 2 hours apart",
+      "Constipation at high doses",
+      "Calcium carbonate needs stomach acid to absorb",
+      "Risk of arterial calcification at very high doses"
+    ],
+    "color": "#378ADD",
+    "category_label": "Mineral Supplement"
+  },
+  "Vitamin C": {
+    "full_name": "Ascorbic Acid / Sodium Ascorbate",
+    "used_for": "Antioxidant protection. Immune system support. Collagen synthesis for skin and wound healing. Enhances iron absorption by converting Fe3+ to absorbable Fe2+.",
+    "best_known_for": "Immune system booster. Most widely taken vitamin globally. Triples iron absorption when taken together.",
+    "pros": [
+      "Powerful antioxidant - neutralises free radicals",
+      "Significantly boosts immune function",
+      "Increases iron absorption by up to 3x",
+      "Essential for collagen production and wound healing",
+      "Supports cardiovascular health and skin"
+    ],
+    "cons": [
+      "High doses (>2000mg) cause diarrhoea and kidney stones",
+      "Destroys Vitamin B12 in the gut - separate by 2 hours",
+      "Acidic form may erode tooth enamel over time",
+      "Body cannot store excess - unused is excreted",
+      "Mega-dosing provides no additional benefit"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Vitamin"
+  },
+  "Vitamin D3": {
+    "full_name": "Cholecalciferol (Vitamin D3)",
+    "used_for": "Calcium and phosphorus absorption for bone health. Immune system modulation. Mood regulation. Muscle function.",
+    "best_known_for": "The sunshine vitamin - deficiency extremely widespread in Pakistan especially in women who cover up. Critical for bone density and immunity.",
+    "pros": [
+      "Essential for calcium absorption into bones",
+      "Supports immune system function significantly",
+      "May reduce depression and improve mood",
+      "Low levels linked to diabetes, heart disease, cancer risk",
+      "Affordable and easy to supplement"
+    ],
+    "cons": [
+      "Fat-soluble - accumulates and can reach toxic levels",
+      "Requires Vitamin K2 to safely direct calcium to bones",
+      "Overdose causes hypercalcemia (too much calcium in blood)",
+      "Must take blood test to know actual level before dosing",
+      "Difficult to get adequate amounts from food alone in Pakistan"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Vitamin"
+  },
+  "Vitamin K2": {
+    "full_name": "Menaquinone-7 (MK-7)",
+    "used_for": "Activating proteins that direct calcium to bones instead of arteries. Supports proper blood clotting. Works synergistically with Vitamin D3.",
+    "best_known_for": "The essential partner to Vitamin D3 - prevents calcium building up in arteries. Crucial for cardiovascular safety at high D3 doses.",
+    "pros": [
+      "Directs calcium to bones and away from blood vessels",
+      "Reduces arterial calcification risk significantly",
+      "Synergistic with Vitamin D3 - they must be taken together",
+      "Supports proper blood clotting proteins",
+      "Evidence for improving bone mineral density"
+    ],
+    "cons": [
+      "Interacts with warfarin and blood-thinning medications",
+      "High-dose Vitamin E antagonizes its clotting effect",
+      "Main food source (natto) not available in Pakistan",
+      "Long-term high-dose effects still being studied",
+      "More expensive than most other vitamins"
+    ],
+    "color": "#534AB7",
+    "category_label": "Vitamin"
+  },
+  "Vitamin B12": {
+    "full_name": "Cyanocobalamin / Methylcobalamin",
+    "used_for": "Red blood cell formation. Nerve function and myelin sheath maintenance. DNA synthesis. Energy metabolism.",
+    "best_known_for": "Critical for vegetarians and vegans - found only in animal products. Deficiency causes irreversible nerve damage over years.",
+    "pros": [
+      "Prevents megaloblastic anaemia and nerve damage",
+      "Critical for healthy nervous system function",
+      "Boosts energy metabolism",
+      "Works with folate in the methylation cycle",
+      "Extremely safe - any excess is excreted in urine"
+    ],
+    "cons": [
+      "High-dose Vitamin C destroys B12 in the gut before absorption",
+      "Absorption decreases significantly with age - injections may be needed",
+      "Deficiency develops slowly over years with no early warning",
+      "Only found in animal products - vegetarians, vegans at high risk",
+      "Cyanocobalamin form cheaper; methylcobalamin more bioavailable"
+    ],
+    "color": "#BA7517",
+    "category_label": "Vitamin"
+  },
+  "Folic Acid": {
+    "full_name": "Folic Acid (Vitamin B9) / Methylfolate",
+    "used_for": "DNA synthesis and cell division. Preventing neural tube defects in pregnancy. Reducing homocysteine levels for heart health.",
+    "best_known_for": "Critical in first trimester of pregnancy - prevents spina bifida. Prescribed to all women of childbearing age in Pakistan.",
+    "pros": [
+      "Prevents neural tube defects (spina bifida) in newborns",
+      "Essential for DNA repair and cell division",
+      "Works synergistically with Vitamin B12",
+      "Reduces homocysteine - a heart disease risk marker",
+      "Affordable and widely available at all Pakistani pharmacies"
+    ],
+    "cons": [
+      "Can mask Vitamin B12 deficiency - always check B12 when taking folate",
+      "High-dose zinc reduces folate absorption",
+      "Very high doses may promote existing cancer cell growth",
+      "MTHFR gene mutation means folic acid may not convert properly - methylfolate better",
+      "Upper safe limit is 1000mcg/day from supplements alone"
+    ],
+    "color": "#993C1D",
+    "category_label": "Vitamin"
+  },
+  "Zinc Supplement": {
+    "full_name": "Zinc Gluconate / Zinc Citrate / Zinc Picolinate",
+    "used_for": "Immune function. Wound healing. Testosterone production. Taste and smell. Growth and development.",
+    "best_known_for": "Immune booster and wound healer. Critical for male reproductive health and testosterone.",
+    "pros": [
+      "Significantly boosts immune function",
+      "Essential for wound healing and skin repair",
+      "Supports testosterone production and male fertility",
+      "Required for normal taste and smell sensation",
+      "Anti-inflammatory and antioxidant properties"
+    ],
+    "cons": [
+      "High doses cause nausea, vomiting, metallic taste",
+      "Long-term excess depletes copper stores - causes copper deficiency",
+      "Competes with iron and calcium for absorption transporter",
+      "Upper safe limit is 40mg/day",
+      "May cause reduced HDL (good) cholesterol at very high doses"
+    ],
+    "color": "#639922",
+    "category_label": "Mineral Supplement"
+  },
+  "Magnesium": {
+    "full_name": "Magnesium Glycinate / Magnesium Citrate / Magnesium Oxide",
+    "used_for": "Muscle relaxation. Sleep quality. Stress and anxiety reduction. Energy production (ATP). Essential cofactor for Vitamin D activation.",
+    "best_known_for": "Natural relaxant for muscles and nerves. Widely deficient in Pakistan due to poor soil quality and processed food diet.",
+    "pros": [
+      "Significantly improves sleep quality and sleep onset",
+      "Reduces muscle cramps and spasms",
+      "Lowers anxiety and cortisol levels",
+      "Required cofactor to activate Vitamin D3 in the body",
+      "Supports healthy heart rhythm and blood pressure"
+    ],
+    "cons": [
+      "Oxide form poorly absorbed (only 4%) - glycinate or citrate are much better",
+      "High doses cause diarrhoea - used medically as a laxative",
+      "Competes with calcium for absorption at high doses",
+      "May lower blood pressure excessively in people on BP medications",
+      "Takes 4-8 weeks of daily supplementation to correct deficiency"
+    ],
+    "color": "#185FA5",
+    "category_label": "Mineral Supplement"
+  },
+  "Omega-3 Fish Oil": {
+    "full_name": "EPA + DHA (Eicosapentaenoic + Docosahexaenoic Acid)",
+    "used_for": "Cardiovascular health. Brain function and development. Inflammation reduction. Joint support. Depression management.",
+    "best_known_for": "Heart health and brain development. One of the most clinically researched supplements globally.",
+    "pros": [
+      "Reduces triglycerides and cardiovascular disease risk",
+      "Powerful anti-inflammatory - helps arthritis and joint pain",
+      "Supports brain function and mental health",
+      "May reduce depression and anxiety symptoms",
+      "Safe and beneficial in pregnancy for fetal brain development"
+    ],
+    "cons": [
+      "Fishy burps and aftertaste - buy enteric-coated capsules",
+      "Rancidity risk - poor quality fish oil can be harmful",
+      "Blood-thinning effect at high doses - caution before surgery",
+      "Quality varies enormously between brands",
+      "Grapefruit contains furanocoumarins that affect metabolism"
+    ],
+    "color": "#0F6E56",
+    "category_label": "Fatty Acid Supplement"
+  },
+  "Multivitamin": {
+    "full_name": "Multivitamin and Mineral Complex",
+    "used_for": "General nutritional insurance covering multiple micronutrient gaps simultaneously in one convenient tablet.",
+    "best_known_for": "The most popular supplement worldwide - a convenient foundation of nutrition for people with dietary gaps.",
+    "pros": [
+      "Covers multiple nutritional deficiencies with one pill",
+      "Convenient and usually affordable option",
+      "Good nutritional insurance for irregular diets",
+      "Contains synergistic combinations of vitamins and minerals",
+      "Reduces risk of developing specific deficiency diseases"
+    ],
+    "cons": [
+      "Nutrients compete with each other inside the same pill",
+      "Iron and zinc together significantly reduce both absorptions",
+      "Risk of exceeding upper limits if taken with other supplements",
+      "One formula does not fit all ages, sexes, and conditions",
+      "Calcium in multivitamin reduces iron and zinc absorption"
+    ],
+    "color": "#D4537E",
+    "category_label": "Multivitamin"
+  },
+  "Multivitamin (Centrum)": {
+    "full_name": "Centrum Multivitamin and Mineral (Men/Women/Adults)",
+    "used_for": "Complete daily multivitamin covering all essential vitamins A-Z and key minerals for general health maintenance.",
+    "best_known_for": "World's most recognised multivitamin brand - available at Servaid, D-Watson, Fazal Din, Clinix across Pakistan.",
+    "pros": [
+      "Comprehensive A-Z formula covering all major vitamins and minerals",
+      "Separate formulas for Men, Women, Adults, and 50+",
+      "Widely available and trusted brand across Pakistan",
+      "Clinically studied with years of safety data",
+      "Convenient once-daily dosing with meals"
+    ],
+    "cons": [
+      "Nutrients compete internally - calcium reduces iron and zinc absorption",
+      "Same pill iron and zinc reduce each other's absorption by 40-50%",
+      "Risk of exceeding upper limits if combined with other supplements",
+      "Take separately from dairy products by at least 1 hour",
+      "Contains copper and iron together which may interact at high doses"
+    ],
+    "color": "#D4537E",
+    "category_label": "Multivitamin"
+  },
+  "Fefol Vit": {
+    "full_name": "Fefol Vit - Ferrous Sulphate + Folic Acid + Vitamin B12",
+    "used_for": "Iron deficiency anaemia treatment. Pregnancy-related anaemia. Nutritional support during pregnancy and lactation.",
+    "best_known_for": "Pakistan's widely prescribed iron + folic acid + B12 combination - covers three critical pregnancy nutrients in one tablet. Available at Servaid, Fazal Din, and most Pakistani pharmacies.",
+    "pros": [
+      "Triple combination: iron, folic acid, and B12 in one tablet",
+      "Folic acid prevents neural tube defects in pregnancy",
+      "B12 supports nerve health and red blood cell formation",
+      "Widely prescribed by Pakistani gynecologists and GPs",
+      "Affordable and available at all major pharmacy chains"
+    ],
+    "cons": [
+      "Causes constipation - take with plenty of water and fibre",
+      "Dark stools (harmless) - do not be alarmed",
+      "Must be taken 2 hours away from tea, milk, and calcium",
+      "Nausea on empty stomach - take after food",
+      "Do not combine with other iron sources"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron + Folate + B12 Supplement"
+  },
+  "Fefol": {
+    "full_name": "Fefol - Ferrous Sulphate + Folic Acid",
+    "used_for": "Iron deficiency anaemia. Pregnancy anaemia. Folate supplementation.",
+    "best_known_for": "Classic iron and folic acid combination widely prescribed in Pakistan for anaemia in women and pregnancy support.",
+    "pros": [
+      "Effective iron and folate combination",
+      "Widely trusted and prescribed in Pakistan",
+      "Affordable",
+      "Essential for pregnancy",
+      "Folic acid prevents spina bifida"
+    ],
+    "cons": [
+      "Causes constipation",
+      "Darkens stools",
+      "Keep away from tea and milk",
+      "Nausea on empty stomach",
+      "Do not combine with other iron"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron + Folate Supplement"
+  },
+  "Surbex Z": {
+    "full_name": "Surbex Z - Vitamin C + Zinc + B Complex",
+    "used_for": "Immune support. Zinc deficiency. Post-illness recovery. Antioxidant support. Energy metabolism.",
+    "best_known_for": "Pakistan's popular zinc and B-complex supplement - widely used for immunity, post-illness recovery, and energy. Available at all major Pakistani pharmacy chains.",
+    "pros": [
+      "High Vitamin C (500mg) boosts immune function significantly",
+      "Zinc shortens cold and flu duration",
+      "B-complex vitamins support energy metabolism",
+      "Widely available across Pakistan at Servaid and D-Watson",
+      "Good for post-COVID and post-viral recovery"
+    ],
+    "cons": [
+      "Zinc competes with iron and copper - avoid with iron supplements",
+      "May cause nausea on empty stomach",
+      "Long-term daily use not recommended - zinc upper limit 40mg/day",
+      "Contains B6 - avoid excessive B6 from other sources",
+      "Metallic taste at high zinc doses"
+    ],
+    "color": "#639922",
+    "category_label": "Zinc + Vitamin C + B Complex"
+  },
+  "Surbex T": {
+    "full_name": "Surbex T - Thiamine + B Complex + Vitamin C",
+    "used_for": "Nerve health. B vitamin deficiency. Energy metabolism. Thiamine (B1) deficiency.",
+    "best_known_for": "B-complex supplement with high thiamine - widely used in Pakistan for nerve pain, weakness, and energy deficiency.",
+    "pros": [
+      "High thiamine (B1) for nerve and energy health",
+      "Full B-complex coverage",
+      "Vitamin C included for antioxidant support",
+      "Widely available in Pakistan",
+      "Affordable"
+    ],
+    "cons": [
+      "High-dose B6 risk with prolonged use",
+      "Should support diet not replace it",
+      "GI upset possible",
+      "Check overlap with other B vitamins",
+      "Injection needed for severe deficiency"
+    ],
+    "color": "#BA7517",
+    "category_label": "B Vitamin Complex"
+  },
+  "Surbex": {
+    "full_name": "Surbex - Multivitamin B Complex + C + E + Zinc",
+    "used_for": "General multivitamin supplementation. B vitamin deficiency. Energy and immune support.",
+    "best_known_for": "Abbott's classic multivitamin widely trusted in Pakistan - covers B vitamins, Vitamin C, E, and zinc in one tablet.",
+    "pros": [
+      "Comprehensive B-complex formula",
+      "Vitamin E antioxidant included",
+      "Zinc for immune support",
+      "Trusted Abbott brand in Pakistan",
+      "Affordable daily supplement"
+    ],
+    "cons": [
+      "Zinc and iron compete - avoid with iron supplements",
+      "B6 excess risk with prolonged use",
+      "Check overlap with other supplements",
+      "Not a substitute for diet",
+      "Upper limits possible with other multivitamins"
+    ],
+    "color": "#D4537E",
+    "category_label": "Multivitamin"
+  },
+  "Sangobion": {
+    "full_name": "Sangobion - Comprehensive Haematinic",
+    "used_for": "Iron deficiency anaemia. Comprehensive haematinic support. Pregnancy anaemia.",
+    "best_known_for": "Comprehensive iron supplement with multiple supporting nutrients for complete anaemia correction.",
+    "pros": [
+      "Iron with Vitamin C for enhanced absorption",
+      "Folic acid and B12 included",
+      "Comprehensive haematinic",
+      "Widely available in Pakistan",
+      "Effective for anaemia correction"
+    ],
+    "cons": [
+      "Causes constipation",
+      "Dark stools",
+      "Take away from tea and calcium",
+      "Nausea on empty stomach",
+      "Do not combine with other iron"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Comprehensive Haematinic"
+  },
+  "Evion": {
+    "full_name": "Evion - Vitamin E (dl-alpha Tocopherol)",
+    "used_for": "Antioxidant protection. Skin health. Wound healing. Fertility support.",
+    "best_known_for": "Pakistan's most prescribed Vitamin E supplement - widely used for skin health, anti-aging, and fertility. Available at all pharmacies.",
+    "pros": [
+      "Potent antioxidant protecting cells from damage",
+      "Supports skin health and wound healing",
+      "Promotes fertility in both men and women",
+      "Very widely available and affordable in Pakistan",
+      "Popular for hair and skin health"
+    ],
+    "cons": [
+      "High doses increase bleeding risk",
+      "Antagonizes Vitamin K - affects blood clotting",
+      "Fat-soluble - accumulates in body",
+      "Must take with food containing fat",
+      "Synthetic dl-alpha form less effective than natural d-alpha"
+    ],
+    "color": "#A32D2D",
+    "category_label": "Vitamin E Supplement"
+  },
+  "Redoxon": {
+    "full_name": "Redoxon - Vitamin C (Ascorbic Acid) Effervescent",
+    "used_for": "Vitamin C supplementation. Immune support. Antioxidant. Iron absorption enhancement.",
+    "best_known_for": "Bayer's effervescent Vitamin C - popular across Pakistan for immune support and easy dissolve-in-water format.",
+    "pros": [
+      "Effervescent format - easy to take and pleasant taste",
+      "High dose Vitamin C for immune support",
+      "Enhances iron absorption when taken together",
+      "Widely available at Pakistani pharmacies",
+      "Good for cold prevention and recovery"
+    ],
+    "cons": [
+      "High doses cause diarrhoea and kidney stones",
+      "Can destroy Vitamin B12 in gut - separate by 2 hours",
+      "Acidic - may irritate stomach on empty stomach",
+      "Contains sugar (regular version) - check for diabetics",
+      "Body excretes excess - no benefit in mega-doses"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Vitamin C Effervescent"
+  },
+  "Livogen": {
+    "full_name": "Livogen - Ferrous Fumarate + Folic Acid",
+    "used_for": "Iron deficiency anaemia treatment. Pregnancy anaemia. Folate supplementation.",
+    "best_known_for": "Widely prescribed iron supplement in Pakistan - ferrous fumarate form is gentler on stomach than ferrous sulphate.",
+    "pros": [
+      "Ferrous fumarate - gentler on stomach than sulphate form",
+      "Folic acid included for pregnancy support",
+      "Effective for correcting iron deficiency anaemia",
+      "Widely prescribed in Pakistan",
+      "Available at most pharmacies"
+    ],
+    "cons": [
+      "Still causes constipation",
+      "Dark stools (harmless)",
+      "Take away from tea and milk",
+      "Separate from calcium by 2 hours",
+      "Do not combine with other iron"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron + Folate Supplement"
+  },
+  "Pregnacare": {
+    "full_name": "Pregnacare - Comprehensive Prenatal Multivitamin",
+    "used_for": "Complete pregnancy nutrition. Neural tube defect prevention. Fetal brain development. Maternal nutritional support.",
+    "best_known_for": "UK's leading prenatal supplement - available in major Pakistani cities. Comprehensive formula covering all pregnancy nutritional needs.",
+    "pros": [
+      "Comprehensive prenatal formula",
+      "High folic acid for neural tube prevention",
+      "DHA for fetal brain development",
+      "Gentle formula for pregnancy nausea",
+      "Trusted international brand"
+    ],
+    "cons": [
+      "More expensive than local brands",
+      "Less widely available outside major cities",
+      "Still contains iron - avoid doubling up",
+      "Check total Vitamin D from all sources",
+      "Not substitute for healthy diet"
+    ],
+    "color": "#D4537E",
+    "category_label": "Prenatal Supplement"
+  },
+  "Elevit": {
+    "full_name": "Elevit - Comprehensive Prenatal Multivitamin + Minerals",
+    "used_for": "Pregnancy and preconception nutrition. Neural tube defect prevention. Iron supplementation in pregnancy.",
+    "best_known_for": "Bayer's premium prenatal supplement - available in Pakistan. High iron and folic acid combination for pregnancy anaemia prevention.",
+    "pros": [
+      "High iron (60mg) for pregnancy anaemia prevention",
+      "High folic acid (800mcg) for neural tube protection",
+      "Comprehensive mineral and vitamin formula",
+      "Trusted Bayer brand",
+      "Available in major Pakistani pharmacy chains"
+    ],
+    "cons": [
+      "Expensive compared to local Pakistani brands",
+      "High iron causes constipation - increase water intake",
+      "Contains Vitamin A - do not add separate Vitamin A supplement",
+      "Check total D3 from all sources",
+      "Less widely available in smaller cities"
+    ],
+    "color": "#D4537E",
+    "category_label": "Premium Prenatal Supplement"
+  },
+  "D Forte": {
+    "full_name": "D Forte - High-Dose Vitamin D3 (Cholecalciferol)",
+    "used_for": "Vitamin D deficiency treatment. Bone health. Immune function. Calcium absorption support.",
+    "best_known_for": "High-strength Vitamin D3 supplement prescribed in Pakistan for correcting moderate to severe Vitamin D deficiency.",
+    "pros": [
+      "High dose for faster deficiency correction",
+      "Directly addresses Pakistan's most common nutrient deficiency",
+      "Bone density support",
+      "Immune function support",
+      "Simple dosing - often weekly or monthly"
+    ],
+    "cons": [
+      "Fat-soluble - must take with fatty meal",
+      "Requires blood test monitoring",
+      "Need K2 at high doses to direct calcium safely",
+      "Risk of hypercalcemia if overdosed",
+      "Do not self-prescribe high doses"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Vitamin D3 Supplement"
+  },
+  "Fortefer": {
+    "full_name": "Fortefer - Ferrous Sulphate + Folic Acid Sustained Release",
+    "used_for": "Iron deficiency anaemia. Pregnancy anaemia. Sustained-release iron for reduced GI side effects.",
+    "best_known_for": "Sustained-release iron supplement in Pakistan - slower release reduces nausea and constipation compared to standard iron tablets.",
+    "pros": [
+      "Sustained release - gentler on stomach",
+      "Folic acid included for pregnancy",
+      "Reduced constipation vs standard iron tablets",
+      "Effective for iron deficiency anaemia",
+      "Widely available in Pakistan"
+    ],
+    "cons": [
+      "Still causes some GI side effects",
+      "Take away from tea, milk, calcium",
+      "Dark stools (harmless)",
+      "Slower absorption - takes longer to correct anaemia",
+      "Do not crush or chew sustained-release tablets"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Sustained Release Iron"
+  },
+  "Materna": {
+    "full_name": "Materna - Complete Prenatal Multivitamin",
+    "used_for": "Comprehensive pregnancy nutrition. Neural tube prevention. Iron supplementation. Fetal development support.",
+    "best_known_for": "Wyeth's comprehensive prenatal vitamin available in Pakistan - covers full spectrum of pregnancy nutritional needs.",
+    "pros": [
+      "Comprehensive prenatal formula",
+      "High folic acid for neural tube protection",
+      "Iron for pregnancy anaemia prevention",
+      "DHA for fetal brain development",
+      "Trusted international brand available in Pakistan"
+    ],
+    "cons": [
+      "Expensive compared to local brands",
+      "Contains iron - avoid doubling up",
+      "Check total Vitamin D and calcium",
+      "Nausea - take at night with food",
+      "Less available in smaller Pakistani cities"
+    ],
+    "color": "#D4537E",
+    "category_label": "Prenatal Supplement"
+  },
+  "Surbex M": {
+    "full_name": "Surbex M - Multivitamin + Minerals",
+    "used_for": "General multivitamin and mineral supplementation. B-complex with minerals for energy and immune support.",
+    "best_known_for": "Abbott's mineral-enriched multivitamin widely available in Pakistan.",
+    "pros": [
+      "Comprehensive B-complex",
+      "Mineral support included",
+      "Trusted Abbott brand",
+      "Widely available in Pakistan",
+      "Affordable"
+    ],
+    "cons": [
+      "Check overlap with other supplements",
+      "Zinc and iron compete",
+      "B6 excess risk",
+      "Not substitute for diet",
+      "May exceed limits with other multivitamins"
+    ],
+    "color": "#D4537E",
+    "category_label": "Multivitamin + Minerals"
+  },
+  "Nutrivit": {
+    "full_name": "Nutrivit - Multivitamin and Mineral Complex",
+    "used_for": "General nutritional supplementation. Vitamin and mineral gap coverage.",
+    "best_known_for": "Pakistani multivitamin covering essential vitamins and minerals.",
+    "pros": [
+      "Comprehensive formula",
+      "Affordable",
+      "Widely available in Pakistan",
+      "Covers multiple deficiencies",
+      "Convenient single dose"
+    ],
+    "cons": [
+      "Nutrient competition inside pill",
+      "Check overlap",
+      "Not substitute for diet",
+      "Upper limits possible",
+      "One size may not fit all"
+    ],
+    "color": "#D4537E",
+    "category_label": "Multivitamin"
+  },
+  "Zevit": {
+    "full_name": "Zevit - Zinc + Vitamin C + B Complex",
+    "used_for": "Immune support. Zinc deficiency. Post-illness recovery. Energy metabolism.",
+    "best_known_for": "Zinc and B-complex combination widely available in Pakistan for immunity and energy.",
+    "pros": [
+      "Zinc and Vitamin C synergy",
+      "B-complex energy support",
+      "Good for post-illness recovery",
+      "Widely available",
+      "Affordable"
+    ],
+    "cons": [
+      "Zinc competes with iron",
+      "Empty stomach nausea",
+      "Not for long-term daily use",
+      "B6 excess risk",
+      "Check overlap with other supplements"
+    ],
+    "color": "#639922",
+    "category_label": "Zinc + B Complex"
+  },
+  "Becozinc": {
+    "full_name": "Becozinc - Zinc + B Complex",
+    "used_for": "Zinc deficiency. B vitamin supplementation. Immune support. Skin health.",
+    "best_known_for": "Zinc and B-complex combination - good for skin, immunity, and energy.",
+    "pros": [
+      "Zinc and B-complex combination",
+      "Supports skin health",
+      "Immune support",
+      "Widely available in Pakistan",
+      "Affordable option"
+    ],
+    "cons": [
+      "Zinc competes with iron and copper",
+      "B6 excess risk long-term",
+      "Take with food to avoid nausea",
+      "Not for long-term daily use",
+      "Check overlap with other supplements"
+    ],
+    "color": "#639922",
+    "category_label": "Zinc + B Complex"
+  },
+  "Ironvit": {
+    "full_name": "Ironvit - Iron + Vitamins",
+    "used_for": "Iron deficiency anaemia treatment. Iron and vitamin supplementation.",
+    "best_known_for": "Iron supplement with supporting vitamins available in Pakistan.",
+    "pros": [
+      "Iron for anaemia correction",
+      "Supporting vitamins included",
+      "Widely available",
+      "Affordable",
+      "Effective for deficiency"
+    ],
+    "cons": [
+      "Constipation common",
+      "Dark stools",
+      "Take away from tea and milk",
+      "Separate from calcium",
+      "Do not combine with other iron"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron Supplement"
+  },
+  "Ferrograd": {
+    "full_name": "Ferrograd - Ferrous Sulphate + Vitamin C",
+    "used_for": "Iron deficiency anaemia. Enhanced iron absorption with Vitamin C.",
+    "best_known_for": "Iron with built-in Vitamin C for maximum absorption - sustained-release formula reduces stomach side effects.",
+    "pros": [
+      "Vitamin C enhances iron absorption by 3x",
+      "Sustained release reduces GI side effects",
+      "Effective for iron deficiency anaemia",
+      "Widely available in Pakistan",
+      "Good absorption profile"
+    ],
+    "cons": [
+      "Still causes constipation in some",
+      "Take away from tea, milk, calcium",
+      "Dark stools (harmless)",
+      "Do not crush tablets",
+      "Separate from calcium supplements by 2 hours"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron + Vitamin C"
+  },
+  "Haematinic": {
+    "full_name": "Haematinic - Iron + Folic Acid + B12 + Minerals",
+    "used_for": "Comprehensive anaemia treatment. Multiple nutritional deficiency correction. Pregnancy support.",
+    "best_known_for": "Comprehensive haematinic combining iron, folate, B12, and minerals for complete anaemia correction.",
+    "pros": [
+      "Comprehensive multi-nutrient anaemia formula",
+      "Folic acid for pregnancy support",
+      "B12 for nerve and blood health",
+      "Minerals for overall nutritional support",
+      "Effective for complex anaemia"
+    ],
+    "cons": [
+      "Multiple nutrients may compete",
+      "Constipation from iron",
+      "Take away from tea and calcium",
+      "Dark stools (harmless)",
+      "Check overlap with other supplements"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Comprehensive Haematinic"
+  },
+  "Vitamin E": {
+    "full_name": "Vitamin E (d-alpha Tocopherol)",
+    "used_for": "Antioxidant protection of cell membranes. Skin health and wound healing. Immune function. Protects omega-3 fatty acids from oxidation.",
+    "best_known_for": "Powerful fat-soluble antioxidant for skin, anti-aging, and cell protection. Very popular in Pakistan for skin health and fertility.",
+    "pros": [
+      "Potent antioxidant protecting cells from oxidative damage",
+      "Supports skin health, wound healing, and scar reduction",
+      "Boosts immune function",
+      "Protects omega-3 fatty acids from oxidation",
+      "Natural d-alpha form is 2x more potent than synthetic form"
+    ],
+    "cons": [
+      "High doses increase bleeding risk - dangerous before surgery",
+      "Antagonises Vitamin K - affects blood clotting above 400IU",
+      "Fat-soluble - accumulates in body fat, can reach toxic levels",
+      "Must be taken with a fat-containing meal to absorb",
+      "Very high doses linked to increased mortality in studies"
+    ],
+    "color": "#A32D2D",
+    "category_label": "Vitamin"
+  },
+  "Potassium": {
+    "full_name": "Potassium Chloride / Potassium Citrate",
+    "used_for": "Blood pressure regulation. Heart rhythm support. Muscle contraction. Nerve transmission. Counteracting excess sodium intake.",
+    "best_known_for": "Natural blood pressure regulator - the higher your potassium, the lower your blood pressure tends to be. Works against sodium.",
+    "pros": [
+      "Effectively lowers elevated blood pressure",
+      "Reduces risk of stroke significantly",
+      "Supports healthy heart rhythm",
+      "Prevents muscle cramps during exercise",
+      "Counteracts sodium's blood pressure-raising effect"
+    ],
+    "cons": [
+      "Supplements legally limited to 99mg - far below the 4700mg daily need",
+      "High supplemental doses cause life-threatening cardiac arrhythmia",
+      "Extremely dangerous combined with ACE inhibitors or potassium-sparing diuretics",
+      "People with kidney disease must strictly avoid excess potassium",
+      "Get potassium from food - bananas, avocado, spinach are far better"
+    ],
+    "color": "#D85A30",
+    "category_label": "Mineral Supplement"
+  },
+  "Prenatal Vitamin": {
+    "full_name": "Prenatal Multivitamin and Mineral Complex",
+    "used_for": "Supporting fetal development throughout pregnancy. Preventing neural tube defects. Meeting the dramatically increased nutritional demands of pregnancy and breastfeeding.",
+    "best_known_for": "Essential supplement during pregnancy - contains high folic acid, extra iron, and DHA for fetal brain development compared to standard multivitamins.",
+    "pros": [
+      "High-dose folic acid prevents neural tube defects (spina bifida)",
+      "Contains DHA for fetal brain and eye development",
+      "Higher iron content supports 50% increase in blood volume during pregnancy",
+      "Specifically formulated for pregnancy nutritional demands",
+      "Reduces risk of preterm birth and low birth weight"
+    ],
+    "cons": [
+      "Nausea is very common - take at bedtime or after food",
+      "Already contains iron - do not add separate iron supplement without doctor guidance",
+      "Very constipating due to high iron - increase water and fibre intake",
+      "Excess Vitamin A is dangerous in pregnancy - avoid additional Vitamin A",
+      "More expensive than standard multivitamins"
+    ],
+    "color": "#D4537E",
+    "category_label": "Prenatal Supplement"
+  },
+  "Vitamin A": {
+    "full_name": "Retinol (preformed) / Beta-Carotene (provitamin A)",
+    "used_for": "Vision and night vision. Immune function. Skin cell turnover and repair. Reproductive health. Fetal development.",
+    "best_known_for": "Essential for night vision and immune function. Night blindness from Vitamin A deficiency is still common in Pakistan, especially in children.",
+    "pros": [
+      "Essential for night vision and prevention of night blindness",
+      "Supports immune system and resistance to infection",
+      "Critical for healthy skin cell turnover",
+      "Powerful antioxidant in beta-carotene form",
+      "Essential for fetal development at correct doses"
+    ],
+    "cons": [
+      "Preformed retinol is highly toxic in pregnancy - causes birth defects",
+      "Fat-soluble - accumulates in liver and reaches toxic levels",
+      "Antagonises Vitamin D receptor at very high doses",
+      "Upper safe limit for preformed retinol is 10,000 IU per day",
+      "Beta-carotene form from plants is much safer - body converts only what it needs"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Vitamin"
+  },
+  "Biotin": {
+    "full_name": "Biotin (Vitamin B7 / Vitamin H)",
+    "used_for": "Hair growth and thickness. Nail strength. Energy metabolism (fat, carbohydrate, and protein). Blood sugar support in diabetes.",
+    "best_known_for": "Hair growth and nail strength - one of the most heavily marketed beauty supplements. Extremely popular in Pakistan for hair health.",
+    "pros": [
+      "Strengthens brittle nails within 6-9 months of use",
+      "May support hair growth and thickness",
+      "Essential for fat and carbohydrate metabolism",
+      "Very safe - water-soluble, excess is excreted in urine",
+      "May improve blood sugar control in type 2 diabetes"
+    ],
+    "cons": [
+      "High doses interfere with thyroid and heart attack lab tests - creates false results",
+      "Must stop taking 3-5 days before any blood tests",
+      "Evidence for hair growth in non-deficient people is limited",
+      "Raw egg whites block biotin absorption",
+      "Often over-marketed - most people are not actually biotin deficient"
+    ],
+    "color": "#5DCAA5",
+    "category_label": "Vitamin"
+  },
+  "Coenzyme Q10": {
+    "full_name": "Ubiquinol (active form) / Ubiquinone (CoQ10)",
+    "used_for": "Cellular ATP energy production in mitochondria. Heart muscle support. Antioxidant. Essential replacement for people on statin medications.",
+    "best_known_for": "Energy at the cellular level - statins dramatically deplete CoQ10, making it essential for anyone on cholesterol medication.",
+    "pros": [
+      "Supports cellular energy production in every cell of the body",
+      "Essential to replace CoQ10 depleted by statin medications",
+      "Supports heart muscle function and reduces heart failure symptoms",
+      "Powerful antioxidant protecting mitochondria from damage",
+      "May improve exercise performance and reduce muscle fatigue"
+    ],
+    "cons": [
+      "Expensive - high-quality ubiquinol costs significantly more than basic supplements",
+      "Fat-soluble - must be taken with a fat-containing meal to absorb",
+      "May lower blood pressure - caution if already on blood pressure medication",
+      "Can cause insomnia if taken in the evening - take with breakfast",
+      "Takes 2-3 months of daily use to see measurable effects"
+    ],
+    "color": "#BA7517",
+    "category_label": "Antioxidant"
+  },
+  "Turmeric/Curcumin": {
+    "full_name": "Curcumin (Curcuma longa extract / Haldi)",
+    "used_for": "Anti-inflammatory. Antioxidant. Joint health and arthritis pain. Digestive support. Traditional Desi medicine used for thousands of years.",
+    "best_known_for": "Natural anti-inflammatory - Haldi is used in every Pakistani kitchen. Modern science confirms powerful anti-inflammatory and antioxidant effects.",
+    "pros": [
+      "Anti-inflammatory effect comparable to some NSAIDs without side effects",
+      "Powerful antioxidant protecting cells from free radical damage",
+      "Significantly helps joint pain and stiffness in arthritis",
+      "Digestive support and gut anti-inflammatory",
+      "Potential neuroprotective effects being actively researched"
+    ],
+    "cons": [
+      "Near zero absorption without piperine (black pepper) - always take with pepper",
+      "Chelates iron - significantly reduces iron absorption - separate by 2 hours",
+      "May worsen gallbladder problems and gallstone conditions",
+      "Can increase bleeding risk at high doses - caution before surgery",
+      "High doses may stress the liver with prolonged use"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Herbal Supplement"
+  },
+  "Ashwagandha": {
+    "full_name": "Withania somnifera - KSM-66 / Sensoril extract (Asgandh)",
+    "used_for": "Adaptogen for stress and anxiety reduction. Cortisol regulation. Testosterone support. Energy and stamina. Sleep quality improvement.",
+    "best_known_for": "Known as Asgandh in Pakistani Unani medicine - used for centuries for strength, stamina, and nervous system support. Modern evidence confirms stress-reduction and testosterone benefits.",
+    "pros": [
+      "Significantly reduces cortisol and subjective stress levels",
+      "Improves sleep quality and sleep onset",
+      "Boosts testosterone and sperm quality in men",
+      "Adaptogen - helps the body handle both physical and mental stress",
+      "Anti-inflammatory and immunomodulatory properties"
+    ],
+    "cons": [
+      "May affect thyroid hormone levels - avoid if on thyroid medication",
+      "Contraindicated in pregnancy - may cause contractions or miscarriage",
+      "Can cause GI upset in sensitive people - take with food",
+      "People with autoimmune conditions should consult doctor before use",
+      "Sedative properties - avoid before driving or operating machinery"
+    ],
+    "color": "#0C447C",
+    "category_label": "Herbal Adaptogen"
+  },
+  "Melatonin": {
+    "full_name": "Melatonin (N-acetyl-5-methoxytryptamine)",
+    "used_for": "Sleep onset and sleep quality improvement. Circadian rhythm regulation. Jet lag management. Shift work sleep disorder.",
+    "best_known_for": "The natural sleep hormone - most popular non-prescription sleep supplement globally. Helps you fall asleep faster without dependency.",
+    "pros": [
+      "Significantly reduces time to fall asleep",
+      "Highly effective for jet lag and shift work sleep disorder",
+      "Non-addictive unlike prescription sleeping tablets",
+      "Antioxidant properties - protective for the brain",
+      "Even very low doses (0.5mg) are effective - less is often more"
+    ],
+    "cons": [
+      "Higher doses cause next-day grogginess and brain fog",
+      "May disrupt the body's own melatonin production with long-term daily use",
+      "Caffeine completely blocks melatonin receptors - renders it ineffective",
+      "Not recommended for long-term daily use in healthy adults",
+      "Interacts with blood thinners and diabetes medications"
+    ],
+    "color": "#3C3489",
+    "category_label": "Hormone Supplement"
+  },
+  "Hamdard Safi": {
+    "full_name": "Hamdard Safi - Blood Purifier (Khoon Saaf)",
+    "used_for": "Blood purification. Skin health and acne treatment. Digestive support. Traditional Unani medicine for skin clarity.",
+    "best_known_for": "Pakistan's best-known Unani herbal tonic - Safi has been used for blood purification and skin clarity by generations of Pakistani families.",
+    "pros": [
+      "Widely trusted herbal formulation with long history in Pakistan",
+      "Supports skin health and reduces acne",
+      "Digestive support and mild laxative effect",
+      "Affordable and available everywhere in Pakistan",
+      "Contains a blend of time-tested Unani herbs"
+    ],
+    "cons": [
+      "Contains multiple herbs - significant interaction risk with prescription medications",
+      "Not standardised to pharmaceutical standards - ingredient potency varies",
+      "Avoid during pregnancy - herbal constituents may not be safe",
+      "May interact with blood-thinning medications",
+      "Limited clinical trials compared to pharmaceutical drugs"
+    ],
+    "color": "#993C1D",
+    "category_label": "Unani Herbal Supplement"
+  },
+  "Neurobion": {
+    "full_name": "Neurobion - Vitamin B1 (Thiamine) + B6 (Pyridoxine) + B12 (Cyanocobalamin)",
+    "used_for": "Nerve health and repair. Peripheral neuropathy treatment. B vitamin deficiency correction. Diabetic nerve pain management.",
+    "best_known_for": "The most commonly prescribed B-vitamin supplement in Pakistan - used extensively for nerve pain, diabetic neuropathy, weakness, and B vitamin deficiency.",
+    "pros": [
+      "Directly supports nerve function, repair, and regeneration",
+      "Effectively treats B vitamin deficiency syndromes",
+      "Widely available and affordable at all Pakistani pharmacies",
+      "Injection form available for severe deficiency or malabsorption",
+      "Used extensively for diabetic neuropathy with good evidence"
+    ],
+    "cons": [
+      "Long-term high-dose B6 (>100mg/day) paradoxically causes nerve toxicity",
+      "Injection form required when oral absorption is impaired",
+      "Some GI upset in sensitive people - take after food",
+      "Risk of excessive B6 if combining with other B-complex supplements",
+      "Should support a nutritious diet - not replace it"
+    ],
+    "color": "#378ADD",
+    "category_label": "B Vitamin Complex"
+  },
+  "Ferosoft / Ferose": {
+    "full_name": "Ferosoft / Ferose - Ferrous Fumarate + Folic Acid + Vitamin C",
+    "used_for": "Iron deficiency anaemia treatment. Pregnancy-related anaemia. Post-partum iron replenishment.",
+    "best_known_for": "Pakistan's most prescribed iron supplement - Ferosoft and Ferose are prescribed almost universally to pregnant women and anaemic patients across Pakistan.",
+    "pros": [
+      "Vitamin C included enhances iron absorption by up to 3x",
+      "Folic acid included makes it ideal for pregnancy",
+      "Highly effective for correcting iron deficiency anaemia",
+      "Widely prescribed and trusted by Pakistani doctors",
+      "Available at all pharmacies - affordable and accessible"
+    ],
+    "cons": [
+      "Causes constipation - extremely common complaint among Pakistani women",
+      "Dark green or black stools (harmless but alarming)",
+      "Must be taken 2 hours away from tea, milk, calcium, and zinc",
+      "Nausea when taken on empty stomach - take after food if sensitive",
+      "Do not combine with other iron sources or multivitamins containing iron"
+    ],
+    "color": "#E24B4A",
+    "category_label": "Iron + Folate Supplement"
+  },
+  "Calcimax": {
+    "full_name": "Calcimax - Calcium Carbonate + Vitamin D3 + Zinc + Magnesium",
+    "used_for": "Bone health and osteoporosis prevention. Calcium deficiency. Vitamin D supplementation combined with calcium for bone density.",
+    "best_known_for": "Pakistan's leading calcium supplement brand - prescribed extensively for bone health, osteoporosis prevention, and Vitamin D deficiency.",
+    "pros": [
+      "Convenient combination of calcium, D3, zinc, and magnesium in one tablet",
+      "Vitamin D3 included enhances calcium absorption significantly",
+      "Zinc and magnesium support bone metabolism and density",
+      "Widely prescribed and trusted across Pakistan",
+      "Available at all major pharmacy chains"
+    ],
+    "cons": [
+      "Calcium blocks iron absorption - must be separated from iron supplements by 2 hours",
+      "Oxalates in spinach and beets bind calcium and waste the supplement",
+      "Kidney stone risk with excess calcium - do not double up with other calcium sources",
+      "Check total Vitamin D from all sources - do not exceed 4000 IU per day without testing",
+      "Calcium carbonate form requires stomach acid - citrate form better for elderly"
+    ],
+    "color": "#378ADD",
+    "category_label": "Calcium + Vitamin D Supplement"
+  },
+  "Calvit D3": {
+    "full_name": "Calvit D3 - Calcium + Vitamin D3",
+    "used_for": "Vitamin D deficiency treatment. Calcium supplementation for bone health. Post-menopausal osteoporosis prevention.",
+    "best_known_for": "Extremely commonly prescribed across Pakistan for Vitamin D deficiency - one of the most prevalent nutrient deficiencies in Pakistani women, estimated to affect 70-90%.",
+    "pros": [
+      "Highly effective for correcting Vitamin D deficiency - Pakistan's most common nutrient deficiency",
+      "Calcium included enhances the bone health benefit of Vitamin D",
+      "Affordable and widely available at all Pakistani pharmacy chains",
+      "Simple once-daily or weekly dosing depending on prescription",
+      "Essential for bone density, immune function, and mood"
+    ],
+    "cons": [
+      "Fat-soluble - must be taken with food containing some fat to absorb",
+      "Overdose causes hypercalcemia - symptoms include nausea, weakness, kidney stones",
+      "Requires Vitamin K2 at doses above 2000 IU to direct calcium safely",
+      "Blood test to confirm deficiency and monitor levels strongly recommended",
+      "Do not self-prescribe high doses - work with doctor to determine correct dose"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Calcium + Vitamin D3"
+  },
+  "Osteofos": {
+    "full_name": "Osteofos - Calcium + Magnesium + Zinc + Vitamin D3",
+    "used_for": "Comprehensive bone health. Osteoporosis prevention. Fracture risk reduction in elderly patients.",
+    "best_known_for": "Comprehensive bone supplement prescribed in Pakistan - combines calcium, magnesium, zinc, and D3 for complete bone support in one tablet.",
+    "pros": [
+      "Comprehensive bone health formula in one product",
+      "Magnesium improves calcium utilisation and bone quality",
+      "Zinc supports bone metabolism and collagen formation",
+      "Vitamin D3 enhances calcium absorption from the gut",
+      "Convenient for elderly patients needing multiple bone nutrients"
+    ],
+    "cons": [
+      "Risk of exceeding upper limits if combined with other calcium or D3 supplements",
+      "Calcium blocks iron absorption - take 2 hours away from iron supplements",
+      "Magnesium in high doses may cause loose stools",
+      "Check total Vitamin D from all sources before adding",
+      "Not suitable for people with kidney disease - consult nephrologist first"
+    ],
+    "color": "#378ADD",
+    "category_label": "Bone Health Complex"
+  },
+  "Femibion": {
+    "full_name": "Femibion - Prenatal Supplement with Methylfolate + DHA",
+    "used_for": "Preconception and pregnancy nutritional support. Neural tube defect prevention. Fetal brain and eye development.",
+    "best_known_for": "Premium prenatal supplement available in Pakistan - uniquely contains methylfolate instead of folic acid, which is better for the estimated 40% of people with MTHFR gene variants.",
+    "pros": [
+      "Methylfolate (not folic acid) works for people with MTHFR gene variants",
+      "DHA for fetal brain, eye, and nervous system development",
+      "Comprehensive prenatal formula carefully designed for pregnancy",
+      "Gentle formulation designed to minimise pregnancy nausea",
+      "Suitable for MTHFR gene variants - important for Pakistani population"
+    ],
+    "cons": [
+      "More expensive than basic prenatal vitamins",
+      "Not as widely available - may need major city pharmacy or online order",
+      "Still check total Vitamin D and calcium from all sources",
+      "Not a substitute for a healthy, varied pregnancy diet",
+      "Requires prescription advice to determine if advanced formula is needed"
+    ],
+    "color": "#D4537E",
+    "category_label": "Premium Prenatal Supplement"
+  },
+  "Zinnat / Zincovit": {
+    "full_name": "Zinnat / Zincovit - Zinc + Vitamin C + B Complex",
+    "used_for": "Immune system support. Zinc deficiency correction. Post-illness recovery. Cold and flu management.",
+    "best_known_for": "Popular immune supplement across Pakistan - widely taken during and after flu, COVID-19, and viral illness recovery.",
+    "pros": [
+      "Convenient zinc and Vitamin C combination for synergistic immune support",
+      "Zinc shortens duration of cold symptoms when started within 24 hours",
+      "Vitamin C enhances zinc absorption and provides additional antioxidant support",
+      "Widely available across Pakistan and relatively affordable",
+      "Good for wound healing and skin repair post-illness"
+    ],
+    "cons": [
+      "Zinc competes with iron and copper - do not take with iron supplements",
+      "Avoid taking with calcium-rich dairy products which reduce zinc absorption",
+      "Long-term daily use not recommended - upper limit is 40mg zinc per day",
+      "May cause nausea and metallic taste on empty stomach",
+      "Contains B vitamins - check for overlap if also taking B-complex separately"
+    ],
+    "color": "#639922",
+    "category_label": "Zinc + Vitamin C Supplement"
+  },
+  "Nigella Sativa (Kalonji)": {
+    "full_name": "Nigella sativa - Kalonji / Black Seed / Habbatus Sauda",
+    "used_for": "Immune system support. Anti-inflammatory. Respiratory health. Blood sugar regulation. Antimicrobial properties.",
+    "best_known_for": "Prophetic medicine - Kalonji is the most revered herbal supplement in Islam and used in virtually every Pakistani household. Modern science confirms immune and anti-inflammatory benefits.",
+    "pros": [
+      "Strong anti-inflammatory and antioxidant effects via thymoquinone",
+      "Supports respiratory health - good for asthma and allergies",
+      "May help regulate blood sugar - useful in type 2 diabetes",
+      "Antimicrobial and antiviral properties",
+      "Long history of safe use across Pakistan and the Muslim world"
+    ],
+    "cons": [
+      "Can increase bleeding risk - avoid before surgery or with blood thinners",
+      "May lower blood pressure significantly - caution if on BP medications",
+      "High doses during pregnancy may cause uterine contractions",
+      "Drug interactions with anticoagulants (warfarin, aspirin) are possible",
+      "Allergic reactions though rare are possible"
+    ],
+    "color": "#2C2C2A",
+    "category_label": "Herbal Supplement"
+  },
+  "Ispaghol (Psyllium Husk)": {
+    "full_name": "Psyllium Husk - Ispaghol (Plantago ovata seed husk)",
+    "used_for": "Dietary fibre supplementation. Constipation relief. Lowering LDL cholesterol. Blood sugar regulation in diabetes.",
+    "best_known_for": "Pakistan's most popular digestive supplement - Ispaghol taken in lassi or water is a daily ritual for millions of Pakistanis for gut health and regularity.",
+    "pros": [
+      "Highly effective for constipation - produces soft, regular bowel movements",
+      "FDA-approved for reducing LDL cholesterol when taken with low-fat diet",
+      "Helps regulate blood sugar levels in type 2 diabetes",
+      "Very affordable and widely available at all Pakistani pharmacies",
+      "Feeds beneficial gut bacteria - improves gut microbiome (prebiotic effect)"
+    ],
+    "cons": [
+      "Must be taken with a FULL glass of water - choking hazard if swallowed dry",
+      "Initially causes bloating and gas - usually improves after 1-2 weeks",
+      "Can slow absorption of medications - take medicines 1 hour before or 4 hours after",
+      "Not suitable for people with bowel obstruction or difficulty swallowing",
+      "Rare allergic reactions including anaphylaxis have been reported"
+    ],
+    "color": "#5DCAA5",
+    "category_label": "Herbal Fibre Supplement"
+  },
+  "Karela (Bitter Melon)": {
+    "full_name": "Momordica charantia - Karela / Bitter Gourd",
+    "used_for": "Blood sugar regulation in type 2 diabetes. Liver support. Antioxidant. Traditional medicine for digestive and metabolic health.",
+    "best_known_for": "Natural diabetes management - Karela is eaten as a vegetable and taken as medicine across Pakistan. Studies show it can lower blood sugar similarly to some oral hypoglycaemic drugs.",
+    "pros": [
+      "Can significantly lower blood glucose - useful in type 2 diabetes management",
+      "Liver protective effects - supports liver detoxification",
+      "Strong antioxidant properties",
+      "Traditional Pakistani vegetable with both food and medicine uses",
+      "May improve insulin sensitivity and glucose metabolism"
+    ],
+    "cons": [
+      "Can cause dangerous hypoglycaemia when combined with diabetes medications",
+      "Avoid in pregnancy - may cause uterine contractions and risk miscarriage",
+      "GI upset, diarrhoea, and abdominal pain at higher doses",
+      "Contraindicated in G6PD deficiency - can cause haemolytic anaemia",
+      "Contraindicated with certain fertility medications"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Herbal Supplement"
+  },
+  "Spirulina": {
+    "full_name": "Arthrospira platensis - Spirulina (Blue-Green Algae)",
+    "used_for": "Plant-based protein supplementation. Iron and B12 for vegetarians. Antioxidant support. Cholesterol management.",
+    "best_known_for": "Plant-based complete protein and iron source - increasingly popular in Pakistan with health-conscious consumers. Contains all essential amino acids.",
+    "pros": [
+      "Complete protein source containing all essential amino acids",
+      "High in iron and plant-based B12 - ideal for vegetarians",
+      "Powerful antioxidant via phycocyanin (its distinctive blue-green colour)",
+      "Supports healthy cholesterol levels",
+      "Ideal for vegetarians and vegans who struggle with protein and B12"
+    ],
+    "cons": [
+      "Contamination risk - heavy metals if poorly sourced - buy quality brands only",
+      "May worsen autoimmune conditions by stimulating the immune system",
+      "Strong fishy or algae taste and smell - off-putting for many people",
+      "Contraindicated in phenylketonuria (PKU)",
+      "May interact with blood-thinning medications"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Superfood Supplement"
+  },
+  "Garlic Extract": {
+    "full_name": "Allicin-rich Garlic Extract (Lehsan / Allium sativum)",
+    "used_for": "Cardiovascular health. Blood pressure reduction. Cholesterol management. Antimicrobial properties. Traditional Desi medicine.",
+    "best_known_for": "Natural antibiotic and heart health supplement. Lehsan is a staple of Pakistani cooking and traditional medicine - one of the most ancient medicinal herbs in the world.",
+    "pros": [
+      "Significantly reduces elevated blood pressure (systolic by 8-10 mmHg)",
+      "Lowers LDL cholesterol and raises HDL cholesterol",
+      "Powerful antimicrobial - active against bacteria, viruses, and fungi",
+      "Anti-inflammatory and antioxidant through allicin compounds",
+      "Widely available fresh in Pakistan - far cheaper than supplements"
+    ],
+    "cons": [
+      "Strong odour persists in breath and sweat - odourless enteric-coated capsules help",
+      "Can cause heartburn and GI upset especially on empty stomach",
+      "Increases bleeding risk - avoid 2 weeks before surgery",
+      "Interacts with warfarin and other anticoagulant medications",
+      "Raw garlic is significantly more potent than supplement form"
+    ],
+    "color": "#888780",
+    "category_label": "Herbal Supplement"
+  },
+  "Ginger Extract": {
+    "full_name": "Zingiber officinale - Ginger Extract (Adrak)",
+    "used_for": "Anti-nausea and motion sickness. Anti-inflammatory for joint pain and arthritis. Digestive support. Pain management.",
+    "best_known_for": "Digestive remedy found in every Pakistani home - Adrak is backed by strong clinical evidence for nausea and inflammation. Used in traditional Desi medicine for thousands of years.",
+    "pros": [
+      "Highly effective for nausea - morning sickness, chemotherapy, motion sickness",
+      "Anti-inflammatory for joint pain and muscle soreness",
+      "Excellent digestive support - reduces bloating, gas, and GI discomfort",
+      "Safe in pregnancy for morning sickness at normal food doses",
+      "Antioxidant properties through gingerols and shogaols"
+    ],
+    "cons": [
+      "High doses cause heartburn, acid reflux, and mouth irritation",
+      "May lower blood sugar - caution if on diabetes medication",
+      "Antiplatelet effect - increases bleeding risk, avoid before surgery",
+      "May aggravate symptoms in people with severe acid reflux or GERD",
+      "Interacts with blood-thinning medications at supplemental doses"
+    ],
+    "color": "#BA7517",
+    "category_label": "Herbal Supplement"
+  },
+  "Moringa (Sohanjna)": {
+    "full_name": "Moringa oleifera - Sohanjna / Drumstick Tree",
+    "used_for": "Nutritional supplementation for deficiencies. Anti-inflammatory. Antioxidant. Energy support. Blood sugar regulation.",
+    "best_known_for": "Pakistani superfood - Sohanjna trees grow throughout Pakistan. Leaves are one of the most nutritionally dense foods on earth, packed with iron, Vitamin C, calcium, and antioxidants.",
+    "pros": [
+      "Exceptional nutritional density - richer in iron than spinach, more Vitamin C than oranges",
+      "Very high in antioxidants (quercetin, chlorogenic acid, beta-carotene)",
+      "Strong anti-inflammatory and antimicrobial properties",
+      "Widely grown and extremely affordable throughout Pakistan",
+      "Supports energy, immune function, and blood sugar regulation"
+    ],
+    "cons": [
+      "Relatively high oxalate content - avoid if prone to kidney stones",
+      "Roots and bark are toxic - use leaves only for supplementation",
+      "May lower blood pressure excessively when combined with BP medications",
+      "Can interfere with thyroid medication absorption - separate by 4 hours",
+      "High doses not recommended during pregnancy - may have uterotonic effects"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Herbal Superfood"
+  },
+  "Shilajit": {
+    "full_name": "Shilajit (Purified Mineral Pitch / Mumijo)",
+    "used_for": "Traditional energy tonic. Male vitality and fertility. Adaptogen for energy and stamina. Rich source of fulvic acid and trace minerals.",
+    "best_known_for": "Traditional Pakistani and Central Asian medicine - commonly sold in bazaars for male energy and vitality. Fulvic acid enhances cellular nutrient transport.",
+    "pros": [
+      "Boosts testosterone and improves sperm quality and motility",
+      "Rich in fulvic acid which enhances cellular nutrient absorption",
+      "Adaptogen for energy, stamina, and physical performance",
+      "Centuries of traditional use across Pakistan, Afghanistan, and Central Asia",
+      "Contains over 80 trace minerals in ionic form for easy absorption"
+    ],
+    "cons": [
+      "Quality varies enormously - unprocessed shilajit contains heavy metals",
+      "Raw or bazaar shilajit can be dangerous - only buy purified standardised extract",
+      "Scientific clinical evidence is still limited compared to traditional claims",
+      "May interact with diabetes and blood pressure medications",
+      "Not suitable for women, especially during pregnancy or breastfeeding"
+    ],
+    "color": "#444441",
+    "category_label": "Herbal Mineral Supplement"
+  },
+  "Senna (Seena)": {
+    "full_name": "Senna - Cassia senna / Seena Leaves",
+    "used_for": "Constipation treatment. Bowel preparation before medical procedures. Short-term laxative use.",
+    "best_known_for": "Natural laxative - Seena leaves are used widely in traditional Pakistani and Islamic medicine for constipation. One of the most used herbal laxatives globally.",
+    "pros": [
+      "Effective and rapid-acting laxative - works within 6-12 hours",
+      "Well-studied and FDA-approved for short-term constipation treatment",
+      "Natural herbal option compared to chemical laxatives",
+      "Affordable and widely available in Pakistan",
+      "Used in Unani and Islamic traditional medicine"
+    ],
+    "cons": [
+      "Habit-forming - long-term use causes laxative dependence and worsens constipation",
+      "Abdominal cramping and GI discomfort are common side effects",
+      "Not for use longer than 2 weeks continuously",
+      "Can cause electrolyte imbalance with prolonged use",
+      "Avoid in bowel obstruction, inflammatory bowel disease, or pregnancy"
+    ],
+    "color": "#888780",
+    "category_label": "Herbal Laxative"
+  },
+  "Amla (Indian Gooseberry)": {
+    "full_name": "Phyllanthus emblica - Amla / Awla / Indian Gooseberry",
+    "used_for": "Natural Vitamin C source. Antioxidant protection. Hair health and growth. Liver support. Immune function.",
+    "best_known_for": "One of the richest natural sources of Vitamin C on earth (600mg per 100g) - widely used across Pakistan for hair, skin, and immunity in both fresh and powdered form.",
+    "pros": [
+      "Extraordinary Vitamin C content - 600mg per 100g, 20x more than oranges",
+      "Very powerful antioxidant protecting against oxidative stress",
+      "Promotes hair growth and prevents premature greying",
+      "Liver protective - supports liver detoxification",
+      "Widely available and extremely affordable in Pakistan"
+    ],
+    "cons": [
+      "Very acidic - may irritate the stomach or worsen acid reflux",
+      "May lower blood sugar dangerously when combined with diabetes medications",
+      "May interact with blood-thinning medications (warfarin, aspirin)",
+      "High doses cause diarrhoea - start low and increase gradually",
+      "Raw fruit is very sour - supplement powder or capsule form is easier"
+    ],
+    "color": "#639922",
+    "category_label": "Herbal Vitamin C Source"
+  },
+  "Vitamin D (Roletra)": {
+    "full_name": "Roletra - Vitamin D3 (Cholecalciferol)",
+    "used_for": "Treatment of Vitamin D deficiency - the most common nutrient deficiency in Pakistan. Bone health. Immune support.",
+    "best_known_for": "Pakistan-specific Vitamin D supplement prescribed widely across all Pakistani hospitals for the epidemic of Vitamin D deficiency, particularly in women.",
+    "pros": [
+      "Directly addresses Pakistan's most prevalent nutrient deficiency",
+      "Convenient weekly or monthly high-dose formulation saves daily pill burden",
+      "Affordable and widely prescribed by Pakistani doctors",
+      "Essential for bone density, immune function, and mood",
+      "Strong evidence base for supplementation in deficient populations"
+    ],
+    "cons": [
+      "Fat-soluble - take with food containing fat for absorption",
+      "Weekly or monthly high dosing requires blood test monitoring to avoid toxicity",
+      "Requires Vitamin K2 supplementation at higher doses to direct calcium safely",
+      "Do not self-prescribe high doses - deficiency severity must be measured by blood test",
+      "Risk of toxicity with excessive dosing"
+    ],
+    "color": "#EF9F27",
+    "category_label": "Vitamin D Supplement"
+  },
+  "Folic Acid 5mg": {
+    "full_name": "High-Dose Folic Acid 5mg Tablet",
+    "used_for": "Pregnancy planning and first trimester neural tube defect prevention. Treating megaloblastic anaemia from folate deficiency.",
+    "best_known_for": "Standard pregnancy folic acid prescription in Pakistan - prescribed almost universally to all pregnant women by Pakistani doctors for neural tube defect prevention.",
+    "pros": [
+      "Highly effective prevention of neural tube defects (spina bifida, anencephaly)",
+      "Very affordable - available at all Pakistani pharmacies",
+      "Supports fetal cell division and DNA synthesis",
+      "Reduces homocysteine levels - a risk factor for heart disease",
+      "Essential before conception and throughout first trimester"
+    ],
+    "cons": [
+      "5mg is a high therapeutic dose - higher than general population needs",
+      "Can mask Vitamin B12 deficiency - always check B12 levels alongside folate",
+      "High-dose zinc supplements reduce folate absorption",
+      "MTHFR gene variants mean folic acid may not convert properly - methylfolate better",
+      "Upper safe limit from supplements alone is 1000mcg per day for general use"
+    ],
+    "color": "#993C1D",
+    "category_label": "High-Dose Folate Supplement"
+  },
+  "Karvol Plus": {
+    "full_name": "Karvol Plus - Menthol + Eucalyptus Inhalation Capsules",
+    "used_for": "Nasal congestion relief. Upper respiratory tract infection symptoms. Blocked nose and sinusitis.",
+    "best_known_for": "Pakistan's popular inhalation decongestant - Karvol Plus capsules are pierced and inhaled for instant nasal congestion relief.",
+    "pros": [
+      "Effective and fast nasal decongestant",
+      "Natural menthol and eucalyptus active ingredients",
+      "Minimal systemic drug interactions",
+      "Safe for most adults when used as directed",
+      "Widely available across Pakistani pharmacies"
+    ],
+    "cons": [
+      "For inhalation only - NOT for internal consumption or swallowing",
+      "Not recommended for infants and young children under 3 years",
+      "May trigger bronchospasm in asthmatic patients",
+      "Provides temporary symptom relief only - does not treat the underlying infection",
+      "Strong menthol smell can be irritating in enclosed spaces"
+    ],
+    "color": "#1D9E75",
+    "category_label": "Inhalation Supplement"
+  },
+  "Neopeptine": {
+    "full_name": "Neopeptine - Digestive Enzymes + Multivitamins",
+    "used_for": "Digestive enzyme supplementation. Nutritional support in children. Appetite stimulation.",
+    "best_known_for": "Popular digestive enzyme and vitamin combination in Pakistan - widely given to children for appetite, digestion, and growth support. Available in liquid form.",
+    "pros": [
+      "Supports digestion through added digestive enzymes",
+      "Multivitamin component provides nutritional coverage",
+      "Available in liquid form - easier for children",
+      "Widely available and trusted in Pakistan",
+      "Supports appetite and nutritional absorption in children"
+    ],
+    "cons": [
+      "Not a substitute for a balanced, nutritious diet",
+      "Evidence for digestive enzymes in healthy people is limited",
+      "May not provide therapeutic doses of individual vitamins",
+      "Check for overlap with other supplements",
+      "Not standardised to pharmaceutical drug standards"
+    ],
+    "color": "#5DCAA5",
+    "category_label": "Digestive Enzyme + Multivitamin"
+  },
+  "Maxitrol": {
+    "full_name": "Maxitrol - Vitamin B1 + B6 + B12 (B Vitamin Complex)",
+    "used_for": "Nerve health. B vitamin deficiency. Neuropathy. Energy metabolism.",
+    "best_known_for": "B-vitamin complex for nerve health - widely available in Pakistan for nerve pain, weakness, and B vitamin deficiency.",
+    "pros": [
+      "Supports nerve function and repair",
+      "Treats multiple B vitamin deficiencies simultaneously",
+      "Widely available in Pakistan",
+      "Affordable option for nerve support",
+      "Good for diabetic neuropathy support"
+    ],
+    "cons": [
+      "High-dose B6 can paradoxically cause nerve toxicity with prolonged use",
+      "Should support diet - not replace it",
+      "GI upset in some people - take with food",
+      "Check for overlap with other B-vitamin supplements",
+      "Injection needed for severe malabsorption cases"
+    ],
+    "color": "#378ADD",
+    "category_label": "B Vitamin Complex"
+  },
+  "Hamdard Arq Mako": {
+    "full_name": "Hamdard Arq Mako - Liver Tonic (Hepatoprotective)",
+    "used_for": "Liver health and protection. Jaundice recovery. Digestive support. Blood purification.",
+    "best_known_for": "Traditional Unani liver tonic - widely used in Pakistan for liver health, jaundice recovery, and digestive issues. One of Hamdard's trusted formulations.",
+    "pros": [
+      "Traditional hepatoprotective formula with long history",
+      "Supports liver function and recovery",
+      "Digestive support and mild anti-inflammatory effect",
+      "Widely trusted across Pakistan",
+      "Affordable herbal liver tonic"
+    ],
+    "cons": [
+      "Not standardised to pharmaceutical standards",
+      "Interaction risk with liver medications - consult doctor",
+      "Avoid in severe liver disease without medical supervision",
+      "Limited clinical trial evidence compared to pharmaceutical alternatives",
+      "Avoid in pregnancy without medical advice"
+    ],
+    "color": "#BA7517",
+    "category_label": "Unani Liver Tonic"
+  }
+}

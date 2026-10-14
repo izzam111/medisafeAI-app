@@ -1,0 +1,737 @@
+[
+  {
+    "supplement": "Iron Supplement",
+    "food": "Spinach",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Oxalates and calcium in spinach bind iron, reducing absorption by up to 50%."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins in black tea form insoluble iron complexes, blocking absorption."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Coffee",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Polyphenols in coffee inhibit iron absorption by 40%."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Calcium in milk competes with iron for absorption transporter."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange juice converts Fe3+ to absorbable Fe2+ form."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Strawberry",
+    "type": "good",
+    "severity": 0,
+    "reason": "High Vitamin C content enhances iron absorption."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Lemon",
+    "type": "good",
+    "severity": 0,
+    "reason": "Citric acid and Vitamin C improve iron bioavailability."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Bell Pepper",
+    "type": "good",
+    "severity": 0,
+    "reason": "Excellent Vitamin C source for enhancing iron absorption."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Guava",
+    "type": "good",
+    "severity": 0,
+    "reason": "Very high Vitamin C content significantly boosts iron uptake."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Beets",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Oxalates in beets moderately inhibit iron absorption."
+  },
+  {
+    "supplement": "Iron Supplement",
+    "food": "Pomegranate",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Tannins and polyphenols reduce iron absorption."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Spinach",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Oxalates in spinach bind calcium, forming inabsorbable calcium oxalate."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "Additional dietary calcium synergizes with supplement for bone health."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Yogurt",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fermented dairy calcium is highly bioavailable alongside supplement."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Broccoli",
+    "type": "good",
+    "severity": 0,
+    "reason": "Low-oxalate vegetable with bioavailable calcium."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Kale",
+    "type": "good",
+    "severity": 0,
+    "reason": "Kale calcium has high bioavailability; complements supplement."
+  },
+  {
+    "supplement": "Calcium Supplement",
+    "food": "Beets",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Moderate oxalate content reduces calcium absorption."
+  },
+  {
+    "supplement": "Vitamin D3",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Healthy fats in avocado enhance fat-soluble Vitamin D absorption."
+  },
+  {
+    "supplement": "Vitamin D3",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fortified milk contains Vitamin D; synergistic with supplement."
+  },
+  {
+    "supplement": "Vitamin D3",
+    "food": "Carrot",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fat-soluble nutrient pairs well with fat-containing foods."
+  },
+  {
+    "supplement": "Vitamin K2",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach is high in Vitamin K1; combined with K2, supports bone and heart health."
+  },
+  {
+    "supplement": "Vitamin K2",
+    "food": "Kale",
+    "type": "good",
+    "severity": 0,
+    "reason": "Kale is the richest dietary K1 source; synergistic with K2 supplementation."
+  },
+  {
+    "supplement": "Vitamin K2",
+    "food": "Broccoli",
+    "type": "good",
+    "severity": 0,
+    "reason": "Good dietary K source complementing K2 supplement."
+  },
+  {
+    "supplement": "Vitamin C",
+    "food": "Kale",
+    "type": "good",
+    "severity": 0,
+    "reason": "Kale Vitamin C compounds are complementary to supplement."
+  },
+  {
+    "supplement": "Vitamin C",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Whole food Vitamin C from oranges complements supplement."
+  },
+  {
+    "supplement": "Vitamin C",
+    "food": "Bell Pepper",
+    "type": "good",
+    "severity": 0,
+    "reason": "Bell pepper Vitamin C bioflavonoids enhance supplement efficacy."
+  },
+  {
+    "supplement": "Vitamin C",
+    "food": "Strawberry",
+    "type": "good",
+    "severity": 0,
+    "reason": "Bioflavonoids in strawberry improve Vitamin C absorption."
+  },
+  {
+    "supplement": "Vitamin C",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Tannins may bind Vitamin C and reduce bioavailability."
+  },
+  {
+    "supplement": "Omega-3 Fish Oil",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Monounsaturated fats enhance omega-3 absorption and reduce oxidation."
+  },
+  {
+    "supplement": "Omega-3 Fish Oil",
+    "food": "Blueberry",
+    "type": "good",
+    "severity": 0,
+    "reason": "Antioxidants in blueberry protect omega-3 from oxidation."
+  },
+  {
+    "supplement": "Omega-3 Fish Oil",
+    "food": "Garlic",
+    "type": "good",
+    "severity": 0,
+    "reason": "Garlic and omega-3 together have additive cardiovascular benefits."
+  },
+  {
+    "supplement": "Magnesium",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach is rich in magnesium; synergistic with supplement."
+  },
+  {
+    "supplement": "Magnesium",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Avocado is a good magnesium source; complements supplement."
+  },
+  {
+    "supplement": "Magnesium",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Banana provides magnesium and potassium, complementing supplement."
+  },
+  {
+    "supplement": "Magnesium",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Calcium in milk can slightly reduce magnesium absorption at high doses."
+  },
+  {
+    "supplement": "Zinc Supplement",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Calcium in dairy may reduce zinc absorption."
+  },
+  {
+    "supplement": "Zinc Supplement",
+    "food": "Cheese",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "High calcium in cheese competes with zinc absorption."
+  },
+  {
+    "supplement": "Zinc Supplement",
+    "food": "Pumpkin",
+    "type": "good",
+    "severity": 0,
+    "reason": "Pumpkin seeds are a top food source of zinc; complementary."
+  },
+  {
+    "supplement": "Zinc Supplement",
+    "food": "Garlic",
+    "type": "good",
+    "severity": 0,
+    "reason": "Garlic enhances zinc bioavailability through sulfur compounds."
+  },
+  {
+    "supplement": "Folic Acid",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach is high in folate; whole food synergy with supplement."
+  },
+  {
+    "supplement": "Folic Acid",
+    "food": "Broccoli",
+    "type": "good",
+    "severity": 0,
+    "reason": "Broccoli folate complements folic acid supplement."
+  },
+  {
+    "supplement": "Folic Acid",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Avocado is a top food folate source."
+  },
+  {
+    "supplement": "Vitamin B12",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "Dairy Vitamin B12 complements supplement."
+  },
+  {
+    "supplement": "Vitamin B12",
+    "food": "Yogurt",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fermented dairy B12 has good bioavailability alongside supplement."
+  },
+  {
+    "supplement": "Vitamin E",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Healthy fats in avocado enhance fat-soluble Vitamin E absorption."
+  },
+  {
+    "supplement": "Vitamin E",
+    "food": "Blueberry",
+    "type": "good",
+    "severity": 0,
+    "reason": "Synergistic antioxidant effect between Vitamin E and blueberry polyphenols."
+  },
+  {
+    "supplement": "Vitamin E",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach Vitamin E compounds work synergistically with supplement."
+  },
+  {
+    "supplement": "Turmeric/Curcumin",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fat enhances curcumin absorption significantly."
+  },
+  {
+    "supplement": "Turmeric/Curcumin",
+    "food": "Black Pepper",
+    "type": "good",
+    "severity": 0,
+    "reason": "Piperine in black pepper increases curcumin absorption by 2000%."
+  },
+  {
+    "supplement": "Melatonin",
+    "food": "Coffee",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Caffeine blocks melatonin receptors and disrupts sleep cycle."
+  },
+  {
+    "supplement": "Melatonin",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Caffeine content may reduce melatonin effectiveness."
+  },
+  {
+    "supplement": "Melatonin",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Tryptophan in banana supports natural melatonin production."
+  },
+  {
+    "supplement": "Melatonin",
+    "food": "Pomegranate",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Pomegranate juice may affect melatonin metabolism enzymes."
+  },
+  {
+    "supplement": "Ashwagandha",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "Traditional Ayurvedic preparation: ashwagandha in warm milk enhances absorption."
+  },
+  {
+    "supplement": "Potassium",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Banana is a top food potassium source; synergistic with supplement."
+  },
+  {
+    "supplement": "Potassium",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Avocado provides high potassium; complements supplement."
+  },
+  {
+    "supplement": "Potassium",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach potassium content synergizes with supplement."
+  },
+  {
+    "supplement": "Grapefruit",
+    "food": "Omega-3 Fish Oil",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Furanocoumarins in grapefruit inhibit CYP3A4 enzyme, affecting fat-soluble supplement metabolism."
+  },
+  {
+    "supplement": "Multivitamin",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins in black tea bind multiple minerals in multivitamin, reducing overall absorption."
+  },
+  {
+    "supplement": "Multivitamin",
+    "food": "Coffee",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Polyphenols in coffee reduce absorption of iron and B vitamins in multivitamin."
+  },
+  {
+    "supplement": "Multivitamin",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Calcium in milk may reduce iron and zinc absorption from multivitamin."
+  },
+  {
+    "supplement": "Multivitamin",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange enhances iron absorption from multivitamin."
+  },
+  {
+    "supplement": "Vitamin A",
+    "food": "Carrot",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fat-soluble Vitamin A from supplement and carrot beta-carotene are complementary."
+  },
+  {
+    "supplement": "Vitamin A",
+    "food": "Mango",
+    "type": "good",
+    "severity": 0,
+    "reason": "Mango provides beta-carotene (Vitamin A precursor) complementing supplement."
+  },
+  {
+    "supplement": "Vitamin A",
+    "food": "Sweet Potato",
+    "type": "good",
+    "severity": 0,
+    "reason": "Very high beta-carotene content synergizes with Vitamin A supplement."
+  },
+  {
+    "supplement": "Coenzyme Q10",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Healthy fats significantly enhance fat-soluble CoQ10 absorption."
+  },
+  {
+    "supplement": "Coenzyme Q10",
+    "food": "Blueberry",
+    "type": "good",
+    "severity": 0,
+    "reason": "Antioxidants in blueberry complement CoQ10's antioxidant function."
+  },
+  {
+    "supplement": "Moringa (Sohanjna)",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange enhances iron absorption from moringa."
+  },
+  {
+    "supplement": "Moringa (Sohanjna)",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins in tea block iron from moringa; take 2 hours apart."
+  },
+  {
+    "supplement": "Moringa (Sohanjna)",
+    "food": "Guava",
+    "type": "good",
+    "severity": 0,
+    "reason": "Guava's high Vitamin C boosts moringa's iron bioavailability."
+  },
+  {
+    "supplement": "Moringa (Sohanjna)",
+    "food": "Spinach",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Both high in oxalates; combined oxalate load may reduce calcium absorption."
+  },
+  {
+    "supplement": "Nigella Sativa (Kalonji)",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Healthy fats in avocado enhance absorption of fat-soluble compounds in kalonji."
+  },
+  {
+    "supplement": "Nigella Sativa (Kalonji)",
+    "food": "Lemon",
+    "type": "good",
+    "severity": 0,
+    "reason": "Lemon enhances antimicrobial properties of kalonji."
+  },
+  {
+    "supplement": "Nigella Sativa (Kalonji)",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Tannins may reduce bioavailability of thymoquinone in kalonji."
+  },
+  {
+    "supplement": "Amla (Indian Gooseberry)",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Amla's Vitamin C greatly enhances iron from spinach."
+  },
+  {
+    "supplement": "Amla (Indian Gooseberry)",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Banana provides potassium; pairs well with amla for overall nutrition."
+  },
+  {
+    "supplement": "Spirulina",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange enhances iron absorption from spirulina."
+  },
+  {
+    "supplement": "Spirulina",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins block iron absorption from spirulina; avoid within 2 hours."
+  },
+  {
+    "supplement": "Spirulina",
+    "food": "Lemon",
+    "type": "good",
+    "severity": 0,
+    "reason": "Lemon juice enhances iron absorption from spirulina."
+  },
+  {
+    "supplement": "Garlic Extract",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Fats in avocado enhance absorption of fat-soluble sulfur compounds in garlic."
+  },
+  {
+    "supplement": "Garlic Extract",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Combined antioxidant effect beneficial."
+  },
+  {
+    "supplement": "Ginger Extract",
+    "food": "Lemon",
+    "type": "good",
+    "severity": 0,
+    "reason": "Ginger and lemon are synergistic for digestion and immunity."
+  },
+  {
+    "supplement": "Ginger Extract",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Banana is gentle on stomach; pairs well with ginger for GI health."
+  },
+  {
+    "supplement": "Ispaghol (Psyllium Husk)",
+    "food": "Apple",
+    "type": "good",
+    "severity": 0,
+    "reason": "Apple pectin and psyllium fiber work synergistically for gut health."
+  },
+  {
+    "supplement": "Ispaghol (Psyllium Husk)",
+    "food": "Banana",
+    "type": "good",
+    "severity": 0,
+    "reason": "Banana's resistant starch complements psyllium fiber."
+  },
+  {
+    "supplement": "Ferosoft / Ferose",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange boosts iron absorption from Ferosoft."
+  },
+  {
+    "supplement": "Ferosoft / Ferose",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins in tea reduce iron absorption. Avoid with Ferosoft."
+  },
+  {
+    "supplement": "Ferosoft / Ferose",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Calcium in milk blocks iron absorption from Ferosoft."
+  },
+  {
+    "supplement": "Ferosoft / Ferose",
+    "food": "Guava",
+    "type": "good",
+    "severity": 0,
+    "reason": "Guava's very high Vitamin C greatly enhances iron absorption."
+  },
+  {
+    "supplement": "Calcimax",
+    "food": "Spinach",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Oxalates in spinach bind calcium from Calcimax, reducing absorption."
+  },
+  {
+    "supplement": "Calcimax",
+    "food": "Broccoli",
+    "type": "good",
+    "severity": 0,
+    "reason": "Low-oxalate vegetable; calcium absorption not significantly impaired."
+  },
+  {
+    "supplement": "Calvit D3",
+    "food": "Avocado",
+    "type": "good",
+    "severity": 0,
+    "reason": "Healthy fats in avocado enhance Vitamin D3 absorption from Calvit."
+  },
+  {
+    "supplement": "Neurobion",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "B12 in Neurobion absorbed well alongside dairy."
+  },
+  {
+    "supplement": "Hamdard Safi",
+    "food": "Lemon",
+    "type": "good",
+    "severity": 0,
+    "reason": "Lemon juice enhances the detoxifying action of Safi."
+  },
+  {
+    "supplement": "Hamdard Safi",
+    "food": "Pomegranate",
+    "type": "good",
+    "severity": 0,
+    "reason": "Antioxidants in pomegranate complement Safi's blood-purifying action."
+  },
+  {
+    "supplement": "Karela (Bitter Melon)",
+    "food": "Guava",
+    "type": "good",
+    "severity": 0,
+    "reason": "Guava's Vitamin C supports karela's blood sugar regulating effect."
+  },
+  {
+    "supplement": "Karela (Bitter Melon)",
+    "food": "Banana",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Banana's high sugar may counteract karela's blood sugar benefits."
+  },
+  {
+    "supplement": "Shilajit",
+    "food": "Milk",
+    "type": "good",
+    "severity": 0,
+    "reason": "Traditional preparation: shilajit dissolved in warm milk for better absorption."
+  },
+  {
+    "supplement": "Shilajit",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Tannins may reduce absorption of fulvic acid minerals in shilajit."
+  },
+  {
+    "supplement": "Multivitamin (Centrum)",
+    "food": "Tea (Black)",
+    "type": "avoid",
+    "severity": 2,
+    "reason": "Tannins reduce absorption of multiple minerals in Centrum."
+  },
+  {
+    "supplement": "Multivitamin (Centrum)",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in orange enhances iron absorption from Centrum."
+  },
+  {
+    "supplement": "Zinnat / Zincovit",
+    "food": "Milk",
+    "type": "avoid",
+    "severity": 1,
+    "reason": "Calcium in milk may reduce zinc absorption."
+  },
+  {
+    "supplement": "Zinnat / Zincovit",
+    "food": "Guava",
+    "type": "good",
+    "severity": 0,
+    "reason": "Vitamin C in guava enhances zinc and other nutrient absorption."
+  },
+  {
+    "supplement": "Folic Acid 5mg",
+    "food": "Spinach",
+    "type": "good",
+    "severity": 0,
+    "reason": "Spinach is high in folate; complements folic acid supplement."
+  },
+  {
+    "supplement": "Folic Acid 5mg",
+    "food": "Orange",
+    "type": "good",
+    "severity": 0,
+    "reason": "Orange folate complements supplement; Vitamin C aids absorption."
+  }
+]
