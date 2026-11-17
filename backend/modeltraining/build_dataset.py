@@ -12,6 +12,10 @@ import numpy as np
 import json
 import os
 
+# Fixed codes for supplement category (was hash(category) % 10, which changes on every Python run)
+CATEGORY_CODE = {"mineral": 0, "vitamin": 1, "multi": 2, "fatty_acid": 3,
+                 "antioxidant": 4, "herbal": 5, "hormone": 6, "other": 7}
+
 # ─────────────────────────────────────────────
 # 1. SUPPLEMENT DATABASE (750+ products → 60 core used for training)
 #    Source: TGA database structure + DrugBank ingredient data
@@ -107,6 +111,13 @@ FOODS = {
     "Garlic":          {"iron":5, "vitamin_c":14, "calcium":2, "zinc":4, "magnesium":3, "vitamin_k":2,  "vitamin_d":0,"vitamin_b12":0,"vitamin_e":1, "omega3":0, "potassium":4, "oxalate":0, "tannin":0, "type":"vegetable"},
     "Onion":           {"iron":2, "vitamin_c":8,  "calcium":2, "zinc":2, "magnesium":2, "vitamin_k":1,  "vitamin_d":0,"vitamin_b12":0,"vitamin_e":1, "omega3":0, "potassium":5, "oxalate":5, "tannin":10,"type":"vegetable"},
 }
+
+# Fruits and vegetables eaten in Pakistan, with USDA FoodData Central nutrients (made by import_usda_foods.py).
+_pk = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "foods_pakistan.json")
+if os.path.exists(_pk):
+    with open(_pk, encoding="utf-8") as _f:
+        for _name, _row in json.load(_f).items():
+            FOODS.setdefault(_name, {k: v for k, v in _row.items() if k != "source"})
 
 # ─────────────────────────────────────────────────────────────
 # 3. SUPPLEMENT-SUPPLEMENT INTERACTION RULES
@@ -292,12 +303,12 @@ def build_supplement_dataset():
             # Supplement 1 nutrients
             for n in nutrients:
                 row[f"s1_{n}"] = d1.get(n, 0)
-            row["s1_category"] = hash(d1.get("category","other")) % 10
+            row["s1_category"] = CATEGORY_CODE.get(d1.get("category","other"), 7)
 
             # Supplement 2 nutrients
             for n in nutrients:
                 row[f"s2_{n}"] = d2.get(n, 0)
-            row["s2_category"] = hash(d2.get("category","other")) % 10
+            row["s2_category"] = CATEGORY_CODE.get(d2.get("category","other"), 7)
 
             # Derived interaction features
             row["calcium_iron_compete"] = int(d1.get("calcium",0) > 20 and d2.get("iron",0) > 20) or \
@@ -369,7 +380,7 @@ def build_food_dataset():
             row = {}
             for n in nutrients:
                 row[f"supp_{n}"] = supp_data.get(n, 0)
-            row["supp_category"] = hash(supp_data.get("category","other")) % 10
+            row["supp_category"] = CATEGORY_CODE.get(supp_data.get("category","other"), 7)
             for n in nutrients:
                 row[f"food_{n}"] = food_data.get(n, 0)
             row["food_is_fruit"] = int(food_data.get("type","") == "fruit")
