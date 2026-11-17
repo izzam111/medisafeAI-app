@@ -1,0 +1,1026 @@
+{
+  "_about": "Daily need (RDA, or AI where no RDA exists) and safe upper limit (UL) per day, from the US National Academies Dietary Reference Intakes as published in the NIH Office of Dietary Supplements fact sheets (ods.od.nih.gov). Rows: [age_from, age_to, male, female, pregnant, breastfeeding]. UL rows: [age_from, age_to, limit]. null = no value set.",
+  "vitamin_a": {
+    "name": "Vitamin A",
+    "unit": "mcg",
+    "ul_applies_to": "preformed vitamin A (retinol) from supplements and food",
+    "need": [
+      [
+        1,
+        3,
+        300,
+        300,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        400,
+        400,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        600,
+        600,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        900,
+        700,
+        750,
+        1200
+      ],
+      [
+        19,
+        120,
+        900,
+        700,
+        770,
+        1300
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        600
+      ],
+      [
+        4,
+        8,
+        900
+      ],
+      [
+        9,
+        13,
+        1700
+      ],
+      [
+        14,
+        18,
+        2800
+      ],
+      [
+        19,
+        120,
+        3000
+      ]
+    ],
+    "how_to_take": "Take it with a meal that has some fat (e.g. with breakfast eggs or a paratha) so your body absorbs it.",
+    "when": "with a meal"
+  },
+  "vitamin_c": {
+    "name": "Vitamin C",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        15,
+        15,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        25,
+        25,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        45,
+        45,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        75,
+        65,
+        80,
+        115
+      ],
+      [
+        19,
+        120,
+        90,
+        75,
+        85,
+        120
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        400
+      ],
+      [
+        4,
+        8,
+        650
+      ],
+      [
+        9,
+        13,
+        1200
+      ],
+      [
+        14,
+        18,
+        1800
+      ],
+      [
+        19,
+        120,
+        2000
+      ]
+    ],
+    "how_to_take": "You can take it with or without food.",
+    "when": "any time"
+  },
+  "vitamin_d": {
+    "name": "Vitamin D",
+    "unit": "IU",
+    "need": [
+      [
+        1,
+        70,
+        600,
+        600,
+        600,
+        600
+      ],
+      [
+        71,
+        120,
+        800,
+        800,
+        null,
+        null
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        2500
+      ],
+      [
+        4,
+        8,
+        3000
+      ],
+      [
+        9,
+        120,
+        4000
+      ]
+    ],
+    "how_to_take": "Take it with a meal that has some fat (e.g. with breakfast eggs or a paratha) so your body absorbs it.",
+    "when": "with a meal"
+  },
+  "vitamin_e": {
+    "name": "Vitamin E",
+    "unit": "mg",
+    "ul_applies_to": "vitamin E from supplements",
+    "need": [
+      [
+        1,
+        3,
+        6,
+        6,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        7,
+        7,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        11,
+        11,
+        null,
+        null
+      ],
+      [
+        14,
+        120,
+        15,
+        15,
+        15,
+        19
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        200
+      ],
+      [
+        4,
+        8,
+        300
+      ],
+      [
+        9,
+        13,
+        600
+      ],
+      [
+        14,
+        18,
+        800
+      ],
+      [
+        19,
+        120,
+        1000
+      ]
+    ],
+    "how_to_take": "Take it with a meal that has some fat (e.g. with breakfast eggs or a paratha) so your body absorbs it.",
+    "when": "with a meal"
+  },
+  "vitamin_k": {
+    "name": "Vitamin K",
+    "unit": "mcg",
+    "need": [
+      [
+        1,
+        3,
+        30,
+        30,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        55,
+        55,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        60,
+        60,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        75,
+        75,
+        75,
+        75
+      ],
+      [
+        19,
+        120,
+        120,
+        90,
+        90,
+        90
+      ]
+    ],
+    "ul": [],
+    "how_to_take": "Take it with a meal that has some fat (e.g. with breakfast eggs or a paratha) so your body absorbs it.",
+    "when": "with a meal"
+  },
+  "vitamin_b1": {
+    "name": "Vitamin B1 (Thiamine)",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        0.5,
+        0.5,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        0.6,
+        0.6,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        0.9,
+        0.9,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        1.2,
+        1.0,
+        1.4,
+        1.4
+      ],
+      [
+        19,
+        120,
+        1.2,
+        1.1,
+        1.4,
+        1.4
+      ]
+    ],
+    "ul": [],
+    "how_to_take": "Take it with a meal.",
+    "when": "with a meal"
+  },
+  "niacin": {
+    "name": "Vitamin B3 (Niacin)",
+    "unit": "mg",
+    "ul_applies_to": "niacin from supplements",
+    "need": [
+      [
+        1,
+        3,
+        6,
+        6,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        8,
+        8,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        12,
+        12,
+        null,
+        null
+      ],
+      [
+        14,
+        120,
+        16,
+        14,
+        18,
+        17
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        10
+      ],
+      [
+        4,
+        8,
+        15
+      ],
+      [
+        9,
+        13,
+        20
+      ],
+      [
+        14,
+        18,
+        30
+      ],
+      [
+        19,
+        120,
+        35
+      ]
+    ],
+    "how_to_take": "Take it with a meal.",
+    "when": "with a meal"
+  },
+  "vitamin_b6": {
+    "name": "Vitamin B6 (Pyridoxine)",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        0.5,
+        0.5,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        0.6,
+        0.6,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        1.0,
+        1.0,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        1.3,
+        1.2,
+        1.9,
+        2.0
+      ],
+      [
+        19,
+        50,
+        1.3,
+        1.3,
+        1.9,
+        2.0
+      ],
+      [
+        51,
+        120,
+        1.7,
+        1.5,
+        null,
+        null
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        30
+      ],
+      [
+        4,
+        8,
+        40
+      ],
+      [
+        9,
+        13,
+        60
+      ],
+      [
+        14,
+        18,
+        80
+      ],
+      [
+        19,
+        120,
+        100
+      ]
+    ],
+    "how_to_take": "Take it with a meal.",
+    "when": "with a meal"
+  },
+  "folate": {
+    "name": "Folic acid",
+    "unit": "mcg",
+    "ul_applies_to": "folic acid from supplements",
+    "need": [
+      [
+        1,
+        3,
+        150,
+        150,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        200,
+        200,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        300,
+        300,
+        null,
+        null
+      ],
+      [
+        14,
+        120,
+        400,
+        400,
+        600,
+        500
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        300
+      ],
+      [
+        4,
+        8,
+        400
+      ],
+      [
+        9,
+        13,
+        600
+      ],
+      [
+        14,
+        18,
+        800
+      ],
+      [
+        19,
+        120,
+        1000
+      ]
+    ],
+    "how_to_take": "Take it at the same time every day.",
+    "when": "same time every day"
+  },
+  "vitamin_b12": {
+    "name": "Vitamin B12",
+    "unit": "mcg",
+    "need": [
+      [
+        1,
+        3,
+        0.9,
+        0.9,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        1.2,
+        1.2,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        1.8,
+        1.8,
+        null,
+        null
+      ],
+      [
+        14,
+        120,
+        2.4,
+        2.4,
+        2.6,
+        2.8
+      ]
+    ],
+    "ul": [],
+    "how_to_take": "Take it with a meal.",
+    "when": "with a meal"
+  },
+  "biotin": {
+    "name": "Biotin",
+    "unit": "mcg",
+    "need": [
+      [
+        1,
+        3,
+        8,
+        8,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        12,
+        12,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        20,
+        20,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        25,
+        25,
+        30,
+        35
+      ],
+      [
+        19,
+        120,
+        30,
+        30,
+        30,
+        35
+      ]
+    ],
+    "ul": [],
+    "how_to_take": "Take it with a meal.",
+    "when": "with a meal"
+  },
+  "iron": {
+    "name": "Iron",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        7,
+        7,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        10,
+        10,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        8,
+        8,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        11,
+        15,
+        27,
+        10
+      ],
+      [
+        19,
+        50,
+        8,
+        18,
+        27,
+        9
+      ],
+      [
+        51,
+        120,
+        8,
+        8,
+        null,
+        null
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        13,
+        40
+      ],
+      [
+        14,
+        120,
+        45
+      ]
+    ],
+    "no_periods_female_need": [
+      [
+        14,
+        18,
+        11
+      ],
+      [
+        19,
+        50,
+        8
+      ]
+    ],
+    "how_to_take": "Best on an empty stomach, 1 hour before a meal, with a vitamin C fruit like orange or guava. If it upsets your stomach, take it with food.",
+    "when": "before a meal, with a fruit"
+  },
+  "zinc": {
+    "name": "Zinc",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        5,
+        5,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        8,
+        8,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        11,
+        9,
+        12,
+        13
+      ],
+      [
+        19,
+        120,
+        11,
+        8,
+        11,
+        12
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        4,
+        8,
+        12
+      ],
+      [
+        9,
+        13,
+        23
+      ],
+      [
+        14,
+        18,
+        34
+      ],
+      [
+        19,
+        120,
+        40
+      ]
+    ],
+    "how_to_take": "Take it with food if it makes you feel sick.",
+    "when": "with food"
+  },
+  "calcium": {
+    "name": "Calcium",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        700,
+        700,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        1000,
+        1000,
+        null,
+        null
+      ],
+      [
+        9,
+        18,
+        1300,
+        1300,
+        1300,
+        1300
+      ],
+      [
+        19,
+        50,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      [
+        51,
+        70,
+        1000,
+        1200,
+        null,
+        null
+      ],
+      [
+        71,
+        120,
+        1200,
+        1200,
+        null,
+        null
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        8,
+        2500
+      ],
+      [
+        9,
+        18,
+        3000
+      ],
+      [
+        19,
+        50,
+        2500
+      ],
+      [
+        51,
+        120,
+        2000
+      ]
+    ],
+    "how_to_take": "Take it with food. Your body absorbs calcium best 500 mg or less at a time, so split bigger amounts into morning and evening.",
+    "when": "with food"
+  },
+  "magnesium": {
+    "name": "Magnesium",
+    "unit": "mg",
+    "ul_applies_to": "magnesium from supplements (not food)",
+    "need": [
+      [
+        1,
+        3,
+        80,
+        80,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        130,
+        130,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        240,
+        240,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        410,
+        360,
+        400,
+        360
+      ],
+      [
+        19,
+        30,
+        400,
+        310,
+        350,
+        310
+      ],
+      [
+        31,
+        120,
+        420,
+        320,
+        360,
+        320
+      ]
+    ],
+    "ul": [
+      [
+        1,
+        3,
+        65
+      ],
+      [
+        4,
+        8,
+        110
+      ],
+      [
+        9,
+        120,
+        350
+      ]
+    ],
+    "how_to_take": "Take it with food to avoid loose motions.",
+    "when": "with food"
+  },
+  "potassium": {
+    "name": "Potassium",
+    "unit": "mg",
+    "need": [
+      [
+        1,
+        3,
+        2000,
+        2000,
+        null,
+        null
+      ],
+      [
+        4,
+        8,
+        2300,
+        2300,
+        null,
+        null
+      ],
+      [
+        9,
+        13,
+        2500,
+        2300,
+        null,
+        null
+      ],
+      [
+        14,
+        18,
+        3000,
+        2300,
+        2600,
+        2500
+      ],
+      [
+        19,
+        120,
+        3400,
+        2600,
+        2900,
+        2800
+      ]
+    ],
+    "ul": [],
+    "how_to_take": "Take it with a meal and a full glass of water.",
+    "when": "with a meal"
+  }
+}

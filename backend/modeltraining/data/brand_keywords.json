@@ -1,129 +1,374 @@
 {
-  "centrum": "Multivitamin (Centrum)",
-  "ferosoft": "Ferosoft / Ferose",
-  "ferose": "Ferosoft / Ferose",
-  "calcimax": "Calcimax",
-  "calvit": "Calvit D3",
-  "roletra": "Vitamin D (Roletra)",
-  "osteofos": "Osteofos",
-  "neurobion": "Neurobion",
-  "femibion": "Femibion",
-  "zincovit": "Zinnat / Zincovit",
-  "zinnat": "Zinnat / Zincovit",
-  "hamdard safi": "Hamdard Safi",
-  "safi": "Hamdard Safi",
-  "karvol": "Karvol Plus",
-  "neopeptine": "Neopeptine",
-  "maxitrol": "Maxitrol",
-  "arq mako": "Hamdard Arq Mako",
-  "shilajit": "Shilajit",
-  "spirulina": "Spirulina",
-  "moringa": "Moringa (Sohanjna)",
-  "sohanjna": "Moringa (Sohanjna)",
-  "kalonji": "Nigella Sativa (Kalonji)",
-  "nigella": "Nigella Sativa (Kalonji)",
-  "habbatus": "Nigella Sativa (Kalonji)",
-  "ispaghol": "Ispaghol (Psyllium Husk)",
-  "psyllium": "Ispaghol (Psyllium Husk)",
-  "karela": "Karela (Bitter Melon)",
-  "bitter melon": "Karela (Bitter Melon)",
-  "ashwagandha": "Ashwagandha",
-  "asgandh": "Ashwagandha",
-  "withania": "Ashwagandha",
-  "melatonin": "Melatonin",
-  "biotin": "Biotin",
-  "turmeric": "Turmeric/Curcumin",
-  "curcumin": "Turmeric/Curcumin",
-  "haldi": "Turmeric/Curcumin",
-  "coenzyme q10": "Coenzyme Q10",
-  "coq10": "Coenzyme Q10",
-  "ubiquinol": "Coenzyme Q10",
-  "amla": "Amla (Indian Gooseberry)",
-  "awla": "Amla (Indian Gooseberry)",
-  "emblica": "Amla (Indian Gooseberry)",
-  "garlic": "Garlic Extract",
-  "lehsan": "Garlic Extract",
-  "allicin": "Garlic Extract",
-  "ginger": "Ginger Extract",
-  "adrak": "Ginger Extract",
-  "zingiber": "Ginger Extract",
-  "senna": "Senna (Seena)",
-  "seena": "Senna (Seena)",
-  "fulfil": "Multivitamin",
-  "fortbit": "Multivitamin",
-  "cervec": "Zinnat / Zincovit",
-  "supradyn": "Multivitamin",
-  "one a day": "Multivitamin",
-  "berocca": "Multivitamin",
-  "seven seas": "Omega-3 Fish Oil",
-  "cod liver": "Omega-3 Fish Oil",
-  "fish oil": "Omega-3 Fish Oil",
-  "omega-3": "Omega-3 Fish Oil",
-  "omega 3": "Omega-3 Fish Oil",
-  "fefol vit": "Fefol Vit",
-  "fefol": "Fefol",
-  "iron folic": "Fefol Vit",
-  "ferrous folic": "Fefol Vit",
-  "surbex z": "Surbex Z",
-  "surbex t": "Surbex T",
-  "surbex m": "Surbex M",
-  "surbex": "Surbex",
-  "sangobion": "Sangobion",
-  "ironvit": "Ironvit",
-  "fortefer": "Fortefer",
-  "ferrograd": "Ferrograd",
-  "haematinic": "Haematinic",
-  "zevit": "Zevit",
-  "becozinc": "Becozinc",
-  "iberet": "Iberet",
-  "evion": "Evion",
-  "redoxon": "Redoxon",
-  "celin": "Celin",
-  "limcee": "Limcee",
-  "zincmed": "Zincmed",
-  "d forte": "D Forte",
-  "orocal": "Orocal D3",
-  "caltrate": "Caltrate",
-  "calcivon": "Calcivon",
-  "natecal": "Natecal D3",
-  "dexorange": "Dexorange",
-  "bioferon": "Bioferon",
-  "livogen": "Livogen",
-  "pregnacare": "Pregnacare",
-  "elevit": "Elevit",
-  "materna": "Materna",
-  "blackmores": "Blackmores Pregnancy",
-  "vitamin d3": "Vitamin D3",
-  "cholecalciferol": "Vitamin D3",
-  "vitamin d": "Vitamin D3",
-  "vitamin c": "Vitamin C",
-  "ascorbic": "Vitamin C",
-  "vitamin b12": "Vitamin B12",
-  "cyanocobalamin": "Vitamin B12",
-  "methylcobalamin": "Vitamin B12",
-  "vitamin k2": "Vitamin K2",
-  "menaquinone": "Vitamin K2",
-  "vitamin k": "Vitamin K2",
-  "vitamin e": "Vitamin E",
-  "tocopherol": "Vitamin E",
-  "vitamin a": "Vitamin A",
-  "retinol": "Vitamin A",
-  "beta carotene": "Vitamin A",
-  "folic acid": "Folic Acid",
-  "folate": "Folic Acid",
-  "ferrous sulphate": "Iron Supplement",
-  "ferrous gluconate": "Iron Supplement",
-  "ferrous": "Iron Supplement",
-  "iron": "Iron Supplement",
-  "calcium carbonate": "Calcium Supplement",
-  "calcium citrate": "Calcium Supplement",
-  "calcium": "Calcium Supplement",
-  "zinc sulphate": "Zinc Supplement",
-  "zinc": "Zinc Supplement",
-  "magnesium": "Magnesium",
-  "potassium": "Potassium",
-  "prenatal": "Prenatal Vitamin",
-  "antenatal": "Prenatal Vitamin",
-  "multivitamin": "Multivitamin",
-  "multi vitamin": "Multivitamin"
+  "brands": {
+    "centrum": {
+      "name": "Centrum",
+      "dataset": "Multivitamin (Centrum)",
+      "makers": [
+        "Haleon",
+        "Pfizer",
+        "GlaxoSmithKline"
+      ]
+    },
+    "ferosoft": {
+      "name": "Ferosoft",
+      "dataset": "Ferosoft / Ferose"
+    },
+    "ferose": {
+      "name": "Ferose",
+      "dataset": "Ferosoft / Ferose"
+    },
+    "calcimax": {
+      "name": "Calcimax",
+      "dataset": "Calcimax"
+    },
+    "calvit": {
+      "name": "Calvit D3",
+      "dataset": "Calvit D3"
+    },
+    "roletra": {
+      "name": "Roletra",
+      "dataset": "Vitamin D (Roletra)"
+    },
+    "osteofos": {
+      "name": "Osteofos",
+      "dataset": "Osteofos"
+    },
+    "neurobion": {
+      "name": "Neurobion",
+      "dataset": "Neurobion",
+      "makers": [
+        "P&G Health (Procter & Gamble)",
+        "Merck",
+        "Martin Dow"
+      ]
+    },
+    "femibion": {
+      "name": "Femibion",
+      "dataset": "Femibion",
+      "makers": [
+        "P&G Health (Procter & Gamble)",
+        "Merck"
+      ]
+    },
+    "zincovit": {
+      "name": "Zincovit",
+      "dataset": "Zinnat / Zincovit"
+    },
+    "hamdard safi": {
+      "name": "Hamdard Safi",
+      "dataset": "Hamdard Safi",
+      "makers": [
+        "Hamdard Laboratories (Waqf) Pakistan"
+      ]
+    },
+    "safi": {
+      "name": "Hamdard Safi",
+      "dataset": "Hamdard Safi",
+      "makers": [
+        "Hamdard Laboratories (Waqf) Pakistan"
+      ]
+    },
+    "neopeptine": {
+      "name": "Neopeptine",
+      "dataset": "Neopeptine"
+    },
+    "arq mako": {
+      "name": "Hamdard Arq Mako",
+      "dataset": "Hamdard Arq Mako",
+      "makers": [
+        "Hamdard Laboratories (Waqf) Pakistan"
+      ]
+    },
+    "fulfil": {
+      "name": "Fulfil",
+      "dataset": "Multivitamin"
+    },
+    "fortbit": {
+      "name": "Fortbit",
+      "dataset": "Multivitamin"
+    },
+    "cervec": {
+      "name": "Cervec",
+      "dataset": "Zinnat / Zincovit"
+    },
+    "supradyn": {
+      "name": "Supradyn",
+      "dataset": "Multivitamin",
+      "makers": [
+        "Bayer"
+      ]
+    },
+    "one a day": {
+      "name": "One A Day",
+      "dataset": "Multivitamin",
+      "makers": [
+        "Bayer"
+      ]
+    },
+    "berocca": {
+      "name": "Berocca",
+      "dataset": "Multivitamin",
+      "makers": [
+        "Bayer"
+      ]
+    },
+    "seven seas": {
+      "name": "Seven Seas",
+      "dataset": "Omega-3 Fish Oil",
+      "makers": [
+        "P&G Health (Procter & Gamble)",
+        "Merck",
+        "Seven Seas"
+      ]
+    },
+    "fefol vit": {
+      "name": "Fefol Vit",
+      "dataset": "Fefol Vit",
+      "makers": [
+        "GlaxoSmithKline",
+        "Haleon"
+      ]
+    },
+    "fefol": {
+      "name": "Fefol",
+      "dataset": "Fefol",
+      "makers": [
+        "GlaxoSmithKline",
+        "Haleon"
+      ]
+    },
+    "surbex z": {
+      "name": "Surbex Z",
+      "dataset": "Surbex Z",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "surbex t": {
+      "name": "Surbex T",
+      "dataset": "Surbex T",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "surbex m": {
+      "name": "Surbex M",
+      "dataset": "Surbex M",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "surbex": {
+      "name": "Surbex",
+      "dataset": "Surbex",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "sangobion": {
+      "name": "Sangobion",
+      "dataset": "Sangobion",
+      "makers": [
+        "P&G Health (Procter & Gamble)",
+        "Merck",
+        "Martin Dow"
+      ]
+    },
+    "ironvit": {
+      "name": "Ironvit",
+      "dataset": "Ironvit"
+    },
+    "fortefer": {
+      "name": "Fortefer",
+      "dataset": "Fortefer"
+    },
+    "ferrograd": {
+      "name": "Ferrograd",
+      "dataset": "Ferrograd",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "zevit": {
+      "name": "Zevit",
+      "dataset": "Zevit"
+    },
+    "becozinc": {
+      "name": "Becozinc",
+      "dataset": "Becozinc"
+    },
+    "iberet": {
+      "name": "Iberet",
+      "dataset": "Iron Supplement",
+      "makers": [
+        "Abbott"
+      ]
+    },
+    "evion": {
+      "name": "Evion",
+      "dataset": "Evion",
+      "makers": [
+        "P&G Health (Procter & Gamble)",
+        "Merck",
+        "Martin Dow"
+      ]
+    },
+    "redoxon": {
+      "name": "Redoxon",
+      "dataset": "Redoxon",
+      "makers": [
+        "Bayer"
+      ]
+    },
+    "celin": {
+      "name": "Celin",
+      "dataset": "Vitamin C",
+      "makers": [
+        "GlaxoSmithKline",
+        "Haleon"
+      ]
+    },
+    "limcee": {
+      "name": "Limcee",
+      "dataset": "Vitamin C"
+    },
+    "zincmed": {
+      "name": "Zincmed",
+      "dataset": "Zinc Supplement"
+    },
+    "d forte": {
+      "name": "D Forte",
+      "dataset": "D Forte"
+    },
+    "orocal": {
+      "name": "Orocal D3",
+      "dataset": "Calcium Supplement"
+    },
+    "caltrate": {
+      "name": "Caltrate",
+      "dataset": "Calcium Supplement",
+      "makers": [
+        "Haleon",
+        "Pfizer",
+        "GlaxoSmithKline"
+      ]
+    },
+    "calcivon": {
+      "name": "Calcivon",
+      "dataset": "Calcium Supplement"
+    },
+    "natecal": {
+      "name": "Natecal D3",
+      "dataset": "Calcium Supplement"
+    },
+    "dexorange": {
+      "name": "Dexorange",
+      "dataset": "Iron Supplement"
+    },
+    "bioferon": {
+      "name": "Bioferon",
+      "dataset": "Iron Supplement"
+    },
+    "livogen": {
+      "name": "Livogen",
+      "dataset": "Livogen"
+    },
+    "pregnacare": {
+      "name": "Pregnacare",
+      "dataset": "Pregnacare",
+      "makers": [
+        "Vitabiotics"
+      ]
+    },
+    "elevit": {
+      "name": "Elevit",
+      "dataset": "Elevit",
+      "makers": [
+        "Bayer"
+      ]
+    },
+    "materna": {
+      "name": "Materna",
+      "dataset": "Materna"
+    },
+    "blackmores": {
+      "name": "Blackmores",
+      "dataset": "Prenatal Vitamin",
+      "makers": [
+        "Blackmores"
+      ]
+    }
+  },
+  "ingredients": {
+    "shilajit": "Shilajit",
+    "spirulina": "Spirulina",
+    "moringa": "Moringa (Sohanjna)",
+    "sohanjna": "Moringa (Sohanjna)",
+    "kalonji": "Nigella Sativa (Kalonji)",
+    "nigella": "Nigella Sativa (Kalonji)",
+    "habbatus": "Nigella Sativa (Kalonji)",
+    "ispaghol": "Ispaghol (Psyllium Husk)",
+    "psyllium": "Ispaghol (Psyllium Husk)",
+    "karela": "Karela (Bitter Melon)",
+    "bitter melon": "Karela (Bitter Melon)",
+    "ashwagandha": "Ashwagandha",
+    "asgandh": "Ashwagandha",
+    "withania": "Ashwagandha",
+    "melatonin": "Melatonin",
+    "biotin": "Biotin",
+    "turmeric": "Turmeric/Curcumin",
+    "curcumin": "Turmeric/Curcumin",
+    "haldi": "Turmeric/Curcumin",
+    "coenzyme q10": "Coenzyme Q10",
+    "coq10": "Coenzyme Q10",
+    "ubiquinol": "Coenzyme Q10",
+    "amla": "Amla (Indian Gooseberry)",
+    "awla": "Amla (Indian Gooseberry)",
+    "emblica": "Amla (Indian Gooseberry)",
+    "garlic": "Garlic Extract",
+    "lehsan": "Garlic Extract",
+    "allicin": "Garlic Extract",
+    "ginger": "Ginger Extract",
+    "adrak": "Ginger Extract",
+    "zingiber": "Ginger Extract",
+    "senna": "Senna (Seena)",
+    "seena": "Senna (Seena)",
+    "cod liver": "Omega-3 Fish Oil",
+    "fish oil": "Omega-3 Fish Oil",
+    "omega-3": "Omega-3 Fish Oil",
+    "omega 3": "Omega-3 Fish Oil",
+    "vitamin d3": "Vitamin D3",
+    "cholecalciferol": "Vitamin D3",
+    "vitamin d": "Vitamin D3",
+    "vitamin c": "Vitamin C",
+    "ascorbic": "Vitamin C",
+    "vitamin b12": "Vitamin B12",
+    "cyanocobalamin": "Vitamin B12",
+    "methylcobalamin": "Vitamin B12",
+    "vitamin k2": "Vitamin K2",
+    "menaquinone": "Vitamin K2",
+    "vitamin k": "Vitamin K2",
+    "vitamin e": "Vitamin E",
+    "tocopherol": "Vitamin E",
+    "vitamin a": "Vitamin A",
+    "retinol": "Vitamin A",
+    "beta carotene": "Vitamin A",
+    "folic acid": "Folic Acid",
+    "folate": "Folic Acid",
+    "ferrous sulphate": "Iron Supplement",
+    "ferrous gluconate": "Iron Supplement",
+    "ferrous": "Iron Supplement",
+    "iron": "Iron Supplement",
+    "calcium carbonate": "Calcium Supplement",
+    "calcium citrate": "Calcium Supplement",
+    "calcium": "Calcium Supplement",
+    "zinc sulphate": "Zinc Supplement",
+    "zinc": "Zinc Supplement",
+    "magnesium": "Magnesium",
+    "potassium": "Potassium",
+    "prenatal": "Prenatal Vitamin",
+    "antenatal": "Prenatal Vitamin",
+    "multivitamin": "Multivitamin",
+    "multi vitamin": "Multivitamin"
+  }
 }

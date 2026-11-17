@@ -1,0 +1,351 @@
+{
+  "_about": "Reasons people take each nutrient or herb, used for the 'Why do you take it?' options. Only reasons backed by the NIH Office of Dietary Supplements fact sheets (ods.od.nih.gov) or NIH NCCIH herb pages (nccih.nih.gov) are listed. Optional limits: female, min_age, max_age.",
+  "multivitamin": [
+    {
+      "label": "Everyday nutrition (no specific problem)"
+    },
+    {
+      "label": "Filling gaps in your diet"
+    },
+    {
+      "label": "Tiredness and weakness"
+    },
+    {
+      "label": "Immunity",
+      "needs_any": [
+        "vitamin_c",
+        "zinc",
+        "vitamin_d"
+      ]
+    }
+  ],
+  "nutrients": {
+    "iron": [
+      {
+        "label": "Low iron / anaemia"
+      },
+      {
+        "label": "Tiredness and weakness"
+      },
+      {
+        "label": "Heavy periods",
+        "female": true,
+        "min_age": 10,
+        "max_age": 55
+      },
+      {
+        "label": "Pregnancy",
+        "female": true,
+        "min_age": 15,
+        "max_age": 55
+      }
+    ],
+    "folate": [
+      {
+        "label": "Pregnancy",
+        "female": true,
+        "min_age": 15,
+        "max_age": 55
+      },
+      {
+        "label": "Planning a pregnancy",
+        "female": true,
+        "min_age": 15,
+        "max_age": 50
+      },
+      {
+        "label": "Low folate"
+      }
+    ],
+    "vitamin_b12": [
+      {
+        "label": "Low vitamin B12"
+      },
+      {
+        "label": "Nerve pain or tingling"
+      },
+      {
+        "label": "Vegetarian diet"
+      }
+    ],
+    "vitamin_b1": [
+      {
+        "label": "Nerve pain or tingling"
+      },
+      {
+        "label": "Numbness in hands or feet"
+      }
+    ],
+    "vitamin_b6": [
+      {
+        "label": "Nerve pain or tingling"
+      },
+      {
+        "label": "Numbness in hands or feet"
+      }
+    ],
+    "niacin": [
+      {
+        "label": "Low vitamin B (B complex)"
+      }
+    ],
+    "vitamin_d": [
+      {
+        "label": "Low vitamin D"
+      },
+      {
+        "label": "Bone health"
+      },
+      {
+        "label": "Weak bones (osteoporosis)",
+        "min_age": 40
+      }
+    ],
+    "calcium": [
+      {
+        "label": "Low calcium"
+      },
+      {
+        "label": "Bone health"
+      },
+      {
+        "label": "Weak bones (osteoporosis)",
+        "min_age": 40
+      },
+      {
+        "label": "After menopause",
+        "female": true,
+        "min_age": 45
+      }
+    ],
+    "magnesium": [
+      {
+        "label": "Low magnesium"
+      },
+      {
+        "label": "Muscle cramps"
+      }
+    ],
+    "zinc": [
+      {
+        "label": "Low zinc"
+      },
+      {
+        "label": "Immunity"
+      },
+      {
+        "label": "Slow wound healing"
+      }
+    ],
+    "vitamin_c": [
+      {
+        "label": "Low vitamin C"
+      },
+      {
+        "label": "Immunity"
+      },
+      {
+        "label": "Help absorb iron"
+      }
+    ],
+    "vitamin_a": [
+      {
+        "label": "Low vitamin A"
+      },
+      {
+        "label": "Night vision problems"
+      }
+    ],
+    "vitamin_e": [
+      {
+        "label": "Low vitamin E"
+      }
+    ],
+    "vitamin_k": [
+      {
+        "label": "Bone health"
+      }
+    ],
+    "potassium": [
+      {
+        "label": "Low potassium"
+      }
+    ],
+    "biotin": [
+      {
+        "label": "Low biotin"
+      },
+      {
+        "label": "Brittle nails"
+      }
+    ]
+  },
+  "products": {
+    "ashwagandha": [
+      {
+        "label": "Stress and anxiety"
+      },
+      {
+        "label": "Sleep problems"
+      }
+    ],
+    "turmeric": [
+      {
+        "label": "Joint pain"
+      }
+    ],
+    "curcumin": [
+      {
+        "label": "Joint pain"
+      }
+    ],
+    "ginger": [
+      {
+        "label": "Nausea"
+      }
+    ],
+    "garlic": [
+      {
+        "label": "Heart health"
+      },
+      {
+        "label": "High cholesterol"
+      }
+    ],
+    "omega": [
+      {
+        "label": "Heart health"
+      },
+      {
+        "label": "High triglycerides"
+      }
+    ],
+    "fish oil": [
+      {
+        "label": "Heart health"
+      },
+      {
+        "label": "High triglycerides"
+      }
+    ],
+    "melatonin": [
+      {
+        "label": "Sleep problems"
+      },
+      {
+        "label": "Jet lag"
+      }
+    ],
+    "ispaghol": [
+      {
+        "label": "Constipation"
+      },
+      {
+        "label": "High cholesterol"
+      }
+    ],
+    "psyllium": [
+      {
+        "label": "Constipation"
+      },
+      {
+        "label": "High cholesterol"
+      }
+    ],
+    "senna": [
+      {
+        "label": "Constipation"
+      }
+    ],
+    "karela": [
+      {
+        "label": "Blood sugar / diabetes support"
+      }
+    ],
+    "moringa": [
+      {
+        "label": "General nutrition"
+      }
+    ],
+    "spirulina": [
+      {
+        "label": "General nutrition"
+      }
+    ],
+    "kalonji": [
+      {
+        "label": "Everyday nutrition (no specific problem)"
+      }
+    ],
+    "coq10": [
+      {
+        "label": "Heart health"
+      },
+      {
+        "label": "Energy"
+      }
+    ],
+    "coenzyme": [
+      {
+        "label": "Heart health"
+      },
+      {
+        "label": "Energy"
+      }
+    ],
+    "shilajit": [
+      {
+        "label": "Energy and stamina"
+      }
+    ],
+    "amla": [
+      {
+        "label": "Immunity"
+      },
+      {
+        "label": "Low vitamin C"
+      }
+    ],
+    "safi": [
+      {
+        "label": "Acne and pimples"
+      },
+      {
+        "label": "Clearer skin"
+      }
+    ],
+    "mako": [
+      {
+        "label": "Liver health"
+      }
+    ],
+    "neopeptine": [
+      {
+        "label": "Indigestion"
+      },
+      {
+        "label": "Gas and bloating"
+      }
+    ],
+    "prenatal": [
+      {
+        "label": "Pregnancy",
+        "female": true,
+        "min_age": 15,
+        "max_age": 55
+      },
+      {
+        "label": "Planning a pregnancy",
+        "female": true,
+        "min_age": 15,
+        "max_age": 50
+      },
+      {
+        "label": "Breastfeeding",
+        "female": true,
+        "min_age": 15,
+        "max_age": 55
+      }
+    ]
+  }
+}

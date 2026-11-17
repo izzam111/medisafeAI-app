@@ -1,0 +1,44 @@
+{
+  "_about": "Who a product is made for, read from words in its name or on its label (e.g. Centrum Men, Centrum Kids, Centrum Silver 50+). Checked before the age rules. Order matters: the first match wins.",
+  "groups": [
+    {
+      "key": "kids",
+      "label": "Kids",
+      "pattern": "\\bkids?\\b|children'?s\\b|\\bjunior\\b|\\bfor children\\b|\\btoddlers?\\b",
+      "min_age": 2,
+      "max_age": 12,
+      "phrase": "children's"
+    },
+    {
+      "key": "teen",
+      "label": "Teens",
+      "pattern": "\\bteens?\\b|\\bteenagers?\\b",
+      "min_age": 12,
+      "max_age": 19,
+      "phrase": "teen"
+    },
+    {
+      "key": "senior",
+      "label": "50+",
+      "pattern": "\\bsilver\\b|\\b50\\s*\\+|\\bover 50\\b|\\b50 plus\\b|\\bseniors?\\b|\\bmature\\b",
+      "min_age": 50,
+      "phrase": "50+"
+    },
+    {
+      "key": "men",
+      "label": "Men",
+      "pattern": "\\bmen'?s?\\b|\\bman\\b|\\bmale\\b|\\bfor him\\b",
+      "sex": "male",
+      "min_age": 18,
+      "phrase": "men's"
+    },
+    {
+      "key": "women",
+      "label": "Women",
+      "pattern": "\\bwomen'?s?\\b|\\bwoman\\b|\\bfemale\\b|\\bfor her\\b|\\bladies\\b",
+      "sex": "female",
+      "min_age": 18,
+      "phrase": "women's"
+    }
+  ]
+}

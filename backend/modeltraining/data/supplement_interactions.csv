@@ -1,0 +1,991 @@
+s1_iron,s1_vitamin_c,s1_calcium,s1_zinc,s1_magnesium,s1_vitamin_k,s1_vitamin_d,s1_vitamin_b12,s1_vitamin_e,s1_omega3,s1_potassium,s1_folate,s1_category,s2_iron,s2_vitamin_c,s2_calcium,s2_zinc,s2_magnesium,s2_vitamin_k,s2_vitamin_d,s2_vitamin_b12,s2_vitamin_e,s2_omega3,s2_potassium,s2_folate,s2_category,calcium_iron_compete,zinc_iron_compete,vit_d_k_synergy,fat_soluble_pair,both_minerals,vit_c_iron_synergy,severity,mechanism,recommendation,s1_name,s2_name
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,Compete for same absorption transporter (DMT1).,Take 2 hours apart.,Iron Supplement,Calcium Supplement
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Vitamin C converts Fe3+ to Fe2+ form, increasing absorption by 3x. Beneficial interaction.",Take together — Vitamin C enhances iron absorption significantly.,Iron Supplement,Vitamin C
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,1,No direct interaction but iron deficiency impairs Vitamin D receptor function.,Take separately to optimize individual absorption.,Iron Supplement,Vitamin D3
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Vitamin K2
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Vitamin B12
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Vitamin E
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,2,Both compete for divalent metal transporter. High zinc reduces iron absorption.,Separate by 2 hours. Avoid taking simultaneously.,Iron Supplement,Zinc Supplement
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Magnesium may slightly reduce iron absorption at high doses.,Mild concern. Separate by 1 hour if possible.,Iron Supplement,Magnesium
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Omega-3 Fish Oil
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Folic Acid
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Iron Supplement,Potassium
+100,0,0,0,0,0,0,0,0,0,0,0,0,30,100,20,50,25,40,50,100,60,0,10,100,2,0,1,0,0,0,1,2,Multivitamins contain calcium/zinc that block iron absorption.,Take iron separately 2 hours before or after multivitamin.,Iron Supplement,Multivitamin
+100,0,0,0,0,0,0,0,0,0,0,0,0,60,100,30,25,20,20,50,80,30,40,5,200,2,1,1,0,0,0,1,2,Prenatal vitamins already contain iron — excessive iron intake risk.,Do not add separate iron without doctor supervision.,Iron Supplement,Prenatal Vitamin
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Vitamin A
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Biotin
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Coenzyme Q10
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,2,Curcumin chelates iron and can significantly reduce iron absorption.,Separate by at least 2 hours. Take iron first.,Iron Supplement,Turmeric/Curcumin
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,Ashwagandha has some iron content and may support iron levels.,Generally safe together.,Iron Supplement,Ashwagandha
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Melatonin
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Hamdard Safi
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Neurobion
+100,0,0,0,0,0,0,0,0,0,0,0,0,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Iron Supplement,Ferosoft / Ferose
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,50,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Calcimax
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Calvit D3
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Osteofos
+100,0,0,0,0,0,0,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Femibion
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Zinnat / Zincovit
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Karvol Plus
+100,0,0,0,0,0,0,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Neopeptine
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Maxitrol
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Hamdard Arq Mako
+100,0,0,0,0,0,0,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Nigella Sativa (Kalonji)
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Ispaghol (Psyllium Husk)
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Karela (Bitter Melon)
+100,0,0,0,0,0,0,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Spirulina
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Garlic Extract
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Ginger Extract
+100,0,0,0,0,0,0,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Moringa (Sohanjna)
+100,0,0,0,0,0,0,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Shilajit
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Senna (Seena)
+100,0,0,0,0,0,0,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Iron Supplement,Amla (Indian Gooseberry)
+100,0,0,0,0,0,0,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Iron Supplement,Multivitamin (Centrum)
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Vitamin D (Roletra)
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Iron Supplement,Folic Acid 5mg
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin C
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,Vitamin D3 promotes calcium absorption in the intestine. Synergistic.,Take together — ideal combination for bone health.,Calcium Supplement,Vitamin D3
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin K2
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin B12
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin E
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,"Calcium inhibits zinc transporter ZIP4, reducing zinc bioavailability.",Separate by 2 hours. Take zinc on empty stomach.,Calcium Supplement,Zinc Supplement
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Compete for absorption at high doses.,Maintain 2:1 ratio; take with meals.,Calcium Supplement,Magnesium
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Omega-3 Fish Oil
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Folic Acid
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcium Supplement,Potassium
+0,0,100,0,0,0,0,0,0,0,0,0,0,30,100,20,50,25,40,50,100,60,0,10,100,2,1,0,0,0,0,0,1,Multivitamin already contains calcium — risk of exceeding upper limit (2500mg/day).,Check total calcium intake. May not need extra calcium supplement.,Calcium Supplement,Multivitamin
+0,0,100,0,0,0,0,0,0,0,0,0,0,60,100,30,25,20,20,50,80,30,40,5,200,2,1,0,0,0,0,0,2,Prenatal vitamins contain calcium — risk of excess.,Check total calcium before adding extra supplement.,Calcium Supplement,Prenatal Vitamin
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin A
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Biotin
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Coenzyme Q10
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Turmeric/Curcumin
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Ashwagandha
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Melatonin
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Hamdard Safi
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Neurobion
+0,0,100,0,0,0,0,0,0,0,0,0,0,100,50,0,0,0,0,0,0,0,0,0,50,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcium Supplement,Ferosoft / Ferose
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcium Supplement,Calcimax
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcium Supplement,Calvit D3
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcium Supplement,Osteofos
+0,0,100,0,0,0,0,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Femibion
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcium Supplement,Zinnat / Zincovit
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Karvol Plus
+0,0,100,0,0,0,0,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Neopeptine
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Maxitrol
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Hamdard Arq Mako
+0,0,100,0,0,0,0,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Nigella Sativa (Kalonji)
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Ispaghol (Psyllium Husk)
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Karela (Bitter Melon)
+0,0,100,0,0,0,0,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,1,0,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcium Supplement,Spirulina
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Garlic Extract
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Ginger Extract
+0,0,100,0,0,0,0,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcium Supplement,Moringa (Sohanjna)
+0,0,100,0,0,0,0,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Shilajit
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Senna (Seena)
+0,0,100,0,0,0,0,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Amla (Indian Gooseberry)
+0,0,100,0,0,0,0,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,1,0,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcium Supplement,Multivitamin (Centrum)
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Vitamin D (Roletra)
+0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcium Supplement,Folic Acid 5mg
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Vitamin D3
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Vitamin K2
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,2,High-dose Vitamin C (1000mg+) can destroy B12 in the gut before absorption.,"Separate by at least 2 hours. Take B12 first, then Vitamin C later.",Vitamin C,Vitamin B12
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Vitamin E
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Vitamin C may enhance zinc absorption slightly.,Safe to take together.,Vitamin C,Zinc Supplement
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Magnesium
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Omega-3 Fish Oil
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Folic Acid
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Potassium
+0,100,0,0,0,0,0,0,0,0,0,0,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Multivitamin
+0,100,0,0,0,0,0,0,0,0,0,0,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Vitamin C,Prenatal Vitamin
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Vitamin A
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Biotin
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Coenzyme Q10
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Turmeric/Curcumin
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Ashwagandha
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Melatonin
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Hamdard Safi
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Neurobion
+0,100,0,0,0,0,0,0,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Vitamin C,Ferosoft / Ferose
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Calcimax
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Calvit D3
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Osteofos
+0,100,0,0,0,0,0,0,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Femibion
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Zinnat / Zincovit
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Karvol Plus
+0,100,0,0,0,0,0,0,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Neopeptine
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Maxitrol
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Hamdard Arq Mako
+0,100,0,0,0,0,0,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Nigella Sativa (Kalonji)
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Ispaghol (Psyllium Husk)
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Karela (Bitter Melon)
+0,100,0,0,0,0,0,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Vitamin C,Spirulina
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Garlic Extract
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Ginger Extract
+0,100,0,0,0,0,0,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Vitamin C,Moringa (Sohanjna)
+0,100,0,0,0,0,0,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Shilajit
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Senna (Seena)
+0,100,0,0,0,0,0,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Amla (Indian Gooseberry)
+0,100,0,0,0,0,0,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Multivitamin (Centrum)
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Vitamin D (Roletra)
+0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin C,Folic Acid 5mg
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,1,1,0,0,0,K2 directs calcium (mobilized by D3) to bones instead of arteries. Synergistic and protective.,"Take together — essential combination, especially at high D3 doses.",Vitamin D3,Vitamin K2
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Vitamin B12
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Vitamin E
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Zinc Supplement
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Magnesium required as cofactor for Vitamin D activation enzymes.,Take together for optimal D3 activation.,Vitamin D3,Magnesium
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,Omega-3 may enhance Vitamin D absorption as both are fat-soluble.,Take together with a meal for best absorption of both.,Vitamin D3,Omega-3 Fish Oil
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Folic Acid
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Potassium
+0,0,0,0,0,0,100,0,0,0,0,0,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,1,1,0,0,1,Multivitamins contain Vitamin D — risk of exceeding upper limit (4000 IU/day).,Check total Vitamin D. Avoid doubling up without doctor guidance.,Vitamin D3,Multivitamin
+0,0,0,0,0,0,100,0,0,0,0,0,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Prenatal Vitamin
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,High Vitamin A can antagonize Vitamin D activity at receptor level.,Keep Vitamin A at recommended doses. Don't megadose with D3.,Vitamin D3,Vitamin A
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Biotin
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Coenzyme Q10
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,Curcumin may enhance Vitamin D receptor expression.,Safe and potentially beneficial together.,Vitamin D3,Turmeric/Curcumin
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Ashwagandha
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Melatonin
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Hamdard Safi
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Neurobion
+0,0,0,0,0,0,100,0,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Ferosoft / Ferose
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Calcimax
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Calvit D3
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Osteofos
+0,0,0,0,0,0,100,0,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Femibion
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Zinnat / Zincovit
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Karvol Plus
+0,0,0,0,0,0,100,0,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Neopeptine
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Maxitrol
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Hamdard Arq Mako
+0,0,0,0,0,0,100,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Karela (Bitter Melon)
+0,0,0,0,0,0,100,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Spirulina
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Garlic Extract
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Ginger Extract
+0,0,0,0,0,0,100,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Moringa (Sohanjna)
+0,0,0,0,0,0,100,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Shilajit
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Senna (Seena)
+0,0,0,0,0,0,100,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Amla (Indian Gooseberry)
+0,0,0,0,0,0,100,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin D3,Multivitamin (Centrum)
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin D3,Vitamin D (Roletra)
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D3,Folic Acid 5mg
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Vitamin B12
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,1,0,0,2,"High-dose Vitamin E antagonizes Vitamin K-dependent clotting factors, increasing bleeding risk.",Do not take high-dose Vitamin E with Vitamin K2. Consult doctor.,Vitamin K2,Vitamin E
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Zinc Supplement
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Magnesium
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Omega-3 Fish Oil
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Folic Acid
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Potassium
+0,0,0,0,0,100,0,0,0,0,0,0,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Multivitamin
+0,0,0,0,0,100,0,0,0,0,0,0,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Prenatal Vitamin
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Vitamin A
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Biotin
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Coenzyme Q10
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Turmeric/Curcumin
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Ashwagandha
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Melatonin
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Hamdard Safi
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Neurobion
+0,0,0,0,0,100,0,0,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Ferosoft / Ferose
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Calcimax
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Calvit D3
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Osteofos
+0,0,0,0,0,100,0,0,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Femibion
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Zinnat / Zincovit
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Karvol Plus
+0,0,0,0,0,100,0,0,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Neopeptine
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Maxitrol
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Hamdard Arq Mako
+0,0,0,0,0,100,0,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Nigella Sativa (Kalonji)
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Ispaghol (Psyllium Husk)
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Karela (Bitter Melon)
+0,0,0,0,0,100,0,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Spirulina
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Garlic Extract
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Ginger Extract
+0,0,0,0,0,100,0,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Moringa (Sohanjna)
+0,0,0,0,0,100,0,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Shilajit
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Senna (Seena)
+0,0,0,0,0,100,0,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin K2,Amla (Indian Gooseberry)
+0,0,0,0,0,100,0,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Multivitamin (Centrum)
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Vitamin K2,Vitamin D (Roletra)
+0,0,0,0,0,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin K2,Folic Acid 5mg
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Vitamin E
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Zinc Supplement
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Magnesium
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Omega-3 Fish Oil
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,Work together in methylation cycle. B12 deficiency can mask folate status.,Take together — synergistic for DNA synthesis and homocysteine control.,Vitamin B12,Folic Acid
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Potassium
+0,0,0,0,0,0,0,100,0,0,0,0,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Multivitamin
+0,0,0,0,0,0,0,100,0,0,0,0,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Prenatal Vitamin
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Vitamin A
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Both B-vitamins, work synergistically in energy metabolism.",Safe and beneficial to take together.,Vitamin B12,Biotin
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Coenzyme Q10
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Turmeric/Curcumin
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Ashwagandha
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,B12 may affect melatonin synthesis through methylation pathways.,"Take melatonin at bedtime, B12 in the morning.",Vitamin B12,Melatonin
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Hamdard Safi
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Neurobion
+0,0,0,0,0,0,0,100,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Ferosoft / Ferose
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Calcimax
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Calvit D3
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Osteofos
+0,0,0,0,0,0,0,100,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Femibion
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Zinnat / Zincovit
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Karvol Plus
+0,0,0,0,0,0,0,100,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Neopeptine
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Maxitrol
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Hamdard Arq Mako
+0,0,0,0,0,0,0,100,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Karela (Bitter Melon)
+0,0,0,0,0,0,0,100,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Spirulina
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Garlic Extract
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Ginger Extract
+0,0,0,0,0,0,0,100,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Moringa (Sohanjna)
+0,0,0,0,0,0,0,100,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Shilajit
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Senna (Seena)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,100,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Multivitamin (Centrum)
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Vitamin D (Roletra)
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin B12,Folic Acid 5mg
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Zinc Supplement
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Magnesium
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,"Vitamin E protects omega-3 fatty acids from oxidation, preserving potency.",Take together — Vitamin E stabilizes fish oil.,Vitamin E,Omega-3 Fish Oil
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Folic Acid
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Potassium
+0,0,0,0,0,0,0,0,100,0,0,0,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Multivitamin
+0,0,0,0,0,0,0,0,100,0,0,0,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Prenatal Vitamin
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Both fat-soluble, compete for absorption at very high doses.",Take at different meal times if using high doses.,Vitamin E,Vitamin A
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Biotin
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Coenzyme Q10
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Ashwagandha
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Melatonin
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Hamdard Safi
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Neurobion
+0,0,0,0,0,0,0,0,100,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Calcimax
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Calvit D3
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Osteofos
+0,0,0,0,0,0,0,0,100,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Femibion
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Karvol Plus
+0,0,0,0,0,0,0,0,100,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Neopeptine
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Maxitrol
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,100,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,100,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Spirulina
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Garlic Extract
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Ginger Extract
+0,0,0,0,0,0,0,0,100,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,100,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Shilajit
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Senna (Seena)
+0,0,0,0,0,0,0,0,100,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,100,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Vitamin E,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,100,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin E,Folic Acid 5mg
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Magnesium
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Omega-3 Fish Oil
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,2,Zinc may impair folate absorption at high doses.,Separate by 1-2 hours if using high-dose zinc.,Zinc Supplement,Folic Acid
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Potassium
+0,0,0,100,0,0,0,0,0,0,0,0,0,30,100,20,50,25,40,50,100,60,0,10,100,2,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Multivitamin
+0,0,0,100,0,0,0,0,0,0,0,0,0,60,100,30,25,20,20,50,80,30,40,5,200,2,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Prenatal Vitamin
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Vitamin A
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Biotin
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Coenzyme Q10
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Turmeric/Curcumin
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Ashwagandha
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Melatonin
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Hamdard Safi
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Neurobion
+0,0,0,100,0,0,0,0,0,0,0,0,0,100,50,0,0,0,0,0,0,0,0,0,50,0,0,1,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Ferosoft / Ferose
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Calcimax
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Calvit D3
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Osteofos
+0,0,0,100,0,0,0,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Femibion
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Zinc Supplement,Zinnat / Zincovit
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Karvol Plus
+0,0,0,100,0,0,0,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Neopeptine
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Maxitrol
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Hamdard Arq Mako
+0,0,0,100,0,0,0,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Nigella Sativa (Kalonji)
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Ispaghol (Psyllium Husk)
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Karela (Bitter Melon)
+0,0,0,100,0,0,0,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Spirulina
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Garlic Extract
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Ginger Extract
+0,0,0,100,0,0,0,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Moringa (Sohanjna)
+0,0,0,100,0,0,0,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Shilajit
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Senna (Seena)
+0,0,0,100,0,0,0,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Amla (Indian Gooseberry)
+0,0,0,100,0,0,0,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinc Supplement,Multivitamin (Centrum)
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Vitamin D (Roletra)
+0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinc Supplement,Folic Acid 5mg
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,Omega-3 and magnesium together support cardiovascular and muscle health.,Take together — complementary benefits.,Magnesium,Omega-3 Fish Oil
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Folic Acid
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Potassium
+0,0,0,0,100,0,0,0,0,0,0,0,0,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Multivitamin
+0,0,0,0,100,0,0,0,0,0,0,0,0,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Prenatal Vitamin
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Vitamin A
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Biotin
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Coenzyme Q10
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Turmeric/Curcumin
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Ashwagandha
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Melatonin
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Hamdard Safi
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Neurobion
+0,0,0,0,100,0,0,0,0,0,0,0,0,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Ferosoft / Ferose
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Calcimax
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Calvit D3
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Osteofos
+0,0,0,0,100,0,0,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Femibion
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Magnesium,Zinnat / Zincovit
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Karvol Plus
+0,0,0,0,100,0,0,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Neopeptine
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Maxitrol
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Hamdard Arq Mako
+0,0,0,0,100,0,0,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Nigella Sativa (Kalonji)
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Ispaghol (Psyllium Husk)
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Karela (Bitter Melon)
+0,0,0,0,100,0,0,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Spirulina
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Garlic Extract
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Ginger Extract
+0,0,0,0,100,0,0,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Moringa (Sohanjna)
+0,0,0,0,100,0,0,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Shilajit
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Senna (Seena)
+0,0,0,0,100,0,0,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Amla (Indian Gooseberry)
+0,0,0,0,100,0,0,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Multivitamin (Centrum)
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Vitamin D (Roletra)
+0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Magnesium,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Folic Acid
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Potassium
+0,0,0,0,0,0,0,0,0,100,0,0,3,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Multivitamin
+0,0,0,0,0,0,0,0,0,100,0,0,3,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Prenatal Vitamin
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Vitamin A
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Biotin
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Coenzyme Q10
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Ashwagandha
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Melatonin
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Hamdard Safi
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Neurobion
+0,0,0,0,0,0,0,0,0,100,0,0,3,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Calcimax
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Calvit D3
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Osteofos
+0,0,0,0,0,0,0,0,0,100,0,0,3,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Femibion
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Karvol Plus
+0,0,0,0,0,0,0,0,0,100,0,0,3,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Neopeptine
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Maxitrol
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,100,0,0,3,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,100,0,0,3,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Spirulina
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Garlic Extract
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Ginger Extract
+0,0,0,0,0,0,0,0,0,100,0,0,3,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,100,0,0,3,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Shilajit
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Senna (Seena)
+0,0,0,0,0,0,0,0,0,100,0,0,3,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,100,0,0,3,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,100,0,0,3,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Omega-3 Fish Oil,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Potassium
+0,0,0,0,0,0,0,0,0,0,0,100,1,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Multivitamin
+0,0,0,0,0,0,0,0,0,0,0,100,1,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Prenatal Vitamin
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Vitamin A
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Biotin
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Coenzyme Q10
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,100,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,100,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Femibion
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,100,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,100,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,100,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,100,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,100,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,100,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,100,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,100,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Folic Acid,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,100,0,0,30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Multivitamin
+0,0,0,0,0,0,0,0,0,0,100,0,0,60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Prenatal Vitamin
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Vitamin A
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Biotin
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Coenzyme Q10
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Melatonin
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Neurobion
+0,0,0,0,0,0,0,0,0,0,100,0,0,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Potassium,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Potassium,Calcimax
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Potassium,Calvit D3
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Potassium,Osteofos
+0,0,0,0,0,0,0,0,0,0,100,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Femibion
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Potassium,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,100,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Neopeptine
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Maxitrol
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,100,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,100,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Spirulina
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,100,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,100,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Shilajit
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,100,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,100,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Potassium,Folic Acid 5mg
+30,100,20,50,25,40,50,100,60,0,10,100,2,60,100,30,25,20,20,50,80,30,40,5,200,2,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Prenatal Vitamin
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Vitamin A
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Biotin
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Coenzyme Q10
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Turmeric/Curcumin
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Ashwagandha
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Melatonin
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Multivitamin,Hamdard Safi
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Neurobion
+30,100,20,50,25,40,50,100,60,0,10,100,2,100,50,0,0,0,0,0,0,0,0,0,50,0,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Ferosoft / Ferose
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,100,0,0,0,50,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Calcimax
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,80,0,0,0,100,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Calvit D3
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,100,5,50,0,50,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Osteofos
+30,100,20,50,25,40,50,100,60,0,10,100,2,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Femibion
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,100,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Zinnat / Zincovit
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Karvol Plus
+30,100,20,50,25,40,50,100,60,0,10,100,2,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Neopeptine
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Maxitrol
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Hamdard Arq Mako
+30,100,20,50,25,40,50,100,60,0,10,100,2,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Nigella Sativa (Kalonji)
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Ispaghol (Psyllium Husk)
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Karela (Bitter Melon)
+30,100,20,50,25,40,50,100,60,0,10,100,2,60,5,10,10,15,25,0,30,20,20,10,10,5,0,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Spirulina
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Garlic Extract
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Multivitamin,Ginger Extract
+30,100,20,50,25,40,50,100,60,0,10,100,2,70,80,40,10,20,50,0,0,20,10,30,20,5,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Moringa (Sohanjna)
+30,100,20,50,25,40,50,100,60,0,10,100,2,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Shilajit
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Senna (Seena)
+30,100,20,50,25,40,50,100,60,0,10,100,2,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Amla (Indian Gooseberry)
+30,100,20,50,25,40,50,100,60,0,10,100,2,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Multivitamin,Multivitamin (Centrum)
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin,Vitamin D (Roletra)
+30,100,20,50,25,40,50,100,60,0,10,100,2,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin,Folic Acid 5mg
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Vitamin A
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Biotin
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Coenzyme Q10
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Turmeric/Curcumin
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Ashwagandha
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Melatonin
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Prenatal Vitamin,Hamdard Safi
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Neurobion
+60,100,30,25,20,20,50,80,30,40,5,200,2,100,50,0,0,0,0,0,0,0,0,0,50,0,1,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Ferosoft / Ferose
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,100,0,0,0,50,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Calcimax
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,80,0,0,0,100,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Calvit D3
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,100,5,50,0,50,0,0,0,0,0,0,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Osteofos
+60,100,30,25,20,20,50,80,30,40,5,200,2,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Femibion
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,100,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Zinnat / Zincovit
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Karvol Plus
+60,100,30,25,20,20,50,80,30,40,5,200,2,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Neopeptine
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Maxitrol
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Hamdard Arq Mako
+60,100,30,25,20,20,50,80,30,40,5,200,2,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Nigella Sativa (Kalonji)
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Ispaghol (Psyllium Husk)
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Karela (Bitter Melon)
+60,100,30,25,20,20,50,80,30,40,5,200,2,60,5,10,10,15,25,0,30,20,20,10,10,5,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Spirulina
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Garlic Extract
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Prenatal Vitamin,Ginger Extract
+60,100,30,25,20,20,50,80,30,40,5,200,2,70,80,40,10,20,50,0,0,20,10,30,20,5,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Moringa (Sohanjna)
+60,100,30,25,20,20,50,80,30,40,5,200,2,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Shilajit
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Senna (Seena)
+60,100,30,25,20,20,50,80,30,40,5,200,2,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,1,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Amla (Indian Gooseberry)
+60,100,30,25,20,20,50,80,30,40,5,200,2,25,100,15,60,15,30,50,100,50,0,5,100,2,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Prenatal Vitamin,Multivitamin (Centrum)
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Prenatal Vitamin,Vitamin D (Roletra)
+60,100,30,25,20,20,50,80,30,40,5,200,2,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Prenatal Vitamin,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Biotin
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Coenzyme Q10
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin A,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Coenzyme Q10
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Biotin,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Turmeric/Curcumin
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,4,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,4,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,4,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,4,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,4,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,4,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,4,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,4,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,4,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Coenzyme Q10,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Ashwagandha
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,5,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,5,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,5,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,5,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Turmeric/Curcumin,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Melatonin
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,5,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,5,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,5,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,5,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ashwagandha,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Hamdard Safi
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Neurobion
+0,0,0,0,0,0,0,0,0,0,0,0,6,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Ferosoft / Ferose
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Calcimax
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Calvit D3
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Osteofos
+0,0,0,0,0,0,0,0,0,0,0,0,6,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Femibion
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Zinnat / Zincovit
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Karvol Plus
+0,0,0,0,0,0,0,0,0,0,0,0,6,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,6,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,6,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,6,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,6,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,6,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,6,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Melatonin,Folic Acid 5mg
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Neurobion
+5,10,2,3,2,0,0,0,5,0,3,0,5,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Ferosoft / Ferose
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Calcimax
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Calvit D3
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Osteofos
+5,10,2,3,2,0,0,0,5,0,3,0,5,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Femibion
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Zinnat / Zincovit
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Karvol Plus
+5,10,2,3,2,0,0,0,5,0,3,0,5,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Neopeptine
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Maxitrol
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Hamdard Arq Mako
+5,10,2,3,2,0,0,0,5,0,3,0,5,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Nigella Sativa (Kalonji)
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Ispaghol (Psyllium Husk)
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Karela (Bitter Melon)
+5,10,2,3,2,0,0,0,5,0,3,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Spirulina
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Garlic Extract
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Ginger Extract
+5,10,2,3,2,0,0,0,5,0,3,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Moringa (Sohanjna)
+5,10,2,3,2,0,0,0,5,0,3,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Shilajit
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Senna (Seena)
+5,10,2,3,2,0,0,0,5,0,3,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Amla (Indian Gooseberry)
+5,10,2,3,2,0,0,0,5,0,3,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Multivitamin (Centrum)
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Safi,Vitamin D (Roletra)
+5,10,2,3,2,0,0,0,5,0,3,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Safi,Folic Acid 5mg
+0,0,0,0,0,0,0,100,0,0,0,0,1,100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Ferosoft / Ferose
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Calcimax
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Calvit D3
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Osteofos
+0,0,0,0,0,0,0,100,0,0,0,0,1,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Femibion
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Zinnat / Zincovit
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Karvol Plus
+0,0,0,0,0,0,0,100,0,0,0,0,1,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Neopeptine
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Maxitrol
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Hamdard Arq Mako
+0,0,0,0,0,0,0,100,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Karela (Bitter Melon)
+0,0,0,0,0,0,0,100,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Spirulina
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Garlic Extract
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Ginger Extract
+0,0,0,0,0,0,0,100,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Moringa (Sohanjna)
+0,0,0,0,0,0,0,100,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Shilajit
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Senna (Seena)
+0,0,0,0,0,0,0,100,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,100,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Multivitamin (Centrum)
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Vitamin D (Roletra)
+0,0,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neurobion,Folic Acid 5mg
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,100,0,0,0,50,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Calcimax
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,80,0,0,0,100,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Calvit D3
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,100,5,50,0,50,0,0,0,0,0,0,1,0,0,0,1,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Osteofos
+100,50,0,0,0,0,0,0,0,0,0,50,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Femibion
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Zinnat / Zincovit
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Karvol Plus
+100,50,0,0,0,0,0,0,0,0,0,50,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Neopeptine
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Maxitrol
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Hamdard Arq Mako
+100,50,0,0,0,0,0,0,0,0,0,50,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Nigella Sativa (Kalonji)
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Ispaghol (Psyllium Husk)
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Karela (Bitter Melon)
+100,50,0,0,0,0,0,0,0,0,0,50,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Spirulina
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Garlic Extract
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Ginger Extract
+100,50,0,0,0,0,0,0,0,0,0,50,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Moringa (Sohanjna)
+100,50,0,0,0,0,0,0,0,0,0,50,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Shilajit
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Senna (Seena)
+100,50,0,0,0,0,0,0,0,0,0,50,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,1,0,Vitamin C enhances iron absorption,Take together for enhanced iron absorption,Ferosoft / Ferose,Amla (Indian Gooseberry)
+100,50,0,0,0,0,0,0,0,0,0,50,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Ferosoft / Ferose,Multivitamin (Centrum)
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Vitamin D (Roletra)
+100,50,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ferosoft / Ferose,Folic Acid 5mg
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,1,1,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calcimax,Calvit D3
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,1,1,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calcimax,Osteofos
+0,0,100,0,0,0,50,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Femibion
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calcimax,Zinnat / Zincovit
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Karvol Plus
+0,0,100,0,0,0,50,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Neopeptine
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Maxitrol
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Hamdard Arq Mako
+0,0,100,0,0,0,50,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Nigella Sativa (Kalonji)
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Ispaghol (Psyllium Husk)
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Karela (Bitter Melon)
+0,0,100,0,0,0,50,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcimax,Spirulina
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Garlic Extract
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calcimax,Ginger Extract
+0,0,100,0,0,0,50,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcimax,Moringa (Sohanjna)
+0,0,100,0,0,0,50,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Shilajit
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Senna (Seena)
+0,0,100,0,0,0,50,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calcimax,Amla (Indian Gooseberry)
+0,0,100,0,0,0,50,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calcimax,Multivitamin (Centrum)
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calcimax,Vitamin D (Roletra)
+0,0,100,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calcimax,Folic Acid 5mg
+0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,1,1,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calvit D3,Osteofos
+0,0,80,0,0,0,100,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Femibion
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Calvit D3,Zinnat / Zincovit
+0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Karvol Plus
+0,0,80,0,0,0,100,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Neopeptine
+0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Maxitrol
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Hamdard Arq Mako
+0,0,80,0,0,0,100,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Nigella Sativa (Kalonji)
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Ispaghol (Psyllium Husk)
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Karela (Bitter Melon)
+0,0,80,0,0,0,100,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calvit D3,Spirulina
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Garlic Extract
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calvit D3,Ginger Extract
+0,0,80,0,0,0,100,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calvit D3,Moringa (Sohanjna)
+0,0,80,0,0,0,100,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Shilajit
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Senna (Seena)
+0,0,80,0,0,0,100,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Calvit D3,Amla (Indian Gooseberry)
+0,0,80,0,0,0,100,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Calvit D3,Multivitamin (Centrum)
+0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Calvit D3,Vitamin D (Roletra)
+0,0,80,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Calvit D3,Folic Acid 5mg
+0,0,100,5,50,0,50,0,0,0,0,0,0,20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Femibion
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Minerals may compete for divalent transporter,Separate by 1-2 hours if using high doses,Osteofos,Zinnat / Zincovit
+0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Karvol Plus
+0,0,100,5,50,0,50,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Neopeptine
+0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Maxitrol
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Hamdard Arq Mako
+0,0,100,5,50,0,50,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Nigella Sativa (Kalonji)
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Ispaghol (Psyllium Husk)
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Karela (Bitter Melon)
+0,0,100,5,50,0,50,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Osteofos,Spirulina
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Garlic Extract
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Osteofos,Ginger Extract
+0,0,100,5,50,0,50,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Osteofos,Moringa (Sohanjna)
+0,0,100,5,50,0,50,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Shilajit
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Senna (Seena)
+0,0,100,5,50,0,50,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Osteofos,Amla (Indian Gooseberry)
+0,0,100,5,50,0,50,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,1,0,1,1,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Osteofos,Multivitamin (Centrum)
+0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Osteofos,Vitamin D (Roletra)
+0,0,100,5,50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Osteofos,Folic Acid 5mg
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Zinnat / Zincovit
+20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Karvol Plus
+20,50,10,15,10,10,30,50,20,50,5,200,2,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Neopeptine
+20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Maxitrol
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Hamdard Arq Mako
+20,50,10,15,10,10,30,50,20,50,5,200,2,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Nigella Sativa (Kalonji)
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Ispaghol (Psyllium Husk)
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Karela (Bitter Melon)
+20,50,10,15,10,10,30,50,20,50,5,200,2,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Spirulina
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Garlic Extract
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Femibion,Ginger Extract
+20,50,10,15,10,10,30,50,20,50,5,200,2,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Moringa (Sohanjna)
+20,50,10,15,10,10,30,50,20,50,5,200,2,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Shilajit
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Senna (Seena)
+20,50,10,15,10,10,30,50,20,50,5,200,2,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Amla (Indian Gooseberry)
+20,50,10,15,10,10,30,50,20,50,5,200,2,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Multivitamin (Centrum)
+20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Femibion,Vitamin D (Roletra)
+20,50,10,15,10,10,30,50,20,50,5,200,2,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Femibion,Folic Acid 5mg
+5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Karvol Plus
+5,100,0,100,0,0,0,0,0,0,0,0,0,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Neopeptine
+5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Maxitrol
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Hamdard Arq Mako
+5,100,0,100,0,0,0,0,0,0,0,0,0,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Nigella Sativa (Kalonji)
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Ispaghol (Psyllium Husk)
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Karela (Bitter Melon)
+5,100,0,100,0,0,0,0,0,0,0,0,0,60,5,10,10,15,25,0,30,20,20,10,10,5,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinnat / Zincovit,Spirulina
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Garlic Extract
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Ginger Extract
+5,100,0,100,0,0,0,0,0,0,0,0,0,70,80,40,10,20,50,0,0,20,10,30,20,5,0,1,0,0,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinnat / Zincovit,Moringa (Sohanjna)
+5,100,0,100,0,0,0,0,0,0,0,0,0,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Shilajit
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Senna (Seena)
+5,100,0,100,0,0,0,0,0,0,0,0,0,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Amla (Indian Gooseberry)
+5,100,0,100,0,0,0,0,0,0,0,0,0,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,0,0,0,0,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Zinnat / Zincovit,Multivitamin (Centrum)
+5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Vitamin D (Roletra)
+5,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Zinnat / Zincovit,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,5,2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Neopeptine
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Maxitrol
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,5,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karvol Plus,Folic Acid 5mg
+2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Maxitrol
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Hamdard Arq Mako
+2,5,5,5,2,0,0,5,0,0,0,0,2,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Nigella Sativa (Kalonji)
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Ispaghol (Psyllium Husk)
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Karela (Bitter Melon)
+2,5,5,5,2,0,0,5,0,0,0,0,2,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Spirulina
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Garlic Extract
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Ginger Extract
+2,5,5,5,2,0,0,5,0,0,0,0,2,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Moringa (Sohanjna)
+2,5,5,5,2,0,0,5,0,0,0,0,2,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Shilajit
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Senna (Seena)
+2,5,5,5,2,0,0,5,0,0,0,0,2,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Amla (Indian Gooseberry)
+2,5,5,5,2,0,0,5,0,0,0,0,2,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Multivitamin (Centrum)
+2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Vitamin D (Roletra)
+2,5,5,5,2,0,0,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Neopeptine,Folic Acid 5mg
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Hamdard Arq Mako
+0,0,0,0,0,0,0,0,0,0,0,0,1,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Nigella Sativa (Kalonji)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Ispaghol (Psyllium Husk)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Karela (Bitter Melon)
+0,0,0,0,0,0,0,0,0,0,0,0,1,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Spirulina
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Garlic Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Ginger Extract
+0,0,0,0,0,0,0,0,0,0,0,0,1,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Moringa (Sohanjna)
+0,0,0,0,0,0,0,0,0,0,0,0,1,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Shilajit
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Senna (Seena)
+0,0,0,0,0,0,0,0,0,0,0,0,1,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Amla (Indian Gooseberry)
+0,0,0,0,0,0,0,0,0,0,0,0,1,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Multivitamin (Centrum)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Vitamin D (Roletra)
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Maxitrol,Folic Acid 5mg
+5,8,3,2,2,5,0,0,3,0,5,0,5,20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Nigella Sativa (Kalonji)
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Arq Mako,Ispaghol (Psyllium Husk)
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Karela (Bitter Melon)
+5,8,3,2,2,5,0,0,3,0,5,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Spirulina
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Garlic Extract
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Ginger Extract
+5,8,3,2,2,5,0,0,3,0,5,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Moringa (Sohanjna)
+5,8,3,2,2,5,0,0,3,0,5,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Arq Mako,Shilajit
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Arq Mako,Senna (Seena)
+5,8,3,2,2,5,0,0,3,0,5,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Hamdard Arq Mako,Amla (Indian Gooseberry)
+5,8,3,2,2,5,0,0,3,0,5,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Hamdard Arq Mako,Multivitamin (Centrum)
+5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Hamdard Arq Mako,Vitamin D (Roletra)
+5,8,3,2,2,5,0,0,3,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Hamdard Arq Mako,Folic Acid 5mg
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Nigella Sativa (Kalonji),Ispaghol (Psyllium Husk)
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Karela (Bitter Melon)
+20,5,10,15,15,5,0,0,10,20,8,5,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Spirulina
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Garlic Extract
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Ginger Extract
+20,5,10,15,15,5,0,0,10,20,8,5,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Moringa (Sohanjna)
+20,5,10,15,15,5,0,0,10,20,8,5,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Nigella Sativa (Kalonji),Shilajit
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Nigella Sativa (Kalonji),Senna (Seena)
+20,5,10,15,15,5,0,0,10,20,8,5,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Nigella Sativa (Kalonji),Amla (Indian Gooseberry)
+20,5,10,15,15,5,0,0,10,20,8,5,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Nigella Sativa (Kalonji),Multivitamin (Centrum)
+20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Nigella Sativa (Kalonji),Vitamin D (Roletra)
+20,5,10,15,15,5,0,0,10,20,8,5,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Nigella Sativa (Kalonji),Folic Acid 5mg
+5,0,5,2,5,0,0,0,0,0,8,0,5,5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Karela (Bitter Melon)
+5,0,5,2,5,0,0,0,0,0,8,0,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Spirulina
+5,0,5,2,5,0,0,0,0,0,8,0,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Garlic Extract
+5,0,5,2,5,0,0,0,0,0,8,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Ginger Extract
+5,0,5,2,5,0,0,0,0,0,8,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Moringa (Sohanjna)
+5,0,5,2,5,0,0,0,0,0,8,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Shilajit
+5,0,5,2,5,0,0,0,0,0,8,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Senna (Seena)
+5,0,5,2,5,0,0,0,0,0,8,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Amla (Indian Gooseberry)
+5,0,5,2,5,0,0,0,0,0,8,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Multivitamin (Centrum)
+5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Vitamin D (Roletra)
+5,0,5,2,5,0,0,0,0,0,8,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ispaghol (Psyllium Husk),Folic Acid 5mg
+5,30,5,5,5,10,0,0,5,0,10,5,5,60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Karela (Bitter Melon),Spirulina
+5,30,5,5,5,10,0,0,5,0,10,5,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Karela (Bitter Melon),Garlic Extract
+5,30,5,5,5,10,0,0,5,0,10,5,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Karela (Bitter Melon),Ginger Extract
+5,30,5,5,5,10,0,0,5,0,10,5,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Karela (Bitter Melon),Moringa (Sohanjna)
+5,30,5,5,5,10,0,0,5,0,10,5,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karela (Bitter Melon),Shilajit
+5,30,5,5,5,10,0,0,5,0,10,5,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karela (Bitter Melon),Senna (Seena)
+5,30,5,5,5,10,0,0,5,0,10,5,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Karela (Bitter Melon),Amla (Indian Gooseberry)
+5,30,5,5,5,10,0,0,5,0,10,5,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Karela (Bitter Melon),Multivitamin (Centrum)
+5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Karela (Bitter Melon),Vitamin D (Roletra)
+5,30,5,5,5,10,0,0,5,0,10,5,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Karela (Bitter Melon),Folic Acid 5mg
+60,5,10,10,15,25,0,30,20,20,10,10,5,5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Spirulina,Garlic Extract
+60,5,10,10,15,25,0,30,20,20,10,10,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Spirulina,Ginger Extract
+60,5,10,10,15,25,0,30,20,20,10,10,5,70,80,40,10,20,50,0,0,20,10,30,20,5,1,0,0,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Spirulina,Moringa (Sohanjna)
+60,5,10,10,15,25,0,30,20,20,10,10,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Spirulina,Shilajit
+60,5,10,10,15,25,0,30,20,20,10,10,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Spirulina,Senna (Seena)
+60,5,10,10,15,25,0,30,20,20,10,10,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,1,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Spirulina,Amla (Indian Gooseberry)
+60,5,10,10,15,25,0,30,20,20,10,10,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Spirulina,Multivitamin (Centrum)
+60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Spirulina,Vitamin D (Roletra)
+60,5,10,10,15,25,0,30,20,20,10,10,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Spirulina,Folic Acid 5mg
+5,10,5,8,5,2,0,0,3,5,8,0,5,5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Garlic Extract,Ginger Extract
+5,10,5,8,5,2,0,0,3,5,8,0,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Garlic Extract,Moringa (Sohanjna)
+5,10,5,8,5,2,0,0,3,5,8,0,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Garlic Extract,Shilajit
+5,10,5,8,5,2,0,0,3,5,8,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Garlic Extract,Senna (Seena)
+5,10,5,8,5,2,0,0,3,5,8,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Garlic Extract,Amla (Indian Gooseberry)
+5,10,5,8,5,2,0,0,3,5,8,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Garlic Extract,Multivitamin (Centrum)
+5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Garlic Extract,Vitamin D (Roletra)
+5,10,5,8,5,2,0,0,3,5,8,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Garlic Extract,Folic Acid 5mg
+5,8,3,3,8,0,0,0,2,0,8,5,5,70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Ginger Extract,Moringa (Sohanjna)
+5,8,3,3,8,0,0,0,2,0,8,5,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ginger Extract,Shilajit
+5,8,3,3,8,0,0,0,2,0,8,5,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ginger Extract,Senna (Seena)
+5,8,3,3,8,0,0,0,2,0,8,5,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Ginger Extract,Amla (Indian Gooseberry)
+5,8,3,3,8,0,0,0,2,0,8,5,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Ginger Extract,Multivitamin (Centrum)
+5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,1,0,0,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Ginger Extract,Vitamin D (Roletra)
+5,8,3,3,8,0,0,0,2,0,8,5,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Ginger Extract,Folic Acid 5mg
+70,80,40,10,20,50,0,0,20,10,30,20,5,10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Moringa (Sohanjna),Shilajit
+70,80,40,10,20,50,0,0,20,10,30,20,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Moringa (Sohanjna),Senna (Seena)
+70,80,40,10,20,50,0,0,20,10,30,20,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,1,0,1,1,Both fat-soluble; may compete at high doses,Take with meals; monitor total fat-soluble intake,Moringa (Sohanjna),Amla (Indian Gooseberry)
+70,80,40,10,20,50,0,0,20,10,30,20,5,25,100,15,60,15,30,50,100,50,0,5,100,2,1,1,1,1,0,1,2,Mineral competition for absorption transporter,Separate by 2 hours for optimal absorption,Moringa (Sohanjna),Multivitamin (Centrum)
+70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Moringa (Sohanjna),Vitamin D (Roletra)
+70,80,40,10,20,50,0,0,20,10,30,20,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Moringa (Sohanjna),Folic Acid 5mg
+10,0,5,10,10,0,0,5,0,0,5,0,5,5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Shilajit,Senna (Seena)
+10,0,5,10,10,0,0,5,0,0,5,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Shilajit,Amla (Indian Gooseberry)
+10,0,5,10,10,0,0,5,0,0,5,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Shilajit,Multivitamin (Centrum)
+10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Shilajit,Vitamin D (Roletra)
+10,0,5,10,10,0,0,5,0,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Shilajit,Folic Acid 5mg
+5,5,5,2,5,0,0,0,0,0,5,0,5,5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Senna (Seena),Amla (Indian Gooseberry)
+5,5,5,2,5,0,0,0,0,0,5,0,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Senna (Seena),Multivitamin (Centrum)
+5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Senna (Seena),Vitamin D (Roletra)
+5,5,5,2,5,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Senna (Seena),Folic Acid 5mg
+5,600,5,5,5,5,0,0,5,0,10,5,5,25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Amla (Indian Gooseberry),Multivitamin (Centrum)
+5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Amla (Indian Gooseberry),Vitamin D (Roletra)
+5,600,5,5,5,5,0,0,5,0,10,5,5,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Amla (Indian Gooseberry),Folic Acid 5mg
+25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,1,1,0,0,0,Fat-soluble vitamin synergy,Take together with a fatty meal,Multivitamin (Centrum),Vitamin D (Roletra)
+25,100,15,60,15,30,50,100,50,0,5,100,2,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Multivitamin (Centrum),Folic Acid 5mg
+0,0,0,0,0,0,100,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200,1,0,0,0,0,0,0,0,No documented significant interaction,Safe to take together,Vitamin D (Roletra),Folic Acid 5mg

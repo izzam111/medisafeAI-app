@@ -1,0 +1,603 @@
+{
+  "_about": "Who each supplement suits. groups = shared rules; products = supplement_info key -> group, nutrients it contains, extra rules. status values: ok | ask_doctor | avoid. Sources: NIH Office of Dietary Supplements (ods.od.nih.gov) for vitamins/minerals; NIH NCCIH (nccih.nih.gov) for herbs; product leaflets for strengths.",
+  "groups": {
+    "vitamin_mineral": {
+      "label": "Vitamin / mineral",
+      "child": {
+        "status": "ok",
+        "text": "Within the safe daily limit for your age."
+      },
+      "pregnant": {
+        "status": "ok",
+        "text": "Vitamins and minerals are fine in pregnancy within the safe daily limits. Tell your doctor you take it."
+      },
+      "breastfeeding": {
+        "status": "ok",
+        "text": "Fine while breastfeeding within the safe daily limits."
+      }
+    },
+    "iron": {
+      "label": "Iron",
+      "child": {
+        "status": "avoid",
+        "text": "Children only need an iron supplement if a doctor found low iron. Too much iron is a common cause of poisoning in young children."
+      },
+      "pregnant": {
+        "status": "ok",
+        "text": "Pregnancy raises your iron need to 27 mg a day, so iron is often advised. Follow your doctor's dose."
+      },
+      "breastfeeding": {
+        "status": "ok",
+        "text": "Iron need while breastfeeding is 9-10 mg a day, lower than before pregnancy."
+      },
+      "periods": {
+        "yes": "Girls and women who have periods need more iron (15 mg a day for ages 14-18, 18 mg for ages 19-50). Heavy periods raise the risk of low iron.",
+        "no": "Without periods your iron need is lower (8-11 mg a day), which food usually covers. Take an iron supplement only if a blood test showed low iron."
+      },
+      "male_adult": "Men need only 8 mg of iron a day, which food usually covers. Take an iron supplement only if a blood test showed low iron.",
+      "child_age": 12
+    },
+    "prenatal": {
+      "label": "Prenatal",
+      "child": {
+        "status": "avoid",
+        "text": "This is a pregnancy supplement. It is not designed for children."
+      },
+      "male": {
+        "status": "avoid",
+        "text": "This is made for women who are planning a pregnancy, pregnant or breastfeeding. It is not designed for men."
+      },
+      "female_not_pregnant": {
+        "status": "ask_doctor",
+        "text": "Prenatal vitamins are made for women planning a pregnancy, pregnant or breastfeeding. If none of these apply, a normal multivitamin usually fits better."
+      },
+      "pregnant": {
+        "status": "ok",
+        "text": "Made for pregnancy. It gives the extra folic acid and iron you need."
+      },
+      "breastfeeding": {
+        "status": "ok",
+        "text": "Made for pregnancy and breastfeeding."
+      }
+    },
+    "herbal": {
+      "label": "Herbal",
+      "child": {
+        "status": "ask_doctor",
+        "text": "Safety of this herbal product in children under 18 has not been established. Ask a doctor first."
+      },
+      "pregnant": {
+        "status": "ask_doctor",
+        "text": "Safety in pregnancy has not been established. Ask your doctor before taking it."
+      },
+      "breastfeeding": {
+        "status": "ask_doctor",
+        "text": "Safety while breastfeeding has not been established. Ask your doctor before taking it."
+      },
+      "child_age": 18
+    },
+    "hormone": {
+      "label": "Hormone",
+      "child": {
+        "status": "ask_doctor",
+        "text": "Melatonin is a hormone. For children's sleep problems, see a doctor before using it."
+      },
+      "pregnant": {
+        "status": "ask_doctor",
+        "text": "There is not enough research on melatonin in pregnancy. Ask your doctor first."
+      },
+      "breastfeeding": {
+        "status": "ask_doctor",
+        "text": "There is not enough research on melatonin while breastfeeding. Ask your doctor first."
+      },
+      "child_age": 18
+    },
+    "general": {
+      "label": "Supplement",
+      "child": {
+        "status": "ok",
+        "text": "Follow the children's dose on the pack, if one is given."
+      },
+      "pregnant": {
+        "status": "ask_doctor",
+        "text": "Ask your doctor before taking this in pregnancy."
+      },
+      "breastfeeding": {
+        "status": "ask_doctor",
+        "text": "Ask your doctor before taking this while breastfeeding."
+      }
+    },
+    "not_supplement": {
+      "label": "Not a supplement",
+      "all": {
+        "status": "avoid",
+        "text": "This product is not a dietary supplement, so MediSafe cannot check it. Ask a pharmacist."
+      }
+    }
+  },
+  "products": {
+    "Iron Supplement": {
+      "group": "iron",
+      "nutrients": [
+        "iron"
+      ]
+    },
+    "Calcium Supplement": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "calcium"
+      ]
+    },
+    "Vitamin C": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_c"
+      ]
+    },
+    "Vitamin D3": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_d"
+      ]
+    },
+    "Vitamin K2": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_k"
+      ]
+    },
+    "Vitamin B12": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_b12"
+      ]
+    },
+    "Folic Acid": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "folate"
+      ]
+    },
+    "Zinc Supplement": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "zinc"
+      ]
+    },
+    "Magnesium": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "magnesium"
+      ]
+    },
+    "Omega-3 Fish Oil": {
+      "group": "general",
+      "nutrients": []
+    },
+    "Multivitamin": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_a",
+        "vitamin_c",
+        "vitamin_d",
+        "vitamin_e",
+        "vitamin_b6",
+        "vitamin_b12",
+        "folate",
+        "iron",
+        "zinc",
+        "calcium",
+        "magnesium"
+      ]
+    },
+    "Multivitamin (Centrum)": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_a",
+        "vitamin_c",
+        "vitamin_d",
+        "vitamin_e",
+        "vitamin_b6",
+        "vitamin_b12",
+        "folate",
+        "iron",
+        "zinc",
+        "calcium",
+        "magnesium"
+      ]
+    },
+    "Fefol Vit": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate",
+        "vitamin_b12"
+      ]
+    },
+    "Fefol": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate"
+      ]
+    },
+    "Surbex Z": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_c",
+        "zinc",
+        "vitamin_b1",
+        "niacin",
+        "vitamin_b6",
+        "vitamin_b12"
+      ]
+    },
+    "Surbex T": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_b1",
+        "niacin",
+        "vitamin_b6",
+        "vitamin_b12",
+        "vitamin_c"
+      ]
+    },
+    "Surbex": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_b1",
+        "niacin",
+        "vitamin_b6",
+        "vitamin_b12",
+        "vitamin_c",
+        "vitamin_e",
+        "zinc"
+      ]
+    },
+    "Sangobion": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate",
+        "vitamin_b12",
+        "vitamin_c"
+      ]
+    },
+    "Evion": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_e"
+      ]
+    },
+    "Redoxon": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_c"
+      ]
+    },
+    "Livogen": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate"
+      ]
+    },
+    "Pregnacare": {
+      "group": "prenatal",
+      "nutrients": [
+        "folate",
+        "iron",
+        "vitamin_d",
+        "vitamin_b12",
+        "zinc"
+      ]
+    },
+    "Elevit": {
+      "group": "prenatal",
+      "nutrients": [
+        "folate",
+        "iron",
+        "vitamin_d",
+        "vitamin_b12",
+        "zinc",
+        "calcium"
+      ]
+    },
+    "D Forte": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_d"
+      ],
+      "note": "High-dose vitamin D. Take only the dose and schedule your doctor prescribed."
+    },
+    "Fortefer": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate"
+      ]
+    },
+    "Materna": {
+      "group": "prenatal",
+      "nutrients": [
+        "folate",
+        "iron",
+        "vitamin_d",
+        "vitamin_b12",
+        "zinc",
+        "calcium"
+      ]
+    },
+    "Surbex M": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_b1",
+        "niacin",
+        "vitamin_b6",
+        "vitamin_b12",
+        "vitamin_c",
+        "zinc",
+        "iron"
+      ]
+    },
+    "Nutrivit": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_a",
+        "vitamin_c",
+        "vitamin_d",
+        "vitamin_e",
+        "vitamin_b6",
+        "vitamin_b12",
+        "zinc"
+      ]
+    },
+    "Zevit": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "zinc",
+        "vitamin_c",
+        "vitamin_b1",
+        "vitamin_b6",
+        "vitamin_b12"
+      ]
+    },
+    "Becozinc": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "zinc",
+        "vitamin_b1",
+        "vitamin_b6",
+        "vitamin_b12"
+      ]
+    },
+    "Ironvit": {
+      "group": "iron",
+      "nutrients": [
+        "iron"
+      ]
+    },
+    "Ferrograd": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "vitamin_c"
+      ]
+    },
+    "Haematinic": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate",
+        "vitamin_b12"
+      ]
+    },
+    "Vitamin E": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_e"
+      ]
+    },
+    "Potassium": {
+      "group": "general",
+      "nutrients": [
+        "potassium"
+      ],
+      "note": "Potassium supplements can be dangerous with kidney disease. Ask a doctor before taking them."
+    },
+    "Prenatal Vitamin": {
+      "group": "prenatal",
+      "nutrients": [
+        "folate",
+        "iron",
+        "vitamin_d",
+        "vitamin_b12",
+        "zinc",
+        "calcium"
+      ]
+    },
+    "Vitamin A": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_a"
+      ],
+      "pregnant": {
+        "status": "ask_doctor",
+        "text": "Too much vitamin A (retinol) in pregnancy can harm the baby. Don't go above 3,000 mcg a day, and ask your doctor first."
+      }
+    },
+    "Biotin": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "biotin"
+      ],
+      "note": "Biotin can make some blood test results wrong. Tell the lab you take it."
+    },
+    "Coenzyme Q10": {
+      "group": "general",
+      "nutrients": []
+    },
+    "Turmeric/Curcumin": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Ashwagandha": {
+      "group": "herbal",
+      "nutrients": [],
+      "pregnant": {
+        "status": "avoid",
+        "text": "Ashwagandha should be avoided during pregnancy (NIH NCCIH)."
+      },
+      "breastfeeding": {
+        "status": "avoid",
+        "text": "Ashwagandha is not advised while breastfeeding (NIH NCCIH)."
+      },
+      "note": "Rare cases of liver injury have been linked to ashwagandha. Don't use it if you have a thyroid or autoimmune condition (NIH NCCIH)."
+    },
+    "Melatonin": {
+      "group": "hormone",
+      "nutrients": []
+    },
+    "Hamdard Safi": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Neurobion": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_b1",
+        "vitamin_b6",
+        "vitamin_b12"
+      ],
+      "typical_strength": {
+        "vitamin_b1": 100,
+        "vitamin_b6": 200,
+        "vitamin_b12": 200
+      }
+    },
+    "Ferosoft / Ferose": {
+      "group": "iron",
+      "nutrients": [
+        "iron",
+        "folate",
+        "vitamin_c"
+      ]
+    },
+    "Calcimax": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "calcium",
+        "vitamin_d",
+        "zinc",
+        "magnesium"
+      ]
+    },
+    "Calvit D3": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "calcium",
+        "vitamin_d"
+      ]
+    },
+    "Osteofos": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "calcium",
+        "magnesium",
+        "zinc",
+        "vitamin_d"
+      ]
+    },
+    "Femibion": {
+      "group": "prenatal",
+      "nutrients": [
+        "folate",
+        "vitamin_d",
+        "vitamin_b12",
+        "iron"
+      ]
+    },
+    "Zinnat / Zincovit": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "zinc",
+        "vitamin_c"
+      ]
+    },
+    "Nigella Sativa (Kalonji)": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Ispaghol (Psyllium Husk)": {
+      "group": "herbal",
+      "nutrients": [],
+      "note": "Drink a full glass of water with each dose."
+    },
+    "Karela (Bitter Melon)": {
+      "group": "herbal",
+      "nutrients": [],
+      "note": "Karela can lower blood sugar."
+    },
+    "Spirulina": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Garlic Extract": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Ginger Extract": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Moringa (Sohanjna)": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Shilajit": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Senna (Seena)": {
+      "group": "herbal",
+      "nutrients": [],
+      "note": "Senna is a laxative. Don't use it for more than 1 week unless a doctor says so."
+    },
+    "Amla (Indian Gooseberry)": {
+      "group": "herbal",
+      "nutrients": []
+    },
+    "Vitamin D (Roletra)": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "vitamin_d"
+      ]
+    },
+    "Folic Acid 5mg": {
+      "group": "vitamin_mineral",
+      "nutrients": [
+        "folate"
+      ],
+      "typical_strength": {
+        "folate": 5000
+      },
+      "note": "5 mg is a prescription-strength dose, five times the normal safe daily limit. Take it only if a doctor prescribed it."
+    },
+    "Karvol Plus": {
+      "group": "not_supplement",
+      "nutrients": []
+    },
+    "Neopeptine": {
+      "group": "general",
+      "nutrients": []
+    },
+    "Maxitrol": {
+      "group": "not_supplement",
+      "nutrients": []
+    },
+    "Hamdard Arq Mako": {
+      "group": "herbal",
+      "nutrients": []
+    }
+  }
+}

@@ -70,15 +70,13 @@
       "Essential for calcium absorption into bones",
       "Supports immune system function significantly",
       "May reduce depression and improve mood",
-      "Low levels linked to diabetes, heart disease, cancer risk",
-      "Affordable and easy to supplement"
+      "Low levels linked to diabetes, heart disease, cancer risk"
     ],
     "cons": [
       "Fat-soluble - accumulates and can reach toxic levels",
       "Requires Vitamin K2 to safely direct calcium to bones",
       "Overdose causes hypercalcemia (too much calcium in blood)",
-      "Must take blood test to know actual level before dosing",
-      "Difficult to get adequate amounts from food alone in Pakistan"
+      "Must take blood test to know actual level before dosing"
     ],
     "color": "#EF9F27",
     "category_label": "Vitamin"
@@ -97,9 +95,7 @@
     "cons": [
       "Interacts with warfarin and blood-thinning medications",
       "High-dose Vitamin E antagonizes its clotting effect",
-      "Main food source (natto) not available in Pakistan",
-      "Long-term high-dose effects still being studied",
-      "More expensive than most other vitamins"
+      "Long-term high-dose effects still being studied"
     ],
     "color": "#534AB7",
     "category_label": "Vitamin"
@@ -117,10 +113,8 @@
     ],
     "cons": [
       "High-dose Vitamin C destroys B12 in the gut before absorption",
-      "Absorption decreases significantly with age - injections may be needed",
       "Deficiency develops slowly over years with no early warning",
-      "Only found in animal products - vegetarians, vegans at high risk",
-      "Cyanocobalamin form cheaper; methylcobalamin more bioavailable"
+      "Only found in animal products - vegetarians, vegans at high risk"
     ],
     "color": "#BA7517",
     "category_label": "Vitamin"
@@ -133,8 +127,7 @@
       "Prevents neural tube defects (spina bifida) in newborns",
       "Essential for DNA repair and cell division",
       "Works synergistically with Vitamin B12",
-      "Reduces homocysteine - a heart disease risk marker",
-      "Affordable and widely available at all Pakistani pharmacies"
+      "Reduces homocysteine - a heart disease risk marker"
     ],
     "cons": [
       "Can mask Vitamin B12 deficiency - always check B12 when taking folate",
@@ -203,7 +196,6 @@
       "Fishy burps and aftertaste - buy enteric-coated capsules",
       "Rancidity risk - poor quality fish oil can be harmful",
       "Blood-thinning effect at high doses - caution before surgery",
-      "Quality varies enormously between brands",
       "Grapefruit contains furanocoumarins that affect metabolism"
     ],
     "color": "#0F6E56",
@@ -215,7 +207,6 @@
     "best_known_for": "The most popular supplement worldwide - a convenient foundation of nutrition for people with dietary gaps.",
     "pros": [
       "Covers multiple nutritional deficiencies with one pill",
-      "Convenient and usually affordable option",
       "Good nutritional insurance for irregular diets",
       "Contains synergistic combinations of vitamins and minerals",
       "Reduces risk of developing specific deficiency diseases"
@@ -237,7 +228,6 @@
     "pros": [
       "Comprehensive A-Z formula covering all major vitamins and minerals",
       "Separate formulas for Men, Women, Adults, and 50+",
-      "Widely available and trusted brand across Pakistan",
       "Clinically studied with years of safety data",
       "Convenient once-daily dosing with meals"
     ],
@@ -258,9 +248,7 @@
     "pros": [
       "Triple combination: iron, folic acid, and B12 in one tablet",
       "Folic acid prevents neural tube defects in pregnancy",
-      "B12 supports nerve health and red blood cell formation",
-      "Widely prescribed by Pakistani gynecologists and GPs",
-      "Affordable and available at all major pharmacy chains"
+      "B12 supports nerve health and red blood cell formation"
     ],
     "cons": [
       "Causes constipation - take with plenty of water and fibre",
@@ -278,8 +266,6 @@
     "best_known_for": "Classic iron and folic acid combination widely prescribed in Pakistan for anaemia in women and pregnancy support.",
     "pros": [
       "Effective iron and folate combination",
-      "Widely trusted and prescribed in Pakistan",
-      "Affordable",
       "Essential for pregnancy",
       "Folic acid prevents spina bifida"
     ],
@@ -301,7 +287,6 @@
       "High Vitamin C (500mg) boosts immune function significantly",
       "Zinc shortens cold and flu duration",
       "B-complex vitamins support energy metabolism",
-      "Widely available across Pakistan at Servaid and D-Watson",
       "Good for post-COVID and post-viral recovery"
     ],
     "cons": [
@@ -321,16 +306,13 @@
     "pros": [
       "High thiamine (B1) for nerve and energy health",
       "Full B-complex coverage",
-      "Vitamin C included for antioxidant support",
-      "Widely available in Pakistan",
-      "Affordable"
+      "Vitamin C included for antioxidant support"
     ],
     "cons": [
       "High-dose B6 risk with prolonged use",
       "Should support diet not replace it",
       "GI upset possible",
-      "Check overlap with other B vitamins",
-      "Injection needed for severe deficiency"
+      "Check overlap with other B vitamins"
     ],
     "color": "#BA7517",
     "category_label": "B Vitamin Complex"
@@ -342,9 +324,7 @@
     "pros": [
       "Comprehensive B-complex formula",
       "Vitamin E antioxidant included",
-      "Zinc for immune support",
-      "Trusted Abbott brand in Pakistan",
-      "Affordable daily supplement"
+      "Zinc for immune support"
     ],
     "cons": [
       "Zinc and iron compete - avoid with iron supplements",
@@ -364,7 +344,6 @@
       "Iron with Vitamin C for enhanced absorption",
       "Folic acid and B12 included",
       "Comprehensive haematinic",
-      "Widely available in Pakistan",
       "Effective for anaemia correction"
     ],
     "cons": [
@@ -384,9 +363,7 @@
     "pros": [
       "Potent antioxidant protecting cells from damage",
       "Supports skin health and wound healing",
-      "Promotes fertility in both men and women",
-      "Very widely available and affordable in Pakistan",
-      "Popular for hair and skin health"
+      "Promotes fertility in both men and women"
     ],
     "cons": [
       "High doses increase bleeding risk",
@@ -406,7 +383,6 @@
       "Effervescent format - easy to take and pleasant taste",
       "High dose Vitamin C for immune support",
       "Enhances iron absorption when taken together",
-      "Widely available at Pakistani pharmacies",
       "Good for cold prevention and recovery"
     ],
     "cons": [
@@ -426,9 +402,7 @@
     "pros": [
       "Ferrous fumarate - gentler on stomach than sulphate form",
       "Folic acid included for pregnancy support",
-      "Effective for correcting iron deficiency anaemia",
-      "Widely prescribed in Pakistan",
-      "Available at most pharmacies"
+      "Effective for correcting iron deficiency anaemia"
     ],
     "cons": [
       "Still causes constipation",
@@ -448,12 +422,9 @@
       "Comprehensive prenatal formula",
       "High folic acid for neural tube prevention",
       "DHA for fetal brain development",
-      "Gentle formula for pregnancy nausea",
-      "Trusted international brand"
+      "Gentle formula for pregnancy nausea"
     ],
     "cons": [
-      "More expensive than local brands",
-      "Less widely available outside major cities",
       "Still contains iron - avoid doubling up",
       "Check total Vitamin D from all sources",
       "Not substitute for healthy diet"
@@ -468,16 +439,12 @@
     "pros": [
       "High iron (60mg) for pregnancy anaemia prevention",
       "High folic acid (800mcg) for neural tube protection",
-      "Comprehensive mineral and vitamin formula",
-      "Trusted Bayer brand",
-      "Available in major Pakistani pharmacy chains"
+      "Comprehensive mineral and vitamin formula"
     ],
     "cons": [
-      "Expensive compared to local Pakistani brands",
       "High iron causes constipation - increase water intake",
       "Contains Vitamin A - do not add separate Vitamin A supplement",
-      "Check total D3 from all sources",
-      "Less widely available in smaller cities"
+      "Check total D3 from all sources"
     ],
     "color": "#D4537E",
     "category_label": "Premium Prenatal Supplement"
@@ -488,7 +455,6 @@
     "best_known_for": "High-strength Vitamin D3 supplement prescribed in Pakistan for correcting moderate to severe Vitamin D deficiency.",
     "pros": [
       "High dose for faster deficiency correction",
-      "Directly addresses Pakistan's most common nutrient deficiency",
       "Bone density support",
       "Immune function support",
       "Simple dosing - often weekly or monthly"
@@ -511,8 +477,7 @@
       "Sustained release - gentler on stomach",
       "Folic acid included for pregnancy",
       "Reduced constipation vs standard iron tablets",
-      "Effective for iron deficiency anaemia",
-      "Widely available in Pakistan"
+      "Effective for iron deficiency anaemia"
     ],
     "cons": [
       "Still causes some GI side effects",
@@ -532,15 +497,12 @@
       "Comprehensive prenatal formula",
       "High folic acid for neural tube protection",
       "Iron for pregnancy anaemia prevention",
-      "DHA for fetal brain development",
-      "Trusted international brand available in Pakistan"
+      "DHA for fetal brain development"
     ],
     "cons": [
-      "Expensive compared to local brands",
       "Contains iron - avoid doubling up",
       "Check total Vitamin D and calcium",
-      "Nausea - take at night with food",
-      "Less available in smaller Pakistani cities"
+      "Nausea - take at night with food"
     ],
     "color": "#D4537E",
     "category_label": "Prenatal Supplement"
@@ -551,10 +513,7 @@
     "best_known_for": "Abbott's mineral-enriched multivitamin widely available in Pakistan.",
     "pros": [
       "Comprehensive B-complex",
-      "Mineral support included",
-      "Trusted Abbott brand",
-      "Widely available in Pakistan",
-      "Affordable"
+      "Mineral support included"
     ],
     "cons": [
       "Check overlap with other supplements",
@@ -572,8 +531,6 @@
     "best_known_for": "Pakistani multivitamin covering essential vitamins and minerals.",
     "pros": [
       "Comprehensive formula",
-      "Affordable",
-      "Widely available in Pakistan",
       "Covers multiple deficiencies",
       "Convenient single dose"
     ],
@@ -594,9 +551,7 @@
     "pros": [
       "Zinc and Vitamin C synergy",
       "B-complex energy support",
-      "Good for post-illness recovery",
-      "Widely available",
-      "Affordable"
+      "Good for post-illness recovery"
     ],
     "cons": [
       "Zinc competes with iron",
@@ -615,9 +570,7 @@
     "pros": [
       "Zinc and B-complex combination",
       "Supports skin health",
-      "Immune support",
-      "Widely available in Pakistan",
-      "Affordable option"
+      "Immune support"
     ],
     "cons": [
       "Zinc competes with iron and copper",
@@ -636,8 +589,6 @@
     "pros": [
       "Iron for anaemia correction",
       "Supporting vitamins included",
-      "Widely available",
-      "Affordable",
       "Effective for deficiency"
     ],
     "cons": [
@@ -658,7 +609,6 @@
       "Vitamin C enhances iron absorption by 3x",
       "Sustained release reduces GI side effects",
       "Effective for iron deficiency anaemia",
-      "Widely available in Pakistan",
       "Good absorption profile"
     ],
     "cons": [
@@ -749,8 +699,7 @@
       "Nausea is very common - take at bedtime or after food",
       "Already contains iron - do not add separate iron supplement without doctor guidance",
       "Very constipating due to high iron - increase water and fibre intake",
-      "Excess Vitamin A is dangerous in pregnancy - avoid additional Vitamin A",
-      "More expensive than standard multivitamins"
+      "Excess Vitamin A is dangerous in pregnancy - avoid additional Vitamin A"
     ],
     "color": "#D4537E",
     "category_label": "Prenatal Supplement"
@@ -791,8 +740,7 @@
       "High doses interfere with thyroid and heart attack lab tests - creates false results",
       "Must stop taking 3-5 days before any blood tests",
       "Evidence for hair growth in non-deficient people is limited",
-      "Raw egg whites block biotin absorption",
-      "Often over-marketed - most people are not actually biotin deficient"
+      "Raw egg whites block biotin absorption"
     ],
     "color": "#5DCAA5",
     "category_label": "Vitamin"
@@ -809,7 +757,6 @@
       "May improve exercise performance and reduce muscle fatigue"
     ],
     "cons": [
-      "Expensive - high-quality ubiquinol costs significantly more than basic supplements",
       "Fat-soluble - must be taken with a fat-containing meal to absorb",
       "May lower blood pressure - caution if already on blood pressure medication",
       "Can cause insomnia if taken in the evening - take with breakfast",
@@ -886,18 +833,14 @@
     "used_for": "Blood purification. Skin health and acne treatment. Digestive support. Traditional Unani medicine for skin clarity.",
     "best_known_for": "Pakistan's best-known Unani herbal tonic - Safi has been used for blood purification and skin clarity by generations of Pakistani families.",
     "pros": [
-      "Widely trusted herbal formulation with long history in Pakistan",
       "Supports skin health and reduces acne",
       "Digestive support and mild laxative effect",
-      "Affordable and available everywhere in Pakistan",
       "Contains a blend of time-tested Unani herbs"
     ],
     "cons": [
       "Contains multiple herbs - significant interaction risk with prescription medications",
-      "Not standardised to pharmaceutical standards - ingredient potency varies",
       "Avoid during pregnancy - herbal constituents may not be safe",
-      "May interact with blood-thinning medications",
-      "Limited clinical trials compared to pharmaceutical drugs"
+      "May interact with blood-thinning medications"
     ],
     "color": "#993C1D",
     "category_label": "Unani Herbal Supplement"
@@ -909,13 +852,10 @@
     "pros": [
       "Directly supports nerve function, repair, and regeneration",
       "Effectively treats B vitamin deficiency syndromes",
-      "Widely available and affordable at all Pakistani pharmacies",
-      "Injection form available for severe deficiency or malabsorption",
       "Used extensively for diabetic neuropathy with good evidence"
     ],
     "cons": [
       "Long-term high-dose B6 (>100mg/day) paradoxically causes nerve toxicity",
-      "Injection form required when oral absorption is impaired",
       "Some GI upset in sensitive people - take after food",
       "Risk of excessive B6 if combining with other B-complex supplements",
       "Should support a nutritious diet - not replace it"
@@ -930,9 +870,7 @@
     "pros": [
       "Vitamin C included enhances iron absorption by up to 3x",
       "Folic acid included makes it ideal for pregnancy",
-      "Highly effective for correcting iron deficiency anaemia",
-      "Widely prescribed and trusted by Pakistani doctors",
-      "Available at all pharmacies - affordable and accessible"
+      "Highly effective for correcting iron deficiency anaemia"
     ],
     "cons": [
       "Causes constipation - extremely common complaint among Pakistani women",
@@ -951,9 +889,7 @@
     "pros": [
       "Convenient combination of calcium, D3, zinc, and magnesium in one tablet",
       "Vitamin D3 included enhances calcium absorption significantly",
-      "Zinc and magnesium support bone metabolism and density",
-      "Widely prescribed and trusted across Pakistan",
-      "Available at all major pharmacy chains"
+      "Zinc and magnesium support bone metabolism and density"
     ],
     "cons": [
       "Calcium blocks iron absorption - must be separated from iron supplements by 2 hours",
@@ -970,9 +906,7 @@
     "used_for": "Vitamin D deficiency treatment. Calcium supplementation for bone health. Post-menopausal osteoporosis prevention.",
     "best_known_for": "Extremely commonly prescribed across Pakistan for Vitamin D deficiency - one of the most prevalent nutrient deficiencies in Pakistani women, estimated to affect 70-90%.",
     "pros": [
-      "Highly effective for correcting Vitamin D deficiency - Pakistan's most common nutrient deficiency",
       "Calcium included enhances the bone health benefit of Vitamin D",
-      "Affordable and widely available at all Pakistani pharmacy chains",
       "Simple once-daily or weekly dosing depending on prescription",
       "Essential for bone density, immune function, and mood"
     ],
@@ -1015,12 +949,9 @@
       "Methylfolate (not folic acid) works for people with MTHFR gene variants",
       "DHA for fetal brain, eye, and nervous system development",
       "Comprehensive prenatal formula carefully designed for pregnancy",
-      "Gentle formulation designed to minimise pregnancy nausea",
-      "Suitable for MTHFR gene variants - important for Pakistani population"
+      "Gentle formulation designed to minimise pregnancy nausea"
     ],
     "cons": [
-      "More expensive than basic prenatal vitamins",
-      "Not as widely available - may need major city pharmacy or online order",
       "Still check total Vitamin D and calcium from all sources",
       "Not a substitute for a healthy, varied pregnancy diet",
       "Requires prescription advice to determine if advanced formula is needed"
@@ -1036,7 +967,6 @@
       "Convenient zinc and Vitamin C combination for synergistic immune support",
       "Zinc shortens duration of cold symptoms when started within 24 hours",
       "Vitamin C enhances zinc absorption and provides additional antioxidant support",
-      "Widely available across Pakistan and relatively affordable",
       "Good for wound healing and skin repair post-illness"
     ],
     "cons": [
@@ -1057,8 +987,7 @@
       "Strong anti-inflammatory and antioxidant effects via thymoquinone",
       "Supports respiratory health - good for asthma and allergies",
       "May help regulate blood sugar - useful in type 2 diabetes",
-      "Antimicrobial and antiviral properties",
-      "Long history of safe use across Pakistan and the Muslim world"
+      "Antimicrobial and antiviral properties"
     ],
     "cons": [
       "Can increase bleeding risk - avoid before surgery or with blood thinners",
@@ -1078,7 +1007,6 @@
       "Highly effective for constipation - produces soft, regular bowel movements",
       "FDA-approved for reducing LDL cholesterol when taken with low-fat diet",
       "Helps regulate blood sugar levels in type 2 diabetes",
-      "Very affordable and widely available at all Pakistani pharmacies",
       "Feeds beneficial gut bacteria - improves gut microbiome (prebiotic effect)"
     ],
     "cons": [
@@ -1099,7 +1027,6 @@
       "Can significantly lower blood glucose - useful in type 2 diabetes management",
       "Liver protective effects - supports liver detoxification",
       "Strong antioxidant properties",
-      "Traditional Pakistani vegetable with both food and medicine uses",
       "May improve insulin sensitivity and glucose metabolism"
     ],
     "cons": [
@@ -1124,7 +1051,6 @@
       "Ideal for vegetarians and vegans who struggle with protein and B12"
     ],
     "cons": [
-      "Contamination risk - heavy metals if poorly sourced - buy quality brands only",
       "May worsen autoimmune conditions by stimulating the immune system",
       "Strong fishy or algae taste and smell - off-putting for many people",
       "Contraindicated in phenylketonuria (PKU)",
@@ -1141,8 +1067,7 @@
       "Significantly reduces elevated blood pressure (systolic by 8-10 mmHg)",
       "Lowers LDL cholesterol and raises HDL cholesterol",
       "Powerful antimicrobial - active against bacteria, viruses, and fungi",
-      "Anti-inflammatory and antioxidant through allicin compounds",
-      "Widely available fresh in Pakistan - far cheaper than supplements"
+      "Anti-inflammatory and antioxidant through allicin compounds"
     ],
     "cons": [
       "Strong odour persists in breath and sweat - odourless enteric-coated capsules help",
@@ -1183,7 +1108,6 @@
       "Exceptional nutritional density - richer in iron than spinach, more Vitamin C than oranges",
       "Very high in antioxidants (quercetin, chlorogenic acid, beta-carotene)",
       "Strong anti-inflammatory and antimicrobial properties",
-      "Widely grown and extremely affordable throughout Pakistan",
       "Supports energy, immune function, and blood sugar regulation"
     ],
     "cons": [
@@ -1204,13 +1128,11 @@
       "Boosts testosterone and improves sperm quality and motility",
       "Rich in fulvic acid which enhances cellular nutrient absorption",
       "Adaptogen for energy, stamina, and physical performance",
-      "Centuries of traditional use across Pakistan, Afghanistan, and Central Asia",
       "Contains over 80 trace minerals in ionic form for easy absorption"
     ],
     "cons": [
       "Quality varies enormously - unprocessed shilajit contains heavy metals",
       "Raw or bazaar shilajit can be dangerous - only buy purified standardised extract",
-      "Scientific clinical evidence is still limited compared to traditional claims",
       "May interact with diabetes and blood pressure medications",
       "Not suitable for women, especially during pregnancy or breastfeeding"
     ],
@@ -1224,9 +1146,7 @@
     "pros": [
       "Effective and rapid-acting laxative - works within 6-12 hours",
       "Well-studied and FDA-approved for short-term constipation treatment",
-      "Natural herbal option compared to chemical laxatives",
-      "Affordable and widely available in Pakistan",
-      "Used in Unani and Islamic traditional medicine"
+      "Natural herbal option compared to chemical laxatives"
     ],
     "cons": [
       "Habit-forming - long-term use causes laxative dependence and worsens constipation",
@@ -1246,8 +1166,7 @@
       "Extraordinary Vitamin C content - 600mg per 100g, 20x more than oranges",
       "Very powerful antioxidant protecting against oxidative stress",
       "Promotes hair growth and prevents premature greying",
-      "Liver protective - supports liver detoxification",
-      "Widely available and extremely affordable in Pakistan"
+      "Liver protective - supports liver detoxification"
     ],
     "cons": [
       "Very acidic - may irritate the stomach or worsen acid reflux",
@@ -1264,9 +1183,7 @@
     "used_for": "Treatment of Vitamin D deficiency - the most common nutrient deficiency in Pakistan. Bone health. Immune support.",
     "best_known_for": "Pakistan-specific Vitamin D supplement prescribed widely across all Pakistani hospitals for the epidemic of Vitamin D deficiency, particularly in women.",
     "pros": [
-      "Directly addresses Pakistan's most prevalent nutrient deficiency",
       "Convenient weekly or monthly high-dose formulation saves daily pill burden",
-      "Affordable and widely prescribed by Pakistani doctors",
       "Essential for bone density, immune function, and mood",
       "Strong evidence base for supplementation in deficient populations"
     ],
@@ -1286,7 +1203,6 @@
     "best_known_for": "Standard pregnancy folic acid prescription in Pakistan - prescribed almost universally to all pregnant women by Pakistani doctors for neural tube defect prevention.",
     "pros": [
       "Highly effective prevention of neural tube defects (spina bifida, anencephaly)",
-      "Very affordable - available at all Pakistani pharmacies",
       "Supports fetal cell division and DNA synthesis",
       "Reduces homocysteine levels - a risk factor for heart disease",
       "Essential before conception and throughout first trimester"
@@ -1309,8 +1225,7 @@
       "Effective and fast nasal decongestant",
       "Natural menthol and eucalyptus active ingredients",
       "Minimal systemic drug interactions",
-      "Safe for most adults when used as directed",
-      "Widely available across Pakistani pharmacies"
+      "Safe for most adults when used as directed"
     ],
     "cons": [
       "For inhalation only - NOT for internal consumption or swallowing",
@@ -1329,16 +1244,13 @@
     "pros": [
       "Supports digestion through added digestive enzymes",
       "Multivitamin component provides nutritional coverage",
-      "Available in liquid form - easier for children",
-      "Widely available and trusted in Pakistan",
       "Supports appetite and nutritional absorption in children"
     ],
     "cons": [
       "Not a substitute for a balanced, nutritious diet",
       "Evidence for digestive enzymes in healthy people is limited",
       "May not provide therapeutic doses of individual vitamins",
-      "Check for overlap with other supplements",
-      "Not standardised to pharmaceutical drug standards"
+      "Check for overlap with other supplements"
     ],
     "color": "#5DCAA5",
     "category_label": "Digestive Enzyme + Multivitamin"
@@ -1350,16 +1262,13 @@
     "pros": [
       "Supports nerve function and repair",
       "Treats multiple B vitamin deficiencies simultaneously",
-      "Widely available in Pakistan",
-      "Affordable option for nerve support",
       "Good for diabetic neuropathy support"
     ],
     "cons": [
       "High-dose B6 can paradoxically cause nerve toxicity with prolonged use",
       "Should support diet - not replace it",
       "GI upset in some people - take with food",
-      "Check for overlap with other B-vitamin supplements",
-      "Injection needed for severe malabsorption cases"
+      "Check for overlap with other B-vitamin supplements"
     ],
     "color": "#378ADD",
     "category_label": "B Vitamin Complex"
@@ -1369,17 +1278,12 @@
     "used_for": "Liver health and protection. Jaundice recovery. Digestive support. Blood purification.",
     "best_known_for": "Traditional Unani liver tonic - widely used in Pakistan for liver health, jaundice recovery, and digestive issues. One of Hamdard's trusted formulations.",
     "pros": [
-      "Traditional hepatoprotective formula with long history",
       "Supports liver function and recovery",
-      "Digestive support and mild anti-inflammatory effect",
-      "Widely trusted across Pakistan",
-      "Affordable herbal liver tonic"
+      "Digestive support and mild anti-inflammatory effect"
     ],
     "cons": [
-      "Not standardised to pharmaceutical standards",
       "Interaction risk with liver medications - consult doctor",
       "Avoid in severe liver disease without medical supervision",
-      "Limited clinical trial evidence compared to pharmaceutical alternatives",
       "Avoid in pregnancy without medical advice"
     ],
     "color": "#BA7517",
