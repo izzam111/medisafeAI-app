@@ -1,6 +1,6 @@
 # MediSafe AI — automated tests
 
-129 test cases, written in code with **pytest**. No GUI is needed: each test calls the backend directly.
+139 test cases, written in code with **pytest**. No GUI is needed: each test calls the backend directly.
 
 ## Run them
 
@@ -29,9 +29,9 @@ the rules engine and the trained Random Forest food model.
 | TC-3 | `test_3_scan.py` | Non-supplement photo rejected (CLIP); brand read by OCR; OCR mistakes tolerated; product versions (Men, Kids) detected; scratched name identified from ingredients; medicines recognised; maker verified | 10 |
 | TC-4 | `test_4_safety_rules.py` | Verdict colour (green/orange/red) for 13 products × men, boys, girls, women with periods, pregnant, breastfeeding, after menopause, elderly | 45 |
 | TC-5 | `test_5_reasons.py` | Reasons offered only fit the supplement; women-only reasons hidden for men; an illness or unrelated reason turns the report red; "Everyday nutrition" only offered when it fits | 11 |
-| TC-6 | `test_6_food_and_dose.py` | Fruits/vegetables to eat with it and keep apart; never both; only fruits and vegetables; dose and short course; strength compared with the NIH limit | 6 |
+| TC-6 | `test_6_food_and_dose.py` | Fruits/vegetables to eat with it and keep apart; never both; only fruits and vegetables; dose and short course; strength compared with the NIH limit; '10,000 IU' read as ten thousand | 7 |
 | TC-7 | `test_7_search_and_medicines.py` | Search list (local + NIH); NIH label data; medicines and unknown names are refused | 6 |
-| TC-8 | `test_8_unknown_brands.py` | A brand not in our data (e.g. a Nutrifactor B3) is checked from the composition printed on its own label; two brands of the same vitamin with different strengths get different results; a child is stopped by a strong pack; an unknown iron product follows the iron rules; the report says the pack's own amounts were used | 6 |
+| TC-8 | `test_8_unknown_brands.py` | A brand not in our data (e.g. a Nutrifactor B3) is checked from the composition printed on its own label; two brands of the same vitamin with different strengths get different results; a child is stopped by a strong pack; an unknown iron product follows the iron rules; the report says the pack's own amounts were used; a brand with no 'Manufactured by' line is shown as the company; every ingredient on the label is listed; the report asks for the back when only the front was seen; amounts the user types from the label are checked the same way; a front-only photo gets the full ingredient list by lookup (NIH database or the brand's site) without overriding the pack's own amounts; a product with no composition found is never called safe | 15 |
 
 ## For the documentation
 
