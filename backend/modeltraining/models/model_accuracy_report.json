@@ -4,54 +4,54 @@
     "dataset_size": 990,
     "test_accuracy": 0.9747,
     "test_f1_weighted": 0.974,
-    "cv_accuracy_mean": 0.9586,
-    "cv_accuracy_std": 0.0141,
+    "cv_accuracy_mean": 0.9525,
+    "cv_accuracy_std": 0.0152,
     "best_hyperparams": {
       "class_weight": "balanced",
-      "max_depth": null,
-      "min_samples_split": 5,
+      "max_depth": 10,
+      "min_samples_split": 2,
       "n_estimators": 200
     },
     "top_features": [
       {
         "feature": "fat_soluble_pair",
-        "importance": 0.1431
+        "importance": 0.1363
       },
       {
         "feature": "calcium_iron_compete",
-        "importance": 0.0905
+        "importance": 0.1016
       },
       {
         "feature": "zinc_iron_compete",
-        "importance": 0.0726
+        "importance": 0.0758
       },
       {
         "feature": "both_minerals",
-        "importance": 0.0612
-      },
-      {
-        "feature": "s2_iron",
-        "importance": 0.0433
+        "importance": 0.0548
       },
       {
         "feature": "s1_category",
-        "importance": 0.0431
+        "importance": 0.0516
+      },
+      {
+        "feature": "s2_iron",
+        "importance": 0.0424
       },
       {
         "feature": "s2_category",
-        "importance": 0.0405
+        "importance": 0.0415
+      },
+      {
+        "feature": "s1_iron",
+        "importance": 0.0364
       },
       {
         "feature": "s1_vitamin_e",
-        "importance": 0.0397
+        "importance": 0.0356
       },
       {
         "feature": "s2_calcium",
-        "importance": 0.0374
-      },
-      {
-        "feature": "vit_d_k_synergy",
-        "importance": 0.0368
+        "importance": 0.035
       }
     ],
     "confusion_matrix": [
@@ -74,67 +74,67 @@
   },
   "food_model": {
     "algorithm": "Random Forest Classifier",
-    "dataset_size": 1350,
-    "test_accuracy": 0.9815,
-    "test_f1_weighted": 0.9805,
-    "cv_accuracy_mean": 0.9874,
-    "cv_accuracy_std": 0.0069,
+    "dataset_size": 2565,
+    "test_accuracy": 0.9942,
+    "test_f1_weighted": 0.9941,
+    "cv_accuracy_mean": 0.9942,
+    "cv_accuracy_std": 0.0041,
     "best_hyperparams": {
       "class_weight": "balanced",
       "max_depth": null,
-      "min_samples_split": 5,
+      "min_samples_split": 2,
       "n_estimators": 100
     },
     "top_features": [
       {
         "feature": "supp_iron",
-        "importance": 0.1173
-      },
-      {
-        "feature": "food_vitamin_c",
-        "importance": 0.0872
-      },
-      {
-        "feature": "calcium_interference",
-        "importance": 0.0782
-      },
-      {
-        "feature": "supp_category",
-        "importance": 0.0718
+        "importance": 0.1009
       },
       {
         "feature": "oxalate_block",
-        "importance": 0.064
-      },
-      {
-        "feature": "supp_zinc",
-        "importance": 0.0535
+        "importance": 0.0747
       },
       {
         "feature": "tannin_iron_block",
-        "importance": 0.0477
+        "importance": 0.0746
       },
       {
-        "feature": "food_oxalate",
-        "importance": 0.0419
+        "feature": "food_calcium",
+        "importance": 0.0646
       },
       {
-        "feature": "supp_calcium",
-        "importance": 0.0369
+        "feature": "food_vitamin_c",
+        "importance": 0.064
       },
       {
-        "feature": "supp_vitamin_k",
-        "importance": 0.0369
+        "feature": "supp_category",
+        "importance": 0.0594
+      },
+      {
+        "feature": "calcium_interference",
+        "importance": 0.0549
+      },
+      {
+        "feature": "food_tannin",
+        "importance": 0.0497
+      },
+      {
+        "feature": "supp_zinc",
+        "importance": 0.038
+      },
+      {
+        "feature": "food_potassium",
+        "importance": 0.038
       }
     ],
     "confusion_matrix": [
       [
-        254,
+        492,
         1
       ],
       [
-        4,
-        11
+        2,
+        18
       ]
     ]
   },
