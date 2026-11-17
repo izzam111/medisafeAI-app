@@ -3,6 +3,19 @@ __pycache__/
 *.pyc
 node_modules/
 .env
+.env.*
 .expo/
 *.dll
 *.pyd
+
+# secrets — never commit
+firebase-key.json
+*firebase-adminsdk*.json
+
+# local-only files
+*_backup.py
+.pytest_cache/
+backend/debug/
+backend/uploads/
+*.db
+.DS_Store

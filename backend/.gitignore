@@ -12,3 +12,9 @@ node_modules/
 # OS
 .DS_Store
 .expo/
+
+# Firebase service account (secret)
+firebase-key.json
+debug/
+*firebase-adminsdk*.json
+modeltraining/data/dsld_cache.json
