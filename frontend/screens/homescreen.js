@@ -1,766 +1,338 @@
-//homescreen.js
-import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
-import {
-  View, Text, TextInput, TouchableOpacity, TouchableHighlight,
-  StyleSheet, StatusBar, ScrollView, Platform,
-  SafeAreaView, Modal, Animated, Pressable, Easing, Dimensions,
-  PanResponder,
-} from 'react-native';
+// homescreen.js — header (logo), search, nutrient cards that slide by themselves (tap one to read more), the scan
+// button, how it works, and one plain line at the bottom: for information only. History and Profile have their own tabs.
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { View, Text, Pressable, ScrollView, Modal, Animated, PanResponder, StyleSheet, useWindowDimensions } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useFocusEffect } from '@react-navigation/native';
+import { Screen, Icon, Logo, C, T, shadow } from '../ui';
+import { getProfile, cachedProfile } from '../config';
 
-const { width: SCREEN_W } = Dimensions.get('window');
-
-/* ─── TOKENS ─── */
-const C = {
-  primary:     '#1B4F72',
-  primaryDark: '#154360',
-  primary2:    '#2874A6',
-  accentBlue:  '#5DADE2',
-  bg:          '#EBF5FB',
-  card:        '#FFFFFF',
-  border:      '#D6EAF8',
-  text:        '#1A252F',
-  textSub:     '#5D6D7E',
-  muted:       '#85929E',
-  green:       '#27AE60',
-  amber:       '#E67E22',
-  red:         '#E74C3C',
-};
-
-/* ─── SUPPLEMENTS ─── */
-const SUPPLEMENTS = [
-  'Centrum','Centrum Silver','Centrum Men','Centrum Women',
-  'Supradyn','Supradyn Energy','Supradyn Kids',
-  'Omega-3','Fish Oil','Cod Liver Oil',
-  'Vitamin D','Vitamin D3','Vitamin D3 + K2',
-  'Vitamin C','Vitamin C 500mg','Vitamin C 1000mg',
-  'Vitamin B12','Vitamin B Complex','Vitamin E',
-  'Zinc','Zinc + Vitamin C','Zinc Picolinate',
-  'Magnesium','Magnesium Glycinate','Magnesium Citrate',
-  'Calcium','Calcium + Vitamin D','Calcium Carbonate',
-  'Iron','Iron + Folic Acid','Ferrous Sulphate',
-  'Folic Acid','Folate','Biotin','Biotin 5000mcg',
-  'Collagen','Collagen Peptides','Marine Collagen',
-  'Multivitamin',"Men's Multivitamin","Women's Multivitamin",
-  'Prenatal Vitamins','Probiotics','Probiotic 10 Billion CFU',
-  'Melatonin','Melatonin 5mg','Melatonin 10mg',
-  'Ashwagandha','Ashwagandha KSM-66',
-  'Turmeric','Turmeric + Black Pepper','Curcumin',
-  'CoQ10','Coenzyme Q10','Glucosamine','Glucosamine + Chondroitin',
-  'Whey Protein','Plant Protein','Creatine','BCAA','Amino Acids',
-  'Spirulina','Chlorella','Evening Primrose Oil','Flaxseed Oil',
-  'Garlic Extract','Black Seed Oil','Nigella Sativa',
-  'Milk Thistle','Echinacea','Elderberry',
-  'Ginkgo Biloba','Ginseng','Rhodiola Rosea',
-  'Alpha Lipoic Acid','NAC','L-Carnitine','5-HTP','L-Theanine',
-  'Selenium','Iodine','Chromium','Copper','Potassium','Electrolytes',
-  'Vitamin A','Vitamin K','Vitamin K2',
-  'Niacin','Riboflavin','Thiamine','Pantothenic Acid',
-  'Saw Palmetto','Berberine','Cinnamon Extract',
-  'Green Tea Extract','Resveratrol','Lutein','Zeaxanthin',
-  'Hair Vitamins','Skin Vitamins','Nail Vitamins',
-  'Kids Multivitamin',"Children's Omega-3",
-  'Senior Multivitamin','Immune Support','Energy Supplement',
+// Nutrient cards (NIH Office of Dietary Supplements fact sheets). Tap a card to read what the nutrient does and which
+// fruits and vegetables give it. A different 6 are shown each time Home opens. "Adults need" = daily amount for ages 19-50.
+const NUTRIENTS = [
+  { key: 'iron', food: "1 cup of cooked lentils (daal) gives about 6 mg of iron: most of a man's daily need and a third of a woman's.", name: 'Iron', icon: 'water', tag: 'A mineral your blood needs to carry oxygen to every part of your body.',
+    does: 'Iron helps red blood cells carry oxygen around your body. Low iron makes you tired and weak and can lead to anaemia.',
+    good: 'Women with periods need more iron than men. Tea and coffee block iron; vitamin C helps your body absorb it.',
+    fruitsVeg: ['Spinach', 'Lentils (daal)', 'Chickpeas', 'Kidney beans', 'Peas'],
+    other: 'Red meat, chicken liver, fish and eggs.', need: 'Men 8 mg, women 18 mg a day' },
+  { key: 'vitc', food: "One guava gives about 125 mg of vitamin C, more than a whole day's need.", name: 'Vitamin C', icon: 'nutrition', tag: 'A vitamin found in fresh fruit that helps wounds heal and helps you absorb iron.',
+    does: 'Vitamin C helps wounds heal, keeps gums and skin healthy, supports the immune system and helps you absorb iron.',
+    good: 'Your body cannot store it, so you need some every day. Long cooking destroys much of it, so fresh fruit is best.',
+    fruitsVeg: ['Guava', 'Oranges and kinnow', 'Lemon', 'Strawberries', 'Tomatoes', 'Capsicum'],
+    other: 'Potatoes and green chillies also add some.', need: 'Men 90 mg, women 75 mg a day' },
+  { key: 'vitd', food: 'Food alone rarely covers it: one egg yolk gives only about 1 mcg (44 IU) of the 15 mcg you need.', name: 'Vitamin D', icon: 'sunny', tag: 'The "sunshine vitamin" your skin makes in sunlight, needed for strong bones.',
+    does: 'Vitamin D helps your body absorb calcium, which keeps bones and teeth strong. It also supports muscles.',
+    good: 'Your skin makes vitamin D in sunlight. Very few foods contain it, which is why many people need a supplement.',
+    fruitsVeg: ['Mushrooms grown in sunlight (small amounts)'],
+    other: 'Sunlight, egg yolks, fish such as salmon, and fortified milk.', need: '15 mcg (600 IU) a day' },
+  { key: 'calcium', food: '1 cup of milk gives about 300 mg of calcium, so 3 cups of milk or yogurt cover most of your day.', name: 'Calcium', icon: 'body', tag: 'The main mineral in your bones and teeth, also needed by your muscles and heart.',
+    does: 'Calcium builds strong bones and teeth and helps your muscles, nerves and heart work properly.',
+    good: 'Your body absorbs it best in amounts of 500 mg or less at a time. The calcium in spinach is poorly absorbed.',
+    fruitsVeg: ['Mustard greens (saag)', 'Broccoli', 'Okra (bhindi)', 'Cabbage'],
+    other: 'Milk, yogurt, cheese and almonds.', need: '1,000 mg a day' },
+  { key: 'b12', food: '1 cup of milk gives about 1.2 mcg of B12, so 2 cups of milk cover your whole day.', name: 'Vitamin B12', icon: 'flash', tag: 'A vitamin from animal foods that keeps your nerves and blood cells healthy.',
+    does: 'Vitamin B12 helps make red blood cells and keeps your nerves and brain working well.',
+    good: 'Fruits and vegetables do not contain B12. Vegetarians and older adults are more likely to run low.',
+    fruitsVeg: ['None: B12 comes only from animal foods'],
+    other: 'Meat, fish, eggs, milk and yogurt.', need: '2.4 mcg a day' },
+  { key: 'folate', food: "1 cup of cooked lentils gives about 360 mcg of folate, almost a whole day's need.", name: 'Folate', icon: 'heart', tag: 'A B vitamin your body uses to make new cells, very important in pregnancy.',
+    does: 'Folate (folic acid) helps your body make new cells and DNA. It is especially important before and during early pregnancy.',
+    good: 'Folic acid before and in early pregnancy helps prevent birth defects of the baby\'s brain and spine.',
+    fruitsVeg: ['Spinach', 'Lentils', 'Chickpeas', 'Peas', 'Broccoli', 'Oranges'],
+    other: 'Beans, eggs and fortified flour.', need: '400 mcg a day (600 mcg in pregnancy)' },
+  { key: 'potassium', food: 'One medium banana gives about 420 mg of potassium; a medium potato with its skin gives about 900 mg.', name: 'Potassium', icon: 'pulse', tag: 'A mineral that keeps your heartbeat steady and your blood pressure healthy.',
+    does: 'Potassium helps your heart beat steadily, your muscles move and keeps blood pressure in a healthy range.',
+    good: 'Most people get enough from food. People with kidney problems should not take potassium supplements without a doctor.',
+    fruitsVeg: ['Bananas', 'Potatoes', 'Dates', 'Apricots', 'Tomatoes', 'Spinach'],
+    other: 'Milk, yogurt and beans.', need: 'Men 3,400 mg, women 2,600 mg a day' },
+  { key: 'vita', food: "Half a cup of raw carrots gives about 460 mcg of vitamin A: about half a man's daily need and two-thirds of a woman's.", name: 'Vitamin A', icon: 'eye', tag: 'A vitamin that helps you see in dim light and keeps your skin healthy.',
+    does: 'Vitamin A helps you see in dim light and keeps your skin and immune system healthy.',
+    good: 'Too much vitamin A from supplements can be harmful, especially in pregnancy. Food sources are the safest.',
+    fruitsVeg: ['Carrots', 'Mangoes', 'Sweet potatoes', 'Pumpkin', 'Spinach', 'Apricots'],
+    other: 'Liver, eggs and milk.', need: 'Men 900 mcg, women 700 mcg a day' },
+  { key: 'magnesium', food: "A small handful of almonds (about 23, or 28 g) gives 80 mg of magnesium, about a quarter of a woman's daily need.", name: 'Magnesium', icon: 'barbell', tag: 'A mineral that helps your muscles, nerves and heart work and gives you energy.',
+    does: 'Magnesium helps your muscles and nerves work, keeps your heartbeat steady and helps turn food into energy.',
+    good: 'Too much from supplements can cause loose stools. Food sources do not cause this.',
+    fruitsVeg: ['Spinach', 'Bananas', 'Beans', 'Avocado'],
+    other: 'Almonds, cashews, seeds and whole wheat.', need: 'Men 400 mg, women 310 mg a day' },
+  { key: 'zinc', food: "85 g (3 oz) of cooked beef gives about 5 mg of zinc, roughly half a man's daily need.", name: 'Zinc', icon: 'shield-checkmark', tag: 'A mineral that helps your body fight infections and heal wounds.',
+    does: 'Zinc helps your immune system fight germs, helps wounds heal and supports taste and smell.',
+    good: 'Taking a lot of zinc for a long time can lower your copper level. Stay within the safe limit.',
+    fruitsVeg: ['Chickpeas', 'Lentils', 'Peas', 'Beans'],
+    other: 'Meat, chicken, nuts and seeds.', need: 'Men 11 mg, women 8 mg a day' },
+  { key: 'vitk', food: "Half a cup of cooked spinach gives about 440 mcg of vitamin K, several days' worth.", name: 'Vitamin K', icon: 'bandage', tag: 'A vitamin from green leafy vegetables that helps your blood clot when you are cut.',
+    does: 'Vitamin K helps your blood clot when you are cut and helps keep bones healthy.',
+    good: 'If you take a blood-thinning medicine, keep the amount of green leafy vegetables steady and talk to your doctor.',
+    fruitsVeg: ['Spinach', 'Mustard greens (saag)', 'Broccoli', 'Cabbage', 'Lettuce'],
+    other: 'Vegetable oils such as soybean oil.', need: 'Men 120 mcg, women 90 mcg a day' },
+  { key: 'vite', food: 'A small handful of almonds (about 23) gives about 7 mg of vitamin E, almost half your daily need.', name: 'Vitamin E', icon: 'leaf', tag: 'An antioxidant vitamin that protects your cells from damage.',
+    does: 'Vitamin E is an antioxidant: it protects your cells from damage and supports the immune system.',
+    good: 'High-dose vitamin E supplements can increase bleeding risk. Food sources are safe.',
+    fruitsVeg: ['Spinach', 'Broccoli', 'Mangoes', 'Kiwi'],
+    other: 'Almonds, sunflower seeds and vegetable oils.', need: '15 mg a day' },
+  { key: 'b6', name: 'Vitamin B6', icon: 'sparkles', tag: 'A B vitamin that helps your body use protein and keeps your brain and nerves working.',
+    does: 'Vitamin B6 helps your body use protein, make red blood cells and keep your brain and immune system working well.',
+    good: 'Very high doses from supplements taken for a long time can damage nerves, causing numb or tingling hands and feet.',
+    fruitsVeg: ['Bananas', 'Potatoes', 'Chickpeas', 'Spinach', 'Avocado'],
+    other: 'Chicken, fish and fortified cereals.', need: '1.3 mg a day',
+    food: "1 cup of cooked chickpeas (chanay) gives about 1.1 mg of vitamin B6, almost a whole day's need." },
+  { key: 'b3', name: 'Niacin (B3)', icon: 'flame', tag: 'A B vitamin that helps your body turn food into energy.',
+    does: 'Niacin helps turn the food you eat into energy and keeps your skin, nerves and digestion healthy.',
+    good: 'High-dose niacin supplements often cause flushing: red, warm, itchy skin. They can also affect the liver.',
+    fruitsVeg: ['Potatoes', 'Peas', 'Mushrooms', 'Avocado'],
+    other: 'Chicken, fish, peanuts and whole wheat.', need: 'Men 16 mg, women 14 mg a day',
+    food: "85 g (3 oz) of cooked chicken breast gives about 10 mg of niacin, around two-thirds of your daily need." },
+  { key: 'omega3', name: 'Omega-3', icon: 'fish', tag: 'A healthy fat found in fish and nuts that is good for your heart and brain.',
+    does: 'Omega-3 fats are part of every cell in your body and support your heart, brain and eyes.',
+    good: 'Fish gives the omega-3 types (EPA and DHA) your body uses most. Plants give ALA, which your body converts only in small amounts.',
+    fruitsVeg: ['Brussels sprouts (small amounts)', 'Spinach (small amounts)'],
+    other: 'Fish such as salmon, walnuts, flaxseeds and chia seeds.', need: 'Men 1.6 g, women 1.1 g a day (plant omega-3)',
+    food: "A small handful of walnuts (28 g, about 7 walnuts) gives about 2.5 g of plant omega-3, more than a day's need." },
+  { key: 'iodine', name: 'Iodine', icon: 'beaker', tag: 'A mineral your thyroid gland needs to control your energy and growth.',
+    does: 'Iodine helps your thyroid gland make hormones that control your energy, growth and how your body uses food.',
+    good: 'Too little iodine can cause goitre (a swollen thyroid). Using iodized salt is the easiest way to get enough.',
+    fruitsVeg: ['Seaweed', 'Prunes (small amounts)', 'Potatoes (small amounts)'],
+    other: 'Iodized salt, fish, milk, yogurt and eggs.', need: '150 mcg a day (220 mcg in pregnancy)',
+    food: "Just a quarter teaspoon of iodized salt gives about 76 mcg of iodine, half your daily need." },
+  { key: 'selenium', name: 'Selenium', icon: 'flower', tag: 'A mineral that protects your cells and helps your thyroid work.',
+    does: 'Selenium protects your cells from damage, supports your immune system and helps your thyroid work.',
+    good: 'Too much selenium can cause hair and nail loss. A single Brazil nut can hold more than a whole day\'s amount.',
+    fruitsVeg: ['Mushrooms', 'Spinach (small amounts)'],
+    other: 'Fish, eggs, chicken and whole wheat.', need: '55 mcg a day',
+    food: "One egg gives about 15 mcg of selenium, over a quarter of your daily need." },
 ];
+const shuffled = () => [...NUTRIENTS].sort(() => Math.random() - 0.5).slice(0, 6);
+const EVERY = 5000;        // ms each card stays before the next one slides in
+const RESUME = 6000;       // after the user swipes, wait this long before sliding again
 
-/* ─── FACT CARDS — `what` field added ─── */
-const FACT_CARDS = [
-  {
-    emoji: '☀️', name: 'Vitamin D', tag: 'Bone & Immunity', color: '#E67E22',
-    what: 'A fat-soluble vitamin your body synthesises when skin is exposed to sunlight. It exists in two main forms: D2 (from plants) and D3 (from animals and sunlight). D3 is used in most supplements as it raises blood levels more effectively.',
-    fact: 'Essential for calcium absorption and bone strength. Deficiency is strongly linked to fatigue, depression, and weakened immunity. A large portion of the global population is deficient, especially in low-sunlight regions.',
-    sources: 'Salmon · Egg yolks · Fortified milk · Sunlight',
-  },
-  {
-    emoji: '🌿', name: 'Magnesium', tag: 'Muscle & Nerve', color: '#27AE60',
-    what: 'An essential mineral and electrolyte found in every cell of the human body. It is the fourth most abundant mineral overall and is required for hundreds of enzymatic processes — from energy production to protein synthesis.',
-    fact: 'Involved in over 300 biochemical reactions in the body. It regulates muscle contractions, nerve signals, blood pressure, and blood sugar levels. Many people are deficient without realising it.',
-    sources: 'Spinach · Almonds · Pumpkin seeds · Dark chocolate',
-  },
-  {
-    emoji: '🐟', name: 'Omega-3', tag: 'Heart & Brain', color: '#2874A6',
-    what: 'A family of polyunsaturated fatty acids. The three key types are ALA (from plants), EPA and DHA (from fish and algae). EPA and DHA are the forms the body uses most directly, and they cannot be made by the body in meaningful amounts.',
-    fact: 'Actively reduces inflammation and supports both heart and brain function. The body cannot produce it — it must come entirely from diet or supplements.',
-    sources: 'Salmon · Mackerel · Chia seeds · Walnuts · Flaxseed',
-  },
-  {
-    emoji: '🫐', name: 'Vitamin C', tag: 'Immunity & Skin', color: '#8E44AD',
-    what: 'A water-soluble vitamin also known as ascorbic acid. Unlike most animals, humans cannot produce Vitamin C on their own — making it an essential daily nutrient. It is among the most widely researched vitamins in existence.',
-    fact: 'A powerful antioxidant that protects cells from damage, boosts immune defence, helps heal wounds faster, and is essential for collagen production — keeping skin firm and youthful.',
-    sources: 'Citrus fruits · Bell peppers · Strawberries · Kiwi',
-  },
-  {
-    emoji: '⚡', name: 'Vitamin B12', tag: 'Energy & Nerves', color: '#C0392B',
-    what: 'A water-soluble vitamin also called cobalamin — the largest and most structurally complex vitamin known. It is unique in containing the mineral cobalt at its core, and is found almost exclusively in animal-based foods.',
-    fact: 'Critical for red blood cell formation and healthy nerve function. A deficiency can cause extreme fatigue, brain fog, and lasting nerve damage. Especially important for vegetarians and vegans.',
-    sources: 'Meat · Fish · Dairy · Eggs · Fortified cereals',
-  },
-  {
-    emoji: '🦴', name: 'Calcium', tag: 'Bones & Teeth', color: '#1ABC9C',
-    what: 'The most abundant mineral in the human body. About 99% is stored in bones and teeth, giving them structure and hardness. The remaining 1% circulates in blood and is used for muscle contractions, nerve signalling, and blood clotting.',
-    fact: 'Works best when paired with Vitamin D for proper absorption. Critical throughout all life stages — from childhood bone development to preventing osteoporosis in older age.',
-    sources: 'Milk · Yogurt · Cheese · Broccoli · Tofu',
-  },
-  {
-    emoji: '💪', name: 'Iron', tag: 'Blood & Oxygen', color: '#C0392B',
-    what: 'A trace mineral and key component of haemoglobin — the protein in red blood cells that carries oxygen from the lungs to the rest of the body. There are two dietary forms: haem iron (animal sources, absorbed easily) and non-haem iron (plant sources).',
-    fact: 'Without enough iron you feel constantly tired and breathless. Women of reproductive age, vegetarians, and athletes are most at risk of deficiency.',
-    sources: 'Red meat · Lentils · Spinach · Fortified cereals',
-  },
-  {
-    emoji: '🧠', name: 'Ashwagandha', tag: 'Stress & Focus', color: '#6C3483',
-    what: 'An ancient medicinal herb (Withania somnifera) native to India, North Africa, and the Mediterranean. Classified as an adaptogen — a natural substance that helps the body resist physical and mental stress. Used for over 3,000 years in Ayurvedic medicine.',
-    fact: 'Helps the body manage stress by lowering cortisol levels. Clinical studies also show improvements in focus, sleep quality, and physical stamina.',
-    sources: 'Root extract · Supplement capsules · Herbal teas',
-  },
-  {
-    emoji: '🫀', name: 'CoQ10', tag: 'Heart Energy', color: '#D35400',
-    what: 'Coenzyme Q10 is a naturally occurring compound found in nearly every cell. It is a critical component of the mitochondria — the cell\'s power plant — helping convert food into usable energy (ATP). It also functions as a potent antioxidant.',
-    fact: 'Acts like a battery charger for your heart and muscle cells. Naturally produced by the body but levels decline significantly with age. People on statin medications often need supplementation.',
-    sources: 'Beef · Pork · Sardines · Peanuts · Supplement form',
-  },
-  {
-    emoji: '🌱', name: 'Zinc', tag: 'Immunity & Healing', color: '#148F77',
-    what: 'An essential trace mineral present in all body tissues. It is the second most abundant trace mineral in the body after iron. The body does not store zinc, so regular daily intake is necessary. It is involved in over 300 enzyme activities.',
-    fact: 'Essential for immune system function, wound healing, and DNA synthesis. Even mild deficiency noticeably impairs immunity. Also plays a key role in taste, smell, and reproductive health.',
-    sources: 'Oysters · Beef · Pumpkin seeds · Chickpeas',
-  },
-];
+// The card, opened: a sheet from the bottom. Drag the handle (or the title) down to close it, or tap outside it.
+function NutrientSheet({ item, onClose }) {
+  const { height } = useWindowDimensions();
+  const insets = useSafeAreaInsets();
+  const y = useRef(new Animated.Value(0)).current;
+  useEffect(() => { if (item) y.setValue(0); }, [item]);
 
-/* ─── ECG LOGO ─── */
-function ECGLogo({ size = 44 }) {
-  const col = '#5DADE2';
-  const h   = 2;
-  const W   = size;
+  const pan = useRef(PanResponder.create({
+    onStartShouldSetPanResponder: () => true,
+    onMoveShouldSetPanResponder: (_, g) => g.dy > 4,
+    onPanResponderMove: (_, g) => y.setValue(Math.max(0, g.dy)),
+    onPanResponderRelease: (_, g) => {
+      if (g.dy > 90 || g.vy > 0.8) {
+        Animated.timing(y, { toValue: height, duration: 180, useNativeDriver: true }).start(onClose);
+      } else {
+        Animated.spring(y, { toValue: 0, useNativeDriver: true, bounciness: 4 }).start();
+      }
+    },
+  })).current;
+
   return (
-    <View style={{ width: W, height: 24, position: 'relative' }}>
-      <View style={{ position:'absolute', left:0, top:11, width:W*0.18, height:h, backgroundColor:col, borderRadius:1 }} />
-      <View style={{ position:'absolute', left:W*0.17, top:7, width:W*0.09, height:h, backgroundColor:col, borderRadius:1, transform:[{rotate:'-45deg'}] }} />
-      <View style={{ position:'absolute', left:W*0.24, top:14, width:W*0.09, height:h, backgroundColor:col, borderRadius:1, transform:[{rotate:'45deg'}] }} />
-      <View style={{ position:'absolute', left:W*0.33, top:0, width:h, height:18, backgroundColor:col, borderRadius:1 }} />
-      <View style={{ position:'absolute', left:W*0.33+h, top:4, width:h, height:20, backgroundColor:col, borderRadius:1 }} />
-      <View style={{ position:'absolute', left:W*0.33+h*2, top:22, width:W*0.06, height:h, backgroundColor:col, borderRadius:1 }} />
-      <View style={{ position:'absolute', left:W*0.42, top:14, width:W*0.10, height:h, backgroundColor:col, borderRadius:1, transform:[{rotate:'-40deg'}] }} />
-      <View style={{ position:'absolute', left:W*0.52, top:7, width:W*0.10, height:h, backgroundColor:col, borderRadius:1, transform:[{rotate:'-20deg'}] }} />
-      <View style={{ position:'absolute', left:W*0.60, top:8, width:W*0.10, height:h, backgroundColor:col, borderRadius:1, transform:[{rotate:'20deg'}] }} />
-      <View style={{ position:'absolute', left:W*0.70, top:11, width:W*0.30, height:h, backgroundColor:col, borderRadius:1 }} />
-    </View>
-  );
-}
-
-/* ─── TAB ICONS ─── */
-function HomeIcon({ active }) {
-  const col = active ? C.primary : C.muted;
-  return (
-    <View style={{ width:28, height:24, alignItems:'center' }}>
-      <View style={{ position:'absolute', top:0, left:0, width:0, height:0, borderLeftWidth:14, borderRightWidth:0, borderBottomWidth:12, borderLeftColor:'transparent', borderRightColor:'transparent', borderBottomColor:col }} />
-      <View style={{ position:'absolute', top:0, right:0, width:0, height:0, borderRightWidth:14, borderLeftWidth:0, borderBottomWidth:12, borderRightColor:'transparent', borderLeftColor:'transparent', borderBottomColor:col }} />
-      <View style={{ position:'absolute', bottom:0, width:20, height:14, borderWidth:2, borderColor:col, borderRadius:1, alignItems:'center', justifyContent:'flex-end', backgroundColor:'transparent' }}>
-        <View style={{ width:6, height:9, backgroundColor:col, borderTopLeftRadius:2, borderTopRightRadius:2, marginBottom:-2 }} />
-      </View>
-    </View>
-  );
-}
-
-function CameraIcon() {
-  return (
-    <View style={{ alignItems:'center' }}>
-      <View style={{ width:10, height:5, backgroundColor:'#fff', borderTopLeftRadius:3, borderTopRightRadius:3, marginBottom:-1, alignSelf:'center' }} />
-      <View style={{ width:28, height:20, borderRadius:5, borderWidth:2.5, borderColor:'#fff', alignItems:'center', justifyContent:'center' }}>
-        <View style={{ width:11, height:11, borderRadius:5.5, borderWidth:2, borderColor:'#fff', alignItems:'center', justifyContent:'center' }}>
-          <View style={{ width:3.5, height:3.5, borderRadius:2, backgroundColor:'#fff' }} />
-        </View>
-      </View>
-    </View>
-  );
-}
-
-function InfoIcon({ active }) {
-  const col = active ? C.primary : C.muted;
-  return (
-    <View style={{ width:22, height:22, borderRadius:11, borderWidth:2, borderColor:col, alignItems:'center', justifyContent:'center' }}>
-      <View style={{ width:2.5, height:2.5, borderRadius:1.5, backgroundColor:col, marginBottom:2 }} />
-      <View style={{ width:2, height:7, borderRadius:1, backgroundColor:col }} />
-    </View>
-  );
-}
-
-/* ─────────────────────────────────────────────────────
-   FACT CARD DETAIL MODAL
-   Order: WHAT IT IS → ABOUT → NATURAL SOURCES
-───────────────────────────────────────────────────── */
-function FactCardModal({ card, onClose }) {
-  if (!card) return null;
-  return (
-    <Modal visible={!!card} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={fdm.overlay} onPress={onClose}>
-        <Pressable style={fdm.sheet} onPress={e => e.stopPropagation()}>
-          <View style={fdm.handle} />
-          <View style={[fdm.accentBar, { backgroundColor: card.color }]} />
-
-          <View style={fdm.headerRow}>
-            <View style={[fdm.emojiBox, { backgroundColor: card.color + '20' }]}>
-              <Text style={fdm.emoji}>{card.emoji}</Text>
-            </View>
-            <View style={fdm.headerMeta}>
-              <Text style={fdm.name}>{card.name}</Text>
-              <View style={[fdm.tag, { backgroundColor: card.color + '20' }]}>
-                <Text style={[fdm.tagText, { color: card.color }]}>{card.tag}</Text>
+    <Modal visible={!!item} transparent animationType="slide" statusBarTranslucent onRequestClose={onClose}>
+      <Pressable style={s.dim} onPress={onClose} accessibilityLabel="Close" />
+      {item && (
+        <Animated.View style={[s.sheet, { maxHeight: height * 0.85, paddingBottom: insets.bottom + 16, transform: [{ translateY: y }] }]}>
+          <View {...pan.panHandlers}>
+            <View style={s.grabArea}><View style={s.grab} /></View>
+            <View style={s.sheetHead}>
+              <View style={s.factIcon}><Icon name={item.icon} size={24} color={C.brand} /></View>
+              <View style={{ flex: 1 }}>
+                <Text style={s.sheetTitle}>{item.name}</Text>
+                <Text style={s.factTxt}>{item.tag}</Text>
               </View>
             </View>
           </View>
-
-          <View style={fdm.divider} />
-
-          {/* 1 — WHAT IT IS */}
-          <View style={[fdm.sectionBlock, { borderLeftColor: card.color }]}>
-            <Text style={[fdm.sectionLabel, { color: card.color }]}>WHAT IT IS</Text>
-            <Text style={fdm.sectionText}>{card.what}</Text>
-          </View>
-
-          {/* 2 — ABOUT */}
-          <View style={[fdm.sectionBlock, { borderLeftColor: C.primary2 }]}>
-            <Text style={[fdm.sectionLabel, { color: C.primary2 }]}>ABOUT</Text>
-            <Text style={fdm.sectionText}>{card.fact}</Text>
-          </View>
-
-          {/* 3 — NATURAL SOURCES */}
-          <View style={fdm.srcBox}>
-            <Text style={fdm.srcLabel}>NATURAL SOURCES</Text>
-            <Text style={fdm.srcVal}>{card.sources}</Text>
-          </View>
-
-          <TouchableOpacity style={[fdm.closeBtn, { backgroundColor: card.color }]} onPress={onClose} activeOpacity={0.88}>
-            <Text style={fdm.closeBtnText}>Close</Text>
-          </TouchableOpacity>
-        </Pressable>
-      </Pressable>
+          <ScrollView style={{ flexShrink: 1 }} contentContainerStyle={{ paddingBottom: 8 }}>
+            <Text style={s.h}>What it does</Text>
+            <Text style={s.p}>{item.does}</Text>
+            <Text style={s.h}>Good to know</Text>
+            <Text style={s.p}>{item.good}</Text>
+            <Text style={s.h}>Fruits and vegetables</Text>
+            <View style={s.chips}>
+              {item.fruitsVeg.map(x => <View key={x} style={s.chip}><Text style={s.chipTxt}>{x}</Text></View>)}
+            </View>
+            <Text style={s.h}>Other natural sources</Text>
+            <Text style={s.p}>{item.other}</Text>
+            <Text style={s.h}>Adults need</Text>
+            <Text style={s.p}>{item.need}</Text>
+            <View style={s.foodBox}>
+              <View style={s.foodHead}>
+                <Icon name="restaurant-outline" size={18} color={C.brandDark} />
+                <Text style={s.foodLabel}>Food fact</Text>
+              </View>
+              <Text style={s.foodTxt}>{item.food}</Text>
+            </View>
+            <Text style={s.src}>Source: NIH Office of Dietary Supplements</Text>
+          </ScrollView>
+        </Animated.View>
+      )}
     </Modal>
   );
 }
 
-const fdm = StyleSheet.create({
-  overlay:      { flex:1, backgroundColor:'rgba(0,0,0,0.5)', justifyContent:'flex-end' },
-  sheet:        { backgroundColor:C.card, borderTopLeftRadius:28, borderTopRightRadius:28, padding:24, paddingBottom:40, overflow:'hidden' },
-  handle:       { width:40, height:4, backgroundColor:C.border, borderRadius:2, alignSelf:'center', marginBottom:20 },
-  accentBar:    { position:'absolute', top:0, left:0, right:0, height:4 },
-  headerRow:    { flexDirection:'row', alignItems:'center', gap:14, marginBottom:16 },
-  emojiBox:     { width:58, height:58, borderRadius:16, alignItems:'center', justifyContent:'center' },
-  emoji:        { fontSize:30 },
-  headerMeta:   { flex:1, gap:6 },
-  name:         { fontSize:22, fontWeight:'800', color:C.text, letterSpacing:-0.3 },
-  tag:          { alignSelf:'flex-start', paddingHorizontal:10, paddingVertical:4, borderRadius:7 },
-  tagText:      { fontSize:11, fontWeight:'700', letterSpacing:0.3 },
-  divider:      { height:1, backgroundColor:C.border, marginBottom:18 },
-  sectionBlock: { borderLeftWidth:3, paddingLeft:12, marginBottom:18 },
-  sectionLabel: { fontSize:9.5, fontWeight:'800', letterSpacing:1.2, marginBottom:6 },
-  sectionText:  { fontSize:13.5, color:C.textSub, lineHeight:21 },
-  srcBox:       { backgroundColor:C.bg, borderRadius:12, padding:14, marginBottom:24 },
-  srcLabel:     { fontSize:9.5, fontWeight:'800', color:C.muted, letterSpacing:1, marginBottom:5 },
-  srcVal:       { fontSize:13.5, color:C.textSub, fontWeight:'500', lineHeight:21 },
-  closeBtn:     { borderRadius:14, paddingVertical:16, alignItems:'center' },
-  closeBtnText: { color:'#fff', fontWeight:'700', fontSize:16 },
-});
-
-/* ─────────────────────────────────────────────────────
-   FACT CAROUSEL
-   — 10s pause, 1.4s slide (very slow)
-   — Touch pauses it; release resumes
-   — No dots, no "Tap for more"
-───────────────────────────────────────────────────── */
-const CARD_W   = SCREEN_W - 40;
-const PAUSE_MS = 10000;
-const SLIDE_MS = 1400;
-
-function FactCarousel() {
-  const [index,      setIndex]      = useState(0);
-  const [activeCard, setActiveCard] = useState(null);
-  const translateX                  = useRef(new Animated.Value(0)).current;
-  const total                       = FACT_CARDS.length;
-  const isPaused                    = useRef(false);
-  const timerRef                    = useRef(null);
-  const animRef                     = useRef(null);
-  const indexRef                    = useRef(0);
-
-  const advance = useCallback((fromIndex) => {
-    if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(() => {
-      if (isPaused.current) return;
-      const next = (fromIndex + 1) % total;
-      const anim = Animated.timing(translateX, {
-        toValue: -(next * (CARD_W + 16)),
-        duration: SLIDE_MS,
-        easing: Easing.inOut(Easing.cubic),
-        useNativeDriver: true,
-      });
-      animRef.current = anim;
-      anim.start(({ finished }) => {
-        if (finished) {
-          indexRef.current = next;
-          setIndex(next);
-          advance(next);
-        }
-      });
-    }, PAUSE_MS);
-  }, [total]);
+function Facts() {
+  const [FACTS] = useState(shuffled);                     // a fresh set each time Home opens
+  const { width } = useWindowDimensions();
+  const cardW = width - 40;                               // same side margins as the rest of the page
+  const step = cardW + 12;
+  const ref = useRef(null);
+  const [index, setIndex] = useState(0);
+  const at = useRef(0);                                   // the card on screen now
+  const [paused, setPaused] = useState(false);            // user swiping, or a card is open
+  const [open, setOpen] = useState(null);                 // the nutrient whose details are showing
+  const resumeTimer = useRef(null);
 
   useEffect(() => {
-    advance(0);
-    return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
-      if (animRef.current) animRef.current.stop();
-    };
-  }, []);
+    if (paused || open) return;
+    const t = setInterval(() => {
+      const next = (at.current + 1) % FACTS.length;
+      at.current = next;
+      setIndex(next);
+      ref.current?.scrollTo({ x: next * step, animated: true });
+    }, EVERY);
+    return () => clearInterval(t);
+  }, [paused, open, step]);
+  useEffect(() => () => clearTimeout(resumeTimer.current), []);
 
-  const panResponder = useRef(
-    PanResponder.create({
-      onStartShouldSetPanResponder: () => true,
-      onPanResponderGrant: () => {
-        isPaused.current = true;
-        if (timerRef.current) clearTimeout(timerRef.current);
-        if (animRef.current) animRef.current.stop();
-      },
-      onPanResponderRelease: () => {
-        isPaused.current = false;
-        advance(indexRef.current);
-      },
-      onPanResponderTerminate: () => {
-        isPaused.current = false;
-        advance(indexRef.current);
-      },
-    })
-  ).current;
-
-  return (
-    <View style={fc.wrapper}>
-      <View style={fc.outer} {...panResponder.panHandlers}>
-        <Animated.View style={[fc.inner, { transform: [{ translateX }] }]}>
-          {FACT_CARDS.map((card, i) => (
-            <TouchableOpacity
-              key={i}
-              activeOpacity={0.9}
-              onPress={() => setActiveCard(card)}
-            >
-              <View style={[fc.card, { borderTopColor: card.color }]}>
-                <View style={fc.cardHeader}>
-                  <View style={[fc.emojiBox, { backgroundColor: card.color + '18' }]}>
-                    <Text style={fc.emoji}>{card.emoji}</Text>
-                  </View>
-                  <View style={fc.cardMeta}>
-                    <Text style={fc.cardName}>{card.name}</Text>
-                    <View style={[fc.tag, { backgroundColor: card.color + '20' }]}>
-                      <Text style={[fc.tagText, { color: card.color }]}>{card.tag}</Text>
-                    </View>
-                  </View>
-                </View>
-                <View style={fc.divider} />
-                <Text style={fc.fact}>{card.fact}</Text>
-                <View style={fc.srcBox}>
-                  <Text style={fc.srcLabel}>NATURAL SOURCES</Text>
-                  <Text style={fc.srcVal}>{card.sources}</Text>
-                </View>
-              </View>
-            </TouchableOpacity>
-          ))}
-        </Animated.View>
-      </View>
-      {/* dots removed */}
-      <FactCardModal card={activeCard} onClose={() => setActiveCard(null)} />
-    </View>
-  );
-}
-
-const fc = StyleSheet.create({
-  wrapper:    { marginBottom: 28 },
-  outer:      { width: CARD_W, overflow: 'hidden', alignSelf: 'center' },
-  inner:      { flexDirection: 'row' },
-  card: {
-    width: CARD_W,
-    marginRight: 16,
-    backgroundColor: C.card,
-    borderRadius: 18,
-    padding: 20,
-    borderWidth: 1,
-    borderColor: C.border,
-    borderTopWidth: 4,
-    minHeight: 240,
-  },
-  cardHeader: { flexDirection:'row', alignItems:'center', gap:14, marginBottom:14 },
-  emojiBox:   { width:50, height:50, borderRadius:14, alignItems:'center', justifyContent:'center' },
-  emoji:      { fontSize:26 },
-  cardMeta:   { flex:1, gap:6 },
-  cardName:   { fontSize:18, fontWeight:'800', color:C.text, letterSpacing:-0.3 },
-  tag:        { alignSelf:'flex-start', paddingHorizontal:10, paddingVertical:4, borderRadius:7 },
-  tagText:    { fontSize:11, fontWeight:'700', letterSpacing:0.3 },
-  divider:    { height:1, backgroundColor:C.border, marginBottom:14 },
-  fact:       { fontSize:13.5, color:C.textSub, lineHeight:21, marginBottom:16, flex:1 },
-  srcBox:     { backgroundColor:C.bg, borderRadius:10, padding:12 },
-  srcLabel:   { fontSize:9.5, fontWeight:'800', color:C.muted, letterSpacing:1, marginBottom:4 },
-  srcVal:     { fontSize:12.5, color:C.textSub, fontWeight:'500' },
-});
-
-/* ─────────────────────────────────────────────────────
-   HOW MEDISAFE WORKS  — replaces "What MediSafe Checks"
-   Clean numbered timeline: step circle + connector line + card
-───────────────────────────────────────────────────── */
-const HOW_STEPS = [
-  {
-    step: '01',
-    title: 'Scan or Search',
-    body: 'Point your camera at any supplement label, or type the name. MediSafe reads every ingredient automatically.',
-    color: C.primary,
-    line: C.accentBlue,
-  },
-  {
-    step: '02',
-    title: 'AI Analysis',
-    body: 'Each ingredient is cross-referenced against food interaction data and clinical safety profiles in seconds.',
-    color: '#8E44AD',
-    line: '#C39BD3',
-  },
-  {
-    step: '03',
-    title: 'Risk Assessment',
-    body: 'You receive a clear Low, Moderate, or High risk rating — no medical jargon, no guesswork.',
-    color: '#E67E22',
-    line: '#FAD7A0',
-  },
-  {
-    step: '04',
-    title: 'Your Safety Report',
-    body: 'A plain-English report tells you exactly what to eat, what to avoid, and why it matters for your health.',
-    color: C.green,
-    line: '#A9DFBF',
-  },
-];
-
-function HowItWorksSection() {
-  return (
-    <View style={hw.container}>
-      {HOW_STEPS.map((item, i) => (
-        <View key={item.step} style={hw.row}>
-          <View style={hw.leftCol}>
-            <View style={[hw.circle, { backgroundColor: item.color }]}>
-              <Text style={hw.circleNum}>{item.step}</Text>
-            </View>
-            {i < HOW_STEPS.length - 1 && (
-              <View style={[hw.connector, { backgroundColor: item.line }]} />
-            )}
-          </View>
-          <View style={[hw.card, { borderLeftColor: item.color }]}>
-            <Text style={[hw.cardTitle, { color: item.color }]}>{item.title}</Text>
-            <Text style={hw.cardBody}>{item.body}</Text>
-          </View>
-        </View>
-      ))}
-    </View>
-  );
-}
-
-const hw = StyleSheet.create({
-  container:  { paddingHorizontal:20, marginBottom:8 },
-  row:        { flexDirection:'row', gap:16 },
-  leftCol:    { alignItems:'center', width:36 },
-  circle:     { width:36, height:36, borderRadius:18, alignItems:'center', justifyContent:'center', zIndex:1 },
-  circleNum:  { color:'#fff', fontSize:12, fontWeight:'800', letterSpacing:0.5 },
-  connector:  { width:2, flex:1, minHeight:20, marginVertical:4, borderRadius:1, opacity:0.45 },
-  card: {
-    flex:1,
-    backgroundColor:C.card,
-    borderRadius:14,
-    borderWidth:1,
-    borderColor:C.border,
-    borderLeftWidth:3,
-    padding:16,
-    marginBottom:14,
-  },
-  cardTitle:  { fontSize:15, fontWeight:'800', marginBottom:6, letterSpacing:-0.2 },
-  cardBody:   { fontSize:13, color:C.textSub, lineHeight:20 },
-});
-
-/* ─── ABOUT MODAL ─── */
-function AboutModal({ visible, onClose }) {
-  return (
-    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={am.overlay} onPress={onClose}>
-        <Pressable style={am.sheet} onPress={e => e.stopPropagation()}>
-          <View style={am.handle} />
-          <View style={am.heroRow}>
-            <View style={am.heroIconBox}><ECGLogo size={44} /></View>
-            <View>
-              <Text style={am.heroName}>MediSafe <Text style={{ color: C.accentBlue }}>AI</Text></Text>
-              <Text style={am.heroSub}>Version 1.0  ·  AI-Powered Safety</Text>
-            </View>
-          </View>
-          <Text style={am.desc}>
-            MediSafe AI reads supplement labels and checks for food interactions — delivering a plain-English safety report in seconds.
-          </Text>
-          <View style={am.divider} />
-          <Text style={am.featLabel}>FEATURES</Text>
-          {[
-            { icon: '📸', t: 'Scan any supplement label with your camera' },
-            { icon: '🔍', t: 'Search 100+ supplements by name instantly'  },
-            { icon: '🍽️', t: 'See which foods to eat or avoid'             },
-            { icon: '📊', t: 'Low / Moderate / High risk rating'           },
-            { icon: '💬', t: 'Plain-English explanation for every result'  },
-          ].map(item => (
-            <View key={item.t} style={am.row}>
-              <View style={am.rowBox}><Text style={{ fontSize: 17 }}>{item.icon}</Text></View>
-              <Text style={am.rowText}>{item.t}</Text>
-            </View>
-          ))}
-          <View style={am.divider} />
-          <View style={am.disclaimer}>
-            <Text style={am.disclaimerTitle}>⚕️  Medical Disclaimer</Text>
-            <Text style={am.disclaimerText}>
-              AI-generated information only. Not a substitute for professional medical advice. Always consult your doctor or pharmacist before making changes.
-            </Text>
-          </View>
-          <TouchableOpacity style={am.closeBtn} onPress={onClose} activeOpacity={0.88}>
-            <Text style={am.closeBtnText}>Done</Text>
-          </TouchableOpacity>
-        </Pressable>
-      </Pressable>
-    </Modal>
-  );
-}
-const am = StyleSheet.create({
-  overlay:         { flex:1, backgroundColor:'rgba(0,0,0,0.5)', justifyContent:'flex-end' },
-  sheet:           { backgroundColor:C.card, borderTopLeftRadius:28, borderTopRightRadius:28, padding:24, paddingBottom:40 },
-  handle:          { width:40, height:4, backgroundColor:C.border, borderRadius:2, alignSelf:'center', marginBottom:22 },
-  heroRow:         { flexDirection:'row', alignItems:'center', gap:14, marginBottom:14 },
-  heroIconBox:     { width:56, height:56, backgroundColor:C.primary, borderRadius:16, alignItems:'center', justifyContent:'center' },
-  heroName:        { fontSize:22, fontWeight:'800', color:C.text },
-  heroSub:         { fontSize:12, color:C.muted, marginTop:3 },
-  desc:            { fontSize:14, color:C.textSub, lineHeight:22, marginBottom:14 },
-  divider:         { height:1, backgroundColor:C.border, marginVertical:14 },
-  featLabel:       { fontSize:10, fontWeight:'700', color:C.muted, letterSpacing:1.2, marginBottom:12 },
-  row:             { flexDirection:'row', alignItems:'center', gap:12, marginBottom:11 },
-  rowBox:          { width:34, height:34, backgroundColor:C.bg, borderRadius:10, alignItems:'center', justifyContent:'center' },
-  rowText:         { flex:1, fontSize:14, color:C.text, fontWeight:'500' },
-  disclaimer:      { backgroundColor:C.bg, borderRadius:12, padding:14, marginBottom:20 },
-  disclaimerTitle: { fontSize:12, fontWeight:'700', color:C.primary, marginBottom:5 },
-  disclaimerText:  { fontSize:12.5, color:C.textSub, lineHeight:19 },
-  closeBtn:        { backgroundColor:C.primary, borderRadius:14, paddingVertical:16, alignItems:'center' },
-  closeBtnText:    { color:'#fff', fontWeight:'700', fontSize:16 },
-});
-
-/* ─── HOME SCREEN ─── */
-export default function HomeScreen({ navigation }) {
-  const [query,     setQuery]   = useState('');
-  const [focused,   setFocused] = useState(false);
-  const [aboutOpen, setAbout]   = useState(false);
-
-  const suggestions = useMemo(() => {
-    if (query.trim().length < 2) return [];
-    const q = query.toLowerCase();
-    return SUPPLEMENTS.filter(s => s.toLowerCase().includes(q)).slice(0, 6);
-  }, [query]);
-
-  const handleSearch = useCallback((text) => {
-    const term = text || query;
-    if (!term.trim()) return;
-    navigation.navigate('Results', { scannedText: term, imageUri: null, isManualSearch: true });
-  }, [query, navigation]);
-
-  const greeting = () => {
-    const h = new Date().getHours();
-    if (h < 12) return { hi: 'Good morning 👋', sub: "Know what you're taking today." };
-    if (h < 17) return { hi: 'Good afternoon 👋', sub: 'Your daily supplement check.' };
-    return             { hi: 'Good evening 👋',   sub: 'Scan or search any supplement.' };
+  const hold = () => { clearTimeout(resumeTimer.current); setPaused(true); };
+  const release = e => {
+    const i = Math.round(e.nativeEvent.contentOffset.x / step);
+    at.current = Math.max(0, Math.min(FACTS.length - 1, i));
+    setIndex(at.current);
+    clearTimeout(resumeTimer.current);
+    resumeTimer.current = setTimeout(() => setPaused(false), RESUME);
   };
-  const g = greeting();
 
   return (
-    <View style={s.root}>
-      <StatusBar barStyle="light-content" backgroundColor={C.primary} />
-
-      <SafeAreaView style={s.topSafe}>
-        <View style={s.topBlock}>
-          <View style={s.headerRow}>
-            <View style={s.headerLeft}>
-              <ECGLogo size={44} />
-              <Text style={s.headerApp}>MediSafe <Text style={s.headerAI}>AI</Text></Text>
+    <View style={{ marginTop: 22 }}>
+      <Text style={[s.section, { marginTop: 0 }]}>Know your nutrients</Text>
+      <ScrollView ref={ref} horizontal showsHorizontalScrollIndicator={false} decelerationRate="fast"
+        snapToInterval={step} snapToAlignment="start" disableIntervalMomentum
+        style={{ marginHorizontal: -20 }} contentContainerStyle={{ paddingHorizontal: 20, gap: 12 }}
+        onScrollBeginDrag={hold} onMomentumScrollEnd={release} onScrollEndDrag={release}>
+        {FACTS.map(f => (
+          <Pressable key={f.key} onPress={() => setOpen(f)} style={({ pressed }) => [s.fact, { width: cardW }, pressed && { opacity: 0.9 }]}
+            accessibilityRole="button" accessibilityLabel={`${f.name}. ${f.tag}. Tap to read more`}>
+            <View style={s.factIcon}><Icon name={f.icon} size={24} color={C.brand} /></View>
+            <View style={{ flex: 1 }}>
+              <Text style={s.factTitle}>{f.name}</Text>
+              <Text style={s.factTxt}>{f.tag}</Text>
+              <Text style={s.factMore}>Tap to read more</Text>
             </View>
-          </View>
-          <View style={s.heroInner}>
-            <View style={s.bubble1} />
-            <View style={s.bubble2} />
-            <Text style={s.heroGreet}>{g.hi}</Text>
-            <Text style={s.heroSub}>{g.sub}</Text>
-          </View>
-        </View>
-      </SafeAreaView>
-
-      <ScrollView
-        style={s.scroll}
-        contentContainerStyle={s.scrollContent}
-        showsVerticalScrollIndicator={false}
-        keyboardShouldPersistTaps="handled"
-      >
-        <Text style={[s.sectionLabel, { marginTop: 24 }]}>Search Supplement</Text>
-        <View style={[s.searchWrap, focused && s.searchFocused]}>
-          <Text style={s.searchEmoji}>🔍</Text>
-          <TextInput
-            style={s.searchInput}
-            placeholder="e.g. Centrum, Omega-3, Vitamin D..."
-            placeholderTextColor={C.muted}
-            value={query}
-            onChangeText={setQuery}
-            onFocus={() => setFocused(true)}
-            onBlur={() => setTimeout(() => setFocused(false), 160)}
-            onSubmitEditing={() => handleSearch()}
-            returnKeyType="search"
-            autoCorrect={false}
-          />
-          {query.length > 0 && (
-            <TouchableOpacity onPress={() => setQuery('')} hitSlop={{ top:10, bottom:10, left:10, right:10 }}>
-              <View style={s.clearIcon}><Text style={s.clearText}>✕</Text></View>
-            </TouchableOpacity>
-          )}
-        </View>
-
-        {suggestions.length > 0 && (
-          <View style={s.suggBox}>
-            {suggestions.map((item, i) => (
-              <TouchableHighlight
-                key={item}
-                underlayColor={C.bg}
-                style={[s.sugg, i < suggestions.length - 1 && s.suggBorder]}
-                onPress={() => { setQuery(item); handleSearch(item); }}
-              >
-                <View style={s.suggRow}>
-                  <View style={s.suggIconBox}><Text>💊</Text></View>
-                  <Text style={s.suggText}>{item}</Text>
-                  <Text style={s.suggArrow}>›</Text>
-                </View>
-              </TouchableHighlight>
-            ))}
-          </View>
-        )}
-
-        {query.trim().length >= 2 && suggestions.length === 0 && (
-          <TouchableOpacity style={s.noMatch} onPress={() => handleSearch()} activeOpacity={0.8}>
-            <Text style={s.noMatchText}>
-              Search for "<Text style={{ fontWeight:'700' }}>{query}</Text>"  →
-            </Text>
-          </TouchableOpacity>
-        )}
-
-        <Text style={[s.sectionLabel, { marginTop: 30 }]}>Supplement Spotlight</Text>
-        <FactCarousel />
-
-        <Text style={s.sectionLabel}>How MediSafe Works</Text>
-        <HowItWorksSection />
-
-        <View style={{ height: 18 }} />
+          </Pressable>
+        ))}
       </ScrollView>
+      <View style={s.dots}>
+        {FACTS.map((f, i) => <View key={f.key} style={[s.dot, i === index && s.dotOn]} />)}
+      </View>
 
-      <SafeAreaView style={s.tabSafe}>
-        <View style={s.tabBar}>
-          <View style={s.tabItem}>
-            <View style={s.activeBar} />
-            <HomeIcon active={true} />
-            <Text style={s.tabLabelA}>Home</Text>
-          </View>
-          <View style={s.fabWrap}>
-            <TouchableOpacity style={s.fab} onPress={() => navigation.navigate('Scan')} activeOpacity={0.85}>
-              <CameraIcon />
-              <Text style={s.fabLabel}>Scan</Text>
-            </TouchableOpacity>
-          </View>
-          <TouchableOpacity style={s.tabItem} onPress={() => setAbout(true)} activeOpacity={0.7}>
-            <InfoIcon active={false} />
-            <Text style={s.tabLabel}>About</Text>
-          </TouchableOpacity>
-        </View>
-      </SafeAreaView>
-
-      <AboutModal visible={aboutOpen} onClose={() => setAbout(false)} />
+      <NutrientSheet item={open} onClose={() => setOpen(null)} />
     </View>
   );
 }
 
-/* ─── STYLES ─── */
+export default function HomeScreen({ navigation }) {
+  const [profile, setProfile] = useState(null);
+
+  useFocusEffect(useCallback(() => {
+    cachedProfile().then(c => c && setProfile(c));     // show at once from the phone
+    getProfile().then(p => p && setProfile(p));
+  }, []));
+
+  // Search and Scan go straight on: the details saved in the Profile tab are used for every check.
+  const go = to => navigation.navigate(to);
+
+  const header = (
+    <View style={s.header}>
+      <Logo size={30} />
+      <Text style={s.brandTxt}>MediSafe</Text>
+    </View>
+  );
+
+  return (
+    <Screen header={header} bg={C.soft} tabs={{ navigation, current: 'Home' }} footer={
+      <View style={s.note}>
+        <Icon name="alert-circle-outline" size={15} color="#000" />
+        <Text style={s.noteTxt}>Information only. Follow your doctor's advice.</Text>
+      </View>}>
+      <Text style={T.small}>{profile?.name ? `Hello, ${profile.name.split(' ')[0]}` : 'Welcome'}</Text>
+      <Text style={[T.hero, { marginTop: 2 }]}>Is your supplement safe for you?</Text>
+
+      <Pressable onPress={() => go('Search')} style={s.search} accessibilityRole="search" accessibilityLabel="Search supplements by name">
+        <Icon name="search" size={20} color={C.sub} />
+        <Text style={[T.sub, { flex: 1 }]}>Search a supplement by name</Text>
+      </Pressable>
+
+      <Facts />
+
+      <Pressable onPress={() => go('Scan')} style={({ pressed }) => [s.scan, pressed && { opacity: 0.92 }]}
+        accessibilityRole="button" accessibilityLabel="Scan a supplement">
+        <View style={s.scanIcon}><Icon name="camera" size={24} color={C.brand} /></View>
+        <View style={{ flex: 1 }}>
+          <Text style={s.scanTitle}>Scan a supplement</Text>
+          <Text style={s.scanSub}>Take a photo of the pack</Text>
+        </View>
+        <Icon name="arrow-forward" size={22} color="#fff" />
+      </Pressable>
+
+      {/* Just information, not buttons */}
+      <Text style={s.section}>How it works</Text>
+      <View style={s.how}>
+        {[['camera-outline', 'Take a photo', 'of the pack'], ['shield-checkmark-outline', 'We check it', 'against your profile'],
+          ['document-text-outline', 'Read your report', 'dose, foods, safety']].map(([icon, label, sub], i) => (
+          <View key={label} style={s.howStep}>
+            <Text style={s.howNo}>{i + 1}</Text>
+            <Icon name={icon} size={22} color={C.sub} />
+            <Text style={s.howTxt}>{label}</Text>
+            <Text style={s.howSub}>{sub}</Text>
+          </View>
+        ))}
+      </View>
+
+    </Screen>
+  );
+}
+
 const s = StyleSheet.create({
-  root:     { flex:1, backgroundColor:C.bg },
-  topSafe:  { backgroundColor:C.primary },
-  topBlock: { backgroundColor:C.primary, overflow:'hidden' },
-  headerRow: {
-    flexDirection:'row', alignItems:'center',
-    paddingHorizontal:20,
-    paddingTop: Platform.OS === 'android' ? 14 : 6,
-    paddingBottom:10,
-  },
-  headerLeft: { flexDirection:'row', alignItems:'center', gap:12 },
-  headerApp:  { fontSize:21, fontWeight:'800', color:'#fff', letterSpacing:-0.4 },
-  headerAI:   { color:C.accentBlue },
-  heroInner: {
-    paddingHorizontal:22, paddingTop:8, paddingBottom:28,
-    position:'relative', overflow:'hidden',
-  },
-  bubble1: { position:'absolute', right:-50, top:-40, width:180, height:180, borderRadius:90, backgroundColor:'rgba(93,173,226,0.10)' },
-  bubble2: { position:'absolute', right:40, bottom:-60, width:130, height:130, borderRadius:65, backgroundColor:'rgba(255,255,255,0.04)' },
-  heroGreet: { fontSize:24, fontWeight:'800', color:'#fff', letterSpacing:-0.5, marginBottom:6 },
-  heroSub:   { fontSize:15, color:'rgba(255,255,255,0.60)', fontWeight:'400' },
-  scroll:        { flex:1 },
-  scrollContent: { paddingBottom:8 },
-  sectionLabel: {
-    fontSize:10.5, fontWeight:'700', color:C.muted,
-    letterSpacing:1.1, textTransform:'uppercase',
-    marginBottom:12, paddingHorizontal:20,
-  },
-  searchWrap: {
-    flexDirection:'row', alignItems:'center',
-    backgroundColor:C.card, borderRadius:14,
-    borderWidth:1.5, borderColor:C.border,
-    paddingHorizontal:14,
-    paddingVertical: Platform.OS === 'ios' ? 13 : 5,
-    gap:10, marginHorizontal:20, marginBottom:4, marginTop:0,
-  },
-  searchFocused: { borderColor:C.primary2, borderWidth:2 },
-  searchEmoji:   { fontSize:16, color:C.muted },
-  searchInput:   { flex:1, fontSize:15, color:C.text, paddingVertical:0 },
-  clearIcon:     { width:22, height:22, backgroundColor:C.border, borderRadius:11, alignItems:'center', justifyContent:'center' },
-  clearText:     { fontSize:11, color:C.textSub, fontWeight:'700' },
-  suggBox: {
-    backgroundColor:C.card, borderRadius:14,
-    borderWidth:1, borderColor:C.border,
-    marginHorizontal:20, marginBottom:4, overflow:'hidden',
-  },
-  sugg:       {},
-  suggBorder: { borderBottomWidth:1, borderBottomColor:C.border },
-  suggRow:    { flexDirection:'row', alignItems:'center', gap:12, paddingHorizontal:14, paddingVertical:13 },
-  suggIconBox:{ width:32, height:32, backgroundColor:C.bg, borderRadius:8, alignItems:'center', justifyContent:'center' },
-  suggText:   { flex:1, fontSize:15, color:C.text, fontWeight:'500' },
-  suggArrow:  { fontSize:20, color:C.muted },
-  noMatch: {
-    backgroundColor:C.bg, borderRadius:12,
-    padding:14, marginHorizontal:20, marginTop:4,
-    borderWidth:1, borderColor:C.border,
-  },
-  noMatchText: { fontSize:14, color:C.primary2 },
-  tabSafe: { backgroundColor:C.card },
-  tabBar: {
-    backgroundColor:C.card,
-    borderTopWidth:1, borderTopColor:C.border,
-    flexDirection:'row', alignItems:'flex-end',
-    paddingBottom: Platform.OS === 'ios' ? 10 : 12,
-    paddingTop:10, paddingHorizontal:16,
-    height: Platform.OS === 'ios' ? 76 : 70,
-  },
-  tabItem:   { flex:1, alignItems:'center', justifyContent:'flex-end', gap:5, position:'relative' },
-  activeBar: { position:'absolute', top:-10, left:'15%', right:'15%', height:2.5, backgroundColor:C.primary, borderBottomLeftRadius:2, borderBottomRightRadius:2 },
-  tabLabelA: { fontSize:10.5, color:C.primary, fontWeight:'700' },
-  tabLabel:  { fontSize:10.5, color:C.muted, fontWeight:'500' },
-  fabWrap:   { flex:1.2, alignItems:'center', marginTop:-30 },
-  fab: {
-    width:64, height:64, backgroundColor:C.primary,
-    borderRadius:32, alignItems:'center', justifyContent:'center',
-    borderWidth:4, borderColor:C.card,
-    shadowColor:C.primaryDark,
-    shadowOffset:{ width:0, height:6 },
-    shadowOpacity:0.4, shadowRadius:10,
-    elevation:10, gap:3,
-  },
-  fabLabel: { color:'#fff', fontSize:9.5, fontWeight:'700' },
+  header:     { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 20, paddingVertical: 12,
+                backgroundColor: '#fff', borderBottomWidth: 1, borderBottomColor: C.line, marginBottom: 14 },
+  brandTxt:   { fontSize: 18, fontWeight: '800', color: C.ink, letterSpacing: 0.2 },
+  search:     { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 18, backgroundColor: '#fff', borderRadius: 12,
+                paddingHorizontal: 14, minHeight: 50, borderWidth: 1, borderColor: C.line },
+  fact:       { flexDirection: 'row', alignItems: 'center', gap: 14, backgroundColor: '#fff', borderRadius: 16, padding: 16,
+                minHeight: 104, borderWidth: 1, borderColor: C.line },
+  factIcon:   { width: 48, height: 48, borderRadius: 24, backgroundColor: C.tint, alignItems: 'center', justifyContent: 'center' },
+  factTitle:  { fontSize: 16, fontWeight: '700', color: C.ink },
+  factTxt:    { fontSize: 14, lineHeight: 20, color: C.sub, marginTop: 3 },
+  dots:       { flexDirection: 'row', justifyContent: 'center', gap: 6, marginTop: 10 },
+  dot:        { width: 6, height: 6, borderRadius: 3, backgroundColor: C.line },
+  dotOn:      { width: 18, backgroundColor: C.brand },
+  factMore:   { fontSize: 13, fontWeight: '600', color: C.brandDark, marginTop: 6 },
+  dim:        { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)' },
+  sheet:      { position: 'absolute', left: 0, right: 0, bottom: 0, backgroundColor: '#fff', borderTopLeftRadius: 22, borderTopRightRadius: 22, paddingHorizontal: 20 },
+  grabArea:   { paddingTop: 10, paddingBottom: 14, alignItems: 'center' },
+  grab:       { width: 44, height: 5, borderRadius: 3, backgroundColor: '#C5CBD6' },
+  sheetHead:  { flexDirection: 'row', alignItems: 'center', gap: 14, paddingBottom: 14, borderBottomWidth: 1, borderBottomColor: C.line },
+  sheetTitle: { fontSize: 20, fontWeight: '800', color: C.ink },
+  h:          { fontSize: 13, fontWeight: '700', color: C.sub, letterSpacing: 0.6, textTransform: 'uppercase', marginTop: 16, marginBottom: 6 },
+  p:          { fontSize: 16, lineHeight: 23, color: C.ink },
+  chips:      { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  chip:       { backgroundColor: C.tint, borderRadius: 16, paddingVertical: 6, paddingHorizontal: 12 },
+  chipTxt:    { fontSize: 14, fontWeight: '600', color: C.brandDark },
+  foodBox:    { backgroundColor: C.tint, borderRadius: 14, padding: 14, marginTop: 18 },
+  foodHead:   { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 6 },
+  foodLabel:  { fontSize: 13, fontWeight: '700', color: C.brandDark, letterSpacing: 0.6, textTransform: 'uppercase' },
+  foodTxt:    { fontSize: 16, lineHeight: 23, color: C.ink },
+  src:        { fontSize: 12, color: C.faint, marginTop: 18 },
+  scan:       { marginTop: 20, flexDirection: 'row', alignItems: 'center', gap: 14, backgroundColor: C.brand, borderRadius: 16,
+                paddingVertical: 14, paddingHorizontal: 16, ...shadow },
+  scanIcon:   { width: 44, height: 44, borderRadius: 22, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center' },
+  scanTitle:  { fontSize: 17, fontWeight: '700', color: '#fff' },
+  scanSub:    { fontSize: 13, color: 'rgba(255,255,255,0.88)', marginTop: 2 },
+  section:    { fontSize: 13, fontWeight: '700', color: C.sub, letterSpacing: 0.8, textTransform: 'uppercase', marginTop: 26, marginBottom: 10 },
+  how:        { flexDirection: 'row', gap: 8 },
+  howStep:    { flex: 1, alignItems: 'center', gap: 4, paddingVertical: 4 },
+  howNo:      { fontSize: 12, fontWeight: '700', color: C.faint },
+  howTxt:     { fontSize: 14, fontWeight: '600', color: C.ink, textAlign: 'center', marginTop: 2 },
+  howSub:     { fontSize: 12, color: C.sub, textAlign: 'center' },
+  note:       { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 5 },
+  noteTxt:    { fontSize: 12, color: '#000' },
 });
