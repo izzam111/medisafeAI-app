@@ -13,7 +13,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.izza_m1.frontend"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,7 +28,21 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-status-bar"
-    ]
+      "expo-status-bar",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "MediSafe AI needs camera access to scan supplement labels.",
+          "microphonePermission": false,
+          "photosPermission": "MediSafe AI needs photo library access to select supplement images."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5b06420d-f535-47de-8d53-d7c83016f8d2"
+      }
+    },
+    "owner": "izza_m1"
   }
 }
